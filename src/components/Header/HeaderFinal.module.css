@@ -1,0 +1,144 @@
+.logoIcon {
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoIconSmall {
+  display: none;
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logoWrapper {
+  /* width: 137px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 6px;
+  box-sizing: border-box;
+}
+.component4Parent {
+  flex: 1;
+  align-items: flex-start;
+  gap: 2rem;
+  
+}
+.auth,
+.component4Parent {
+  justify-content: flex-start;
+}
+.auth,
+.component4Parent,
+.headerFinal,
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 120px;
+}
+.auth,
+.headerFinal {
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.headerFinal {
+  /* width: 100%; */
+  backdrop-filter: blur(36px);
+  -webkit-backdrop-filter: blur(36px);
+  background-color: rgba(255, 255, 255, 0.76);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  /* box-sizing: border-box; */
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 26px 161px 22px 159px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  line-height: normal;
+  letter-spacing: normal;
+  flex-wrap: wrap;
+}
+ 
+
+.title {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.menuitem {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+  cursor: pointer;
+}
+.title:hover{
+  color: #5e1ee5;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    gap: 3rem;
+  }
+  .headerFinal {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logoIcon{
+    display: none;
+  }
+  .logoIconSmall{
+    display: flex;
+  }
+}
+@media screen and (max-width: 725px) {
+  .component4Parent {
+    gap: 1rem;
+    padding: 0;
+  }
+  .main{
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .component4Parent{
+    gap: 0;
+    padding: 0;
+  }
+  .main {
+    justify-content: center;
+  }
+  .menuitem{
+    font-size: 0.75rem;
+    gap: 0;
+    margin-left: -1rem;
+  }
+  .auth{
+    gap: 0;
+    padding: 0;
+  }
+  .headerFinal{
+    gap: 0;
+    padding: 0.3rem;
+  }
+}

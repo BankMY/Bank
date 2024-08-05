@@ -1,0 +1,51 @@
+.fullName {
+  position: relative;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 5.063rem;
+}
+.fullNameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.enterYourFull {
+  width: 19.563rem;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-red-hat-display);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 1.313rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.fieldLabels,
+.inputPlaceholders {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputPlaceholders {
+  border-radius: var(--br-17xl);
+  border: 1.5px solid var(--color-gray-200);
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-9xl);
+}
+.fieldLabels {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-red-hat-display);
+}

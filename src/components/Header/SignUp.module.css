@@ -1,0 +1,38 @@
+.singUp {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 69px;
+}
+.signUp {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-20xl);
+  background-color: var(--color);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.signUp:hover {
+  background-color: var(--color-dimgray);
+}
+
+@media screen and (max-width: 1000px) {
+  .signUp{
+    transform: scale(0.85);
+  }
+}
+@media screen and (max-width: 500px) {
+  .signUp{
+    transform: scale(0.7);
+  }
+}

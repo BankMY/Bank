@@ -1,0 +1,124 @@
+.unlockLifesJoy,
+.withYour {
+  margin: 0;
+}
+.unlockLifesJoyContainer {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 6rem;
+  letter-spacing: 0.01em;
+  line-height: 8.75rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.featureOneCardChild {
+  position: absolute;
+  top: 0.563rem;
+  left: 0;
+  width: 20.431rem;
+  height: auto;
+  object-fit: cover;
+  z-index: 2;
+}
+.card {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 2.688rem;
+  font-size: 5rem;
+  letter-spacing: 0.02em;
+  line-height: 9.125rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: white;
+  z-index: 3;
+}
+.featureOneCard {
+  position: absolute;
+  top: 8.375rem;
+  left: 29.563rem;
+  width: 20.431rem;
+  height: 9.125rem;
+  color: var(--color-gray-100);
+}
+.unlockLifesJoyWithYourParent {
+  align-self: stretch;
+  height: 17.5rem;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 800px) {
+  .card,
+  .unlockLifesJoyContainer {
+    font-size: 5rem;
+    line-height: 5.25rem;
+  }
+  .card {
+    line-height: 7.5rem;
+  }
+  .featureOneCard{
+    width: 0;
+    height: 0;
+    top: 5.375rem;
+    left: 23.563rem;
+  } 
+  .featureOneCardChild {
+    width: 16.431rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .card,
+  .unlockLifesJoyContainer {
+    font-size: 3rem;
+    line-height: 5.25rem;
+  }
+  .card {
+    line-height: 5rem;
+  }
+  .featureOneCard{
+    top: 5.375rem;
+    left: 14.563rem;
+  } 
+  .featureOneCardChild {
+    width: 11.431rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .card,
+  .unlockLifesJoyContainer {
+    font-size: 3rem;
+    line-height: 4.25rem;
+  }
+  .card {
+    line-height: 5rem;
+  }
+  .featureOneCard{
+    top: 4.375rem;
+    left: 14.563rem;
+  } 
+  .featureOneCardChild {
+    width: 9.431rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .card {
+    line-height: 4rem;
+    font-size: 2rem;
+  }
+  .featureOneCard{
+    top: 4.375rem;
+    left: 13.063rem;
+  } 
+  .featureOneCardChild {
+    width: 8.431rem;
+  }
+}

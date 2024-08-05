@@ -1,0 +1,47 @@
+.chatButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  position: fixed;
+  z-index: 1000;
+  outline: none;
+  bottom: 2vh;
+  right: 2vw;
+}
+
+.chatButton:hover {
+  transform: scale(1.15);
+}
+
+.chatButton:active {
+  transform: scale(0.85);
+}
+
+.chatButton:focus {
+  outline: none;
+}
+
+.chatIcon {
+  display: block;
+  height: 5rem;
+}
+
+@media screen and (max-width: 1350px) {
+  .chatIcon {
+    height: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .chatIcon {
+    height: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .chatIcon {
+    height: 2.3rem;
+  }
+}

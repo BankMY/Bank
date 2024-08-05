@@ -1,0 +1,388 @@
+.news {
+  color: var(--color1);
+}
+.whatsInTheContainer {
+  margin: 0;
+  width: 58.813rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.newsContainer {
+  width: 97.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.safeIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0.75rem;
+  top: -0.062rem;
+  transform: scale(1.238);
+}
+.financeNews,
+.wrapperSafe {
+  height: 15.75rem;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.wrapperSafe {
+  width: 20.375rem;
+  position: relative;
+  align-items: center;
+}
+.financeNews {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.appNewsChild {
+  width: 32.5rem;
+  height: 17.375rem;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.productFeature {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  z-index: 1;
+}
+.veridionBankLaunches,
+.vipBenefits {
+  margin: 0;
+}
+.june242024,
+.veridionBankLaunchesContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  z-index: 1;
+}
+.veridionBankLaunchesContainer {
+  margin: 0;
+  width: 26.688rem;
+  font-size: var(--font-size-9xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color);
+  max-width: 100%;
+}
+.june242024 {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-gray-200);
+  min-width: 7.688rem;
+}
+.appNews,
+.emailfigmasfakedomainnet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.appNews {
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: var(--padding-18xl) var(--padding-xl) var(--padding-21xl)
+    var(--padding-21xl);
+  gap: var(--gap-lg-5);
+}
+.emailfigmasfakedomainnet {
+  flex: 1;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-lightgray-200);
+  overflow: hidden;
+  padding: var(--padding-12xl) 0 0;
+  gap: var(--gap-mini);
+  min-width: 21.125rem;
+}
+.diagramIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0.125rem;
+  transform: scale(1.258);
+}
+.wrapperDiagram,
+.wrapperDiagramWrapper {
+  height: 15.75rem;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.wrapperDiagram {
+  width: 20.375rem;
+  position: relative;
+  align-items: center;
+}
+.wrapperDiagramWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameChild {
+  width: 32.5rem;
+  height: 17.375rem;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.productFeature1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  z-index: 1;
+}
+.userExperience,
+.veridionExpandsMobile {
+  margin: 0;
+}
+.june102024,
+.veridionExpandsMobileContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  z-index: 1;
+}
+.veridionExpandsMobileContainer {
+  margin: 0;
+  width: 26.688rem;
+  font-size: var(--font-size-9xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color);
+  max-width: 100%;
+}
+.june102024 {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-gray-200);
+  min-width: 7.438rem;
+}
+.conversation,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  padding: var(--padding-18xl) var(--padding-xl) var(--padding-21xl)
+    var(--padding-28xl);
+  gap: var(--gap-lg-5);
+}
+.conversation {
+  flex: 1;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-lightgray-200);
+  overflow: hidden;
+  padding: var(--padding-12xl) 0 0;
+  gap: var(--gap-mini);
+  min-width: 21.125rem;
+}
+.frameItem,
+.moneyIcon {
+  position: relative;
+  max-width: 100%;
+}
+.moneyIcon {
+  width: 20.375rem;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameItem {
+  width: 32.563rem;
+  height: 17.375rem;
+  background-color: var(--color-white);
+  display: none;
+}
+.productFeature2 {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  z-index: 1;
+}
+.may302024,
+.veridionBankPartners {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  z-index: 1;
+}
+.veridionBankPartners {
+  margin: 0;
+  width: 26.688rem;
+  font-size: var(--font-size-9xl);
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color);
+  max-width: 100%;
+}
+.may302024 {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-gray-200);
+  min-width: 7.25rem;
+}
+.avatar,
+.rectangleGroup {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangleGroup {
+  margin-right: -6.063rem;
+  width: 32.563rem;
+  background-color: var(--color-white);
+  align-items: flex-start;
+  padding: var(--padding-18xl) var(--padding-xl) var(--padding-21xl)
+    var(--padding-35xl);
+  gap: var(--gap-lg-5);
+  max-width: 123%;
+}
+.avatar {
+  width: 32.5rem;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-lightgray-200);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-12xl) var(--padding-77xl) 0 0;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.newsCards,
+.newsContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-200);
+  font-family: var(--font-red-hat-display);
+}
+.newsContainerParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-82xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1325px) {
+  .conversation,
+  .emailfigmasfakedomainnet {
+    flex: 1;
+  }
+  .newsCards {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .newsContainerParent {
+    padding-bottom: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .whatsInTheContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .rectangleGroup,
+  .rectangleParent {
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-8xl);
+  }
+  .avatar {
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+  .newsContainerParent {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatsInTheContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .productFeature {
+    font-size: var(--font-size-lg);
+  }
+  .veridionBankLaunchesContainer {
+    font-size: var(--font-size-3xl);
+  }
+  .emailfigmasfakedomainnet {
+    min-width: 100%;
+  }
+  .productFeature1 {
+    font-size: var(--font-size-lg);
+  }
+  .veridionExpandsMobileContainer {
+    font-size: var(--font-size-3xl);
+  }
+  .conversation {
+    min-width: 100%;
+  }
+  .productFeature2 {
+    font-size: var(--font-size-lg);
+  }
+  .veridionBankPartners {
+    font-size: var(--font-size-3xl);
+  }
+  .avatar {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .newsContainerParent {
+    gap: var(--gap-base);
+    padding-bottom: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+}

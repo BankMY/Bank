@@ -1,0 +1,59 @@
+.formContainerWrapper {
+  width: 25.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-20xl) 0 0;
+  box-sizing: border-box;
+  min-width: 25.25rem;
+  max-width: 100%;
+}
+.formSignUp,
+.signUp {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.formSignUp {
+  width: 83.125rem;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-100);
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-106xl);
+  max-width: 100%;
+}
+.signUp {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-mediumpurple-100);
+  justify-content: center;
+  padding: var(--padding-115xl) var(--padding-xl) var(--padding-47xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .formContainerWrapper {
+    flex: 1;
+  }
+  .formSignUp {
+    flex-wrap: wrap;
+    gap: var(--gap-43xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .formContainerWrapper {
+    min-width: 100%;
+  }
+  .formSignUp {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .formSignUp {
+    gap: var(--gap-base);
+  }
+}

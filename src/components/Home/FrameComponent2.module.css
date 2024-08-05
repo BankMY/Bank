@@ -1,0 +1,141 @@
+.withEverySwipe {
+  width: 40.938rem;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+}
+.featureOneContainer,
+.featureOneContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.featureOneContent {
+  align-self: stretch;
+  gap: var(--gap-19xl);
+}
+.featureOneContainer {
+  width: 51.438rem;
+  padding: var(--padding-36xl) 0 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.groupIcon {
+  height: 11.338rem;
+  width: 16.875rem;
+  position: relative;
+  z-index: 1;
+}
+.featureOneContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+
+.pricingContent {
+  gap: var(--gap-6xs);
+}
+
+.pricingContent{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+max-width: 100%;
+}
+
+.pickAPlan {
+  position: relative;
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: #fff;
+  white-space: pre-wrap;
+  text-align: left;
+  min-width: 7.625rem;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: 1.125rem 2.875rem;
+  background-color: #5e1ee5;
+  border-radius: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component1:hover {
+  background-color: #8545ff;
+}
+.pricingSubheadingIconImage {
+  width: 0.875rem;
+  height: 0.75rem;
+  position: relative;
+  object-fit: contain;
+  margin-top: -0.25rem;
+  margin-left: -1.25rem;
+}
+.pricingSubheading,
+.pricingSubheadingIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.625rem 0 0;
+}
+.pricingSubheading {
+  border-radius: 44px;
+  flex-direction: row;
+  padding: 1.125rem 2.5rem;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.howItWorks {
+  position: relative;
+  text-decoration: underline;
+  letter-spacing: 0.02em;
+  font-size: large;
+  display: inline-block;
+  min-width: 7.875rem;
+}
+
+@media screen and (max-width: 1325px) {
+  .featureOneContainerParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .featureOneContainer {
+    padding-top: 2.25rem;
+    box-sizing: border-box;
+  }
+  .withEverySwipe {
+    margin-top: -5rem;
+    width: 100%;
+  }
+  .pricingContent{
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 450px) {
+  .featureOneContent {
+    gap: var(--gap-lgi);
+  }
+}

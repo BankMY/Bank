@@ -1,0 +1,179 @@
+.avatar {
+  width: 100%;
+  height: 43.813rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 28.625rem;
+  left: 0;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0), #fff);
+  z-index: 1;
+}
+.getStarted {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  white-space: pre-wrap;
+}
+.getStartedWrapper {
+  width: 12.625rem;
+  border-radius: var(--br-25xl);
+  background-color: var(--color1);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-21xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+.more {
+  color: #1c2027;
+}
+.effective {
+  color: var(--color1);
+}
+.moreEffectiveWay,
+.toTrackProgress {
+  margin: 0;
+}
+.moreEffectiveWayContainer {
+  margin: 0;
+  width: 42.188rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.progressTrackingContent,
+.progressTrackingPlansSecond {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 100%;
+}
+.progressTrackingContent {
+  width: 97.688rem;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.progressTrackingPlansSecond {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+.mainContent,
+.progressTracking {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.progressTracking {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-42xl);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+}
+.mainContent {
+  width: 100%;
+  gap: var(--gap-54xl);
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+.content,
+.homepage,
+.mainContent {
+  display: flex;
+  align-items: flex-end;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-82xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-red-hat-display);
+  
+}
+@media screen and (max-width: 1325px) {
+  .progressTrackingPlansSecond {
+    flex-wrap: wrap;
+  }
+  .content {
+    padding-bottom: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .content,
+  .progressTracking {
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .content {
+    padding-bottom: var(--padding-9xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .moreEffectiveWayContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .progressTrackingPlansSecond {
+    gap: var(--gap-xl);
+  }
+  .progressTracking {
+    gap: var(--gap-lgi);
+  }
+  .mainContent {
+    gap: var(--gap-17xl);
+  }
+  .content {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .homepage {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .moreEffectiveWayContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .progressTracking {
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .mainContent {
+    gap: var(--gap-lg);
+  }
+}

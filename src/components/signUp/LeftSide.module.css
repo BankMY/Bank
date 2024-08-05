@@ -1,0 +1,254 @@
+.result11,
+.result9 {
+  height: 38.519rem;
+  width: 68.438rem;
+  position: relative;
+  transform: rotate(137.7deg);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.result9 {
+  height: 33rem;
+  width: 58.631rem;
+  transform: rotate(9.1deg);
+  z-index: 1;
+}
+.welcomeBackground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(21.6px);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-mediumpurple-200);
+  border: 1px solid var(--color-lavender);
+  box-sizing: border-box;
+}
+.bg7e4d046180434e539e485af {
+  width: 37.444rem;
+  height: 37.444rem;
+  position: relative;
+  transform: rotate(144.7deg);
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.logoIcon {
+  width: 11.688rem;
+  height: 3rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.wrapperEllipse78Child {
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.546);
+}
+.wrapperEllipse78 {
+  height: 16.063rem;
+  width: 25.744rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -7rem;
+  left: -1.375rem;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.welcomeToVeridion {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.06em;
+  line-height: 3.688rem;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 5;
+}
+.veridionTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.letsBuildA,
+.yourFinancialAdventure {
+  margin: 0;
+}
+.yourFinancialAdventureContainer {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.06em;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 5;
+}
+.welcomeMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-26xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.alredyHaveAn,
+.signUp {
+  position: relative;
+  letter-spacing: 0.06em;
+}
+.alredyHaveAn {
+  font-weight: 500;
+  z-index: 1;
+  white-space: nowrap;
+}
+.signUp {
+  line-height: 1.648rem;
+  display: inline-block;
+  min-width: 4.5rem;
+}
+.component13 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.accountLink {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.accountLink,
+.existingAccount,
+.welcomeBackgroundParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.existingAccount {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--font-size-xl);
+}
+.welcomeBackgroundParent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-31xl) var(--padding-11xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-193xl);
+  max-width: 100%;
+  z-index: 4;
+}
+.result10Icon,
+.result12Icon,
+.result13Icon {
+  position: absolute;
+  top: 28.75rem;
+  left: -2.25rem;
+  width: 63.125rem;
+  height: 41.888rem;
+  object-fit: contain;
+}
+.result10Icon,
+.result12Icon {
+  top: -29.75rem;
+  left: -29.812rem;
+  width: 68.619rem;
+  height: 56.575rem;
+}
+.result10Icon {
+  top: -24.181rem;
+  left: 33.256rem;
+  width: 61.188rem;
+  height: 62.825rem;
+  z-index: 6;
+}
+.resultPlaceholders {
+  height: 67.5rem;
+  width: 94.444rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -8.375rem;
+  right: -34.444rem;
+}
+.leftSide {
+  width: 41.563rem;
+  box-shadow: 5px 0 16.4px rgba(0, 0, 0, 0.2);
+  border-radius: var(--br-19xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-51xl) var(--padding-53xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 41.563rem;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-red-hat-display);
+}
+@media screen and (max-width: 1200px) {
+  .leftSide {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .welcomeToVeridion {
+    font-size: var(--font-size-10xl);
+    line-height: 2.938rem;
+  }
+  .leftSide {
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .welcomeBackgroundParent {
+    gap: var(--gap-87xl);
+    padding: var(--padding-xl) var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .leftSide {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToVeridion {
+    font-size: var(--font-size-3xl);
+    line-height: 2.188rem;
+  }
+  .alredyHaveAn,
+  .signUp {
+    font-size: var(--font-size-base);
+  }
+  .leftSide {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

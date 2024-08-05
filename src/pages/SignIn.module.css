@@ -1,0 +1,63 @@
+.formRight,
+.formSignIn,
+.signIn {
+  display: flex;
+  align-items: flex-start;
+}
+.formRight {
+  width: 25.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 12.187rem 0 0;
+  box-sizing: border-box;
+  min-width: 25.25rem;
+  max-width: 100%;
+}
+.formSignIn,
+.signIn {
+  overflow: hidden;
+  flex-direction: row;
+}
+.formSignIn {
+  width: 83.125rem;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-100);
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-106xl);
+  max-width: 100%;
+}
+.signIn {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-mediumpurple-100);
+  justify-content: center;
+  padding: var(--padding-115xl) var(--padding-xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .formRight {
+    flex: 1;
+  }
+  .formSignIn {
+    flex-wrap: wrap;
+    gap: var(--gap-43xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .formRight {
+    padding-top: 7.938rem;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .formSignIn {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .formSignIn {
+    gap: var(--gap-base);
+  }
+}

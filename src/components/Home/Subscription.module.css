@@ -1,0 +1,428 @@
+.progressTrackingPlanListChild {
+    width: 31.75rem;
+    height: 19.313rem;
+    position: relative;
+    box-shadow: var(--effect);
+    border-radius: var(--br-7xl);
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .progressTrackingPlanIcons {
+    width: 1.694rem;
+    height: 1.256rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 1.744rem;
+    bottom: 1.244rem;
+    z-index: 1;
+  }
+  .progressTrackingPlanFeature2 {
+    height: 4.063rem;
+    width: 3.938rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -1.375rem;
+    left: -2.062rem;
+    border-radius: var(--br-12xs);
+    z-index: 1;
+  }
+  .standart {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    z-index: 2;
+  }
+  .progressTrackingPlanFeature,
+  .progressTrackingPlanFeature1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .progressTrackingPlanFeature1 {
+    position: relative;
+  }
+  .progressTrackingPlanFeature {
+    padding: 0 var(--padding-12xs);
+  }
+  .free {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 3.625rem;
+    z-index: 1;
+  }
+  .progressTrackingPlanPriceS {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    border-radius: var(--br-12xs);
+    min-height: 2rem;
+    z-index: 1;
+  }
+  .progressTrackingPlanPrices {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+    font-size: var(--font-size-7xl);
+  }
+  .theStandardPlan {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 1.75rem;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .progressTrackingPlanDescrip,
+  .progressTrackingPlanDetails {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .progressTrackingPlanDescrip {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray-200);
+    font-family: var(--font-red-hat-display);
+  }
+  .progressTrackingPlanDetails {
+    width: 25.938rem;
+    flex-direction: column;
+    gap: var(--gap-2xs-5);
+  }
+  .progressTrackingPlanList,
+  .progressTrackingPlanListItem {
+    position: relative;
+    box-shadow: var(--effect);
+    border-radius: var(--br-7xl);
+    background-color: var(--color-white);
+    max-width: 100%;
+  }
+  .progressTrackingPlanList {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xl) var(--padding-21xl) var(--padding-47xl);
+    box-sizing: border-box;
+    min-width: 23.813rem;
+    min-height: 19.313rem;
+    text-align: center;
+  }
+  .progressTrackingPlanListItem {
+    width: 31.75rem;
+    height: 19.313rem;
+    display: none;
+    z-index: 0;
+  }
+  .vectorIcon {
+    width: 1.694rem;
+    height: 1.256rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 1.744rem;
+    bottom: 1.244rem;
+    z-index: 1;
+  }
+  .progressTrackingPlanListInner {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    border-radius: var(--br-12xs);
+    display: none;
+    z-index: 2;
+  }
+  .frameChild {
+    height: 4.063rem;
+    width: 3.938rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -1.375rem;
+    left: -2.062rem;
+    border-radius: var(--br-12xs);
+    z-index: 1;
+  }
+  .standart1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 5.375rem;
+    z-index: 2;
+  }
+  .frameWrapper,
+  .starParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .starParent {
+    position: relative;
+  }
+  .frameWrapper {
+    padding: 0 var(--padding-12xs);
+  }
+  .frameItem,
+  .free1 {
+    position: relative;
+    z-index: 1;
+  }
+  .free1 {
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .frameItem {
+    height: 2rem;
+    width: 2rem;
+    border-radius: var(--br-12xs);
+    min-height: 2rem;
+  }
+  .freeParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+    font-size: var(--font-size-7xl);
+  }
+  .theStandardPlan1 {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 1.75rem;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frameParent,
+  .theStandardPlanOffersEssenWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .theStandardPlanOffersEssenWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-base);
+    color: var(--color-dimgray-200);
+    font-family: var(--font-red-hat-display);
+  }
+  .frameParent {
+    width: 25.938rem;
+    flex-direction: column;
+    gap: var(--gap-2xs-5);
+  }
+  .progressTrackingPlanList1,
+  .rectangleDiv {
+    position: relative;
+    box-shadow: var(--effect);
+    border-radius: var(--br-7xl);
+    background-color: var(--color-white);
+    max-width: 100%;
+  }
+  .progressTrackingPlanList1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xl) var(--padding-21xl) var(--padding-47xl);
+    box-sizing: border-box;
+    min-width: 23.813rem;
+    min-height: 19.313rem;
+  }
+  .rectangleDiv {
+    width: 31.75rem;
+    height: 19.313rem;
+    display: none;
+    z-index: 0;
+  }
+  .vectorIcon1 {
+    width: 1.681rem;
+    height: 1.256rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 1.981rem;
+    bottom: 1.244rem;
+    z-index: 1;
+  }
+  .frameInner,
+  .starIcon {
+    border-radius: var(--br-12xs);
+  }
+  .starIcon {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    display: none;
+    z-index: 2;
+  }
+  .frameInner {
+    height: 4.063rem;
+    width: 3.938rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -1.375rem;
+    left: -2rem;
+    z-index: 1;
+  }
+  .standart2 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .frameContainer,
+  .starGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .starGroup {
+    position: relative;
+  }
+  .frameContainer {
+    padding: 0 var(--padding-12xs);
+  }
+  .free2 {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .progressTrackingPlanPriceS1 {
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+    border-radius: var(--br-12xs);
+    min-height: 2rem;
+    z-index: 1;
+  }
+  .frameDiv,
+  .freeGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .freeGroup {
+    gap: var(--gap-7xs);
+  }
+  .frameDiv {
+    padding: 0 var(--padding-12xs);
+    font-size: var(--font-size-7xl);
+  }
+  .theStandardPlan2 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.02em;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-family: var(--font-red-hat-display);
+    color: var(--color-dimgray-200);
+    z-index: 1;
+  }
+  .frameGroup,
+  .progressTrackingPlanList2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frameGroup {
+    width: 25.875rem;
+    gap: var(--gap-2xs-5);
+  }
+  .progressTrackingPlanList2 {
+    flex: 1;
+    box-shadow: var(--effect);
+    border-radius: var(--br-7xl);
+    background-color: var(--color-white);
+    padding: var(--padding-10xl) var(--padding-20xl) var(--padding-47xl);
+    box-sizing: border-box;
+    position: relative;
+    min-width: 23.813rem;
+    min-height: 19.313rem;
+  }
+  .progressTrackingPlans {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-19xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color);
+    font-family: var(--font-schibsted-grotesk);
+  }
+  @media screen and (max-width: 800px) {
+    .standart,
+    .standart1,
+    .standart2 {
+      font-size: var(--font-size-13xl);
+    }
+    .progressTrackingPlans {
+      gap: var(--gap-lgi);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .standart {
+      font-size: var(--font-size-5xl);
+    }
+    .free {
+      font-size: var(--font-size-2xl);
+    }
+    .progressTrackingPlanList {
+      min-width: 100%;
+    }
+    .standart1 {
+      font-size: var(--font-size-5xl);
+    }
+    .free1 {
+      font-size: var(--font-size-2xl);
+    }
+    .progressTrackingPlanList1 {
+      min-width: 100%;
+    }
+    .standart2 {
+      font-size: var(--font-size-5xl);
+    }
+    .free2 {
+      font-size: var(--font-size-2xl);
+    }
+    .progressTrackingPlanList2 {
+      min-width: 100%;
+    }
+  }
+  

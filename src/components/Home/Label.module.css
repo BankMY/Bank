@@ -1,0 +1,128 @@
+.labelChild {
+  width: 32.5rem;
+  height: 18.313rem;
+  position: relative;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.labelIcon,
+.websitenetIcon {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-12xs);
+  z-index: 1;
+}
+.websitenetIcon {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 3.938rem;
+}
+.labelIcon {
+  left: 3.438rem;
+  width: 2.313rem;
+  height: 2.438rem;
+}
+.loanStars {
+  height: 4.063rem;
+  width: 5.75rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -3rem;
+  left: -2rem;
+}
+.hadAGreat,
+.loanContent {
+  position: relative;
+  max-width: 100%;
+}
+.hadAGreat {
+  flex: 1;
+  letter-spacing: 0.02em;
+  line-height: 1.938rem;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.loanContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.titleIcon {
+  height: 4.25rem;
+  width: 4.25rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.emilyDavis,
+.loanWiz {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.938rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 7.375rem;
+  z-index: 1;
+}
+.loanWiz {
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-200);
+  min-width: 5.438rem;
+}
+.label,
+.userThree,
+.userThreeDetails,
+.userThreeImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label,
+.userThree,
+.userThreeImage {
+  flex-direction: row;
+}
+.userThreeImage {
+  gap: var(--gap-4xl);
+}
+.label,
+.userThree {
+  padding: 0 var(--padding-11xs);
+}
+.label {
+  align-self: stretch;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-36xl) var(--padding-21xl) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+@media screen and (max-width: 800px) {
+  .label {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .emilyDavis,
+  .hadAGreat {
+    font-size: var(--font-size-lg);
+    line-height: 1.563rem;
+  }
+}

@@ -1,0 +1,61 @@
+.signIn {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-25xl);
+  letter-spacing: 0.02em;
+  line-height: 3.688rem;
+  font-weight: 500;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-black);
+  text-align: left;
+}
+.toggleIcon {
+  margin: 0;
+  height: 1.125rem;
+  width: 1rem;
+}
+.showPassword {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 7.875rem;
+}
+.formContainer,
+.inputFields,
+.passwordToggle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.formContainer,
+.inputFields {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.formContainer {
+  margin: 0;
+  gap: var(--gap-23xl);
+}
+@media screen and (max-width: 1050px) {
+  .signIn {
+    font-size: var(--font-size-16xl);
+    line-height: 2.938rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signIn {
+    font-size: var(--font-size-7xl);
+    line-height: 2.188rem;
+  }
+  .formContainer {
+    gap: var(--gap-2xl);
+  }
+}

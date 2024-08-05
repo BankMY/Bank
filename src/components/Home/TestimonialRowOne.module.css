@@ -1,0 +1,270 @@
+.barChild {
+  width: 32.5rem;
+  height: 18.313rem;
+  position: relative;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.barIcon,
+.titleIcon {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-12xs);
+  z-index: 1;
+}
+.barIcon {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 3.938rem;
+}
+.titleIcon {
+  left: 3.438rem;
+  width: 2.313rem;
+  height: 2.438rem;
+}
+.responseStars {
+  height: 4.063rem;
+  width: 5.75rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -3rem;
+  left: -2rem;
+}
+.loveTheQuick,
+.responseContent {
+  position: relative;
+  max-width: 100%;
+}
+.loveTheQuick {
+  flex: 1;
+  letter-spacing: 0.02em;
+  line-height: 1.938rem;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.responseContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.changeIcon {
+  height: 4.25rem;
+  width: 4.25rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.happyCust01,
+.sarahJohnson {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.938rem;
+  font-weight: 500;
+  z-index: 1;
+}
+.happyCust01 {
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-200);
+}
+.userOne,
+.userOneDetails,
+.userOneImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userOne,
+.userOneImage {
+  flex-direction: row;
+}
+.userOneImage {
+  gap: var(--gap-4xl);
+}
+.userOne {
+  padding: 0 var(--padding-11xs);
+}
+.bar,
+.labelChild {
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.bar {
+  flex: 0.8462;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-36xl) var(--padding-21xl) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  min-width: 21.125rem;
+}
+.labelChild {
+  width: 32.5rem;
+  height: 18.313rem;
+  position: relative;
+  display: none;
+}
+.labelIcon,
+.websitenetIcon {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-12xs);
+  z-index: 1;
+}
+.websitenetIcon {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 3.938rem;
+}
+.labelIcon {
+  left: 3.438rem;
+  width: 2.313rem;
+  height: 2.438rem;
+}
+.appUserStars {
+  height: 4.063rem;
+  width: 5.75rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -3rem;
+  left: -2rem;
+}
+.appUserContent,
+.theMobileApp {
+  position: relative;
+  max-width: 100%;
+}
+.theMobileApp {
+  flex: 1;
+  letter-spacing: 0.02em;
+  line-height: 1.938rem;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.appUserContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.labelIcon1 {
+  height: 4.25rem;
+  width: 4.25rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.michaelSmith,
+.techSavvy {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 1.938rem;
+  font-weight: 500;
+  z-index: 1;
+}
+.techSavvy {
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-200);
+  display: inline-block;
+  min-width: 6.938rem;
+}
+.userTwo,
+.userTwoDetails,
+.userTwoImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userTwo,
+.userTwoImage {
+  flex-direction: row;
+}
+.userTwoImage {
+  gap: var(--gap-4xl);
+}
+.userTwo {
+  padding: 0 var(--padding-11xs);
+}
+.label {
+  align-self: stretch;
+  box-shadow: var(--effect);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-36xl) var(--padding-21xl) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+}
+.appUser,
+.label,
+.testimonialRowOne {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appUser {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+  min-width: 21.125rem;
+}
+.testimonialRowOne {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+@media screen and (max-width: 1125px) {
+  .testimonialRowOne {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bar,
+  .label {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .loveTheQuick,
+  .sarahJohnson {
+    font-size: var(--font-size-lg);
+    line-height: 1.563rem;
+  }
+  .bar {
+    min-width: 100%;
+    flex: 1;
+  }
+  .michaelSmith,
+  .theMobileApp {
+    font-size: var(--font-size-lg);
+    line-height: 1.563rem;
+  }
+  .appUser {
+    min-width: 100%;
+  }
+}

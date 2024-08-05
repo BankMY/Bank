@@ -1,0 +1,43 @@
+.signIn1 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: var(--font-red-hat-display);
+  color: var(--color);
+  text-align: left;
+  display: inline-block;
+  min-width: 57px;
+}
+.signIn {
+  cursor: pointer;
+  border: 1.5px solid var(--color);
+  padding: var(--padding-3xs) var(--padding-24xl) var(--padding-3xs)
+    var(--padding-26xl);
+  background-color: var(--color-mediumblue);
+ /*  flex: 1; */
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.signIn:hover {
+  background-color: var(--color-blueviolet);
+  border: 1.5px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .signIn{
+    transform: scale(0.85);
+  }
+}
+@media screen and (max-width: 500px) {
+  .signIn{
+    transform: scale(0.7);
+  }
+}

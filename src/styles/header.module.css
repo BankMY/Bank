@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.8);;
+  width: 100%;
+  backdrop-filter: blur(3px);
+}
+  
+  .logocontainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  
+  .buttonscontainer {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+  }
+  
+  .buttonscontainerend {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
