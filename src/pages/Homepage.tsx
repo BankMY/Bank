@@ -7,7 +7,7 @@ import BottomFeatures from '../components/Home/BottomFeatures';
 import FrameComponent1 from '../components/Home/FrameComponent1';
 import FrameComponent from '../components/Home/FrameComponent';
 import Subscription from '../components/Home/Subscription';
-
+//serg dan
 import arrow from "../assets/svg/Home/vector-1.svg";
 
 import star10 from "../assets/svg/Home/star-10.svg";
