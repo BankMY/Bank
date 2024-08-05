@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from "./Homepage.module.css";
-//ALDOODODODO
+
 import GetStarted from '../components/Home/GetStarted';
 import ChatManager from '../components/Chat/ChatManager';
 import BottomFeatures from '../components/Home/BottomFeatures';
 import FrameComponent1 from '../components/Home/FrameComponent1';
 import FrameComponent from '../components/Home/FrameComponent';
 import Subscription from '../components/Home/Subscription';
-//serg dan
+//serg EDIT
 import arrow from "../assets/svg/Home/vector-1.svg";
 
 import star10 from "../assets/svg/Home/star-10.svg";
