@@ -70,11 +70,9 @@ const Homepage: React.FC = () => {
               Perfect for those seeking enhanced banking convenience."/>
             </div>
           </div>
-          <div style={{paddingLeft: '5%', paddingRight: '5%'}}>
-            <BottomFeatures />
-            <FrameComponent1 />
-            <FrameComponent />
-          </div>
+          <BottomFeatures />
+          <FrameComponent1 />
+          <FrameComponent />
          
         </section>
       </main>
