@@ -118,15 +118,15 @@
   min-width: 32.063rem;
 }
 .bottomFeatures {
-  align-self: stretch;
+  /* align-self: stretch; */
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-17xl);
+  /* padding: 0 0 var(--padding-17xl);
   box-sizing: border-box;
   gap: var(--gap-47xl);
-  max-width: 100%;
+  max-width: 100%; */
   text-align: left;
   font-size: var(--font-size-45xl);
   color: var(--color);
@@ -141,9 +141,9 @@
   }
 }
 @media screen and (max-width: 1125px) {
-  .mobileFeature {
+  /* .mobileFeature {
     min-width: 100%;
-  }
+  } */
 }
 @media screen and (max-width: 800px) {
   .menageYourFinanceContainer {

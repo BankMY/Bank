@@ -7,7 +7,7 @@ import BottomFeatures from '../components/Home/BottomFeatures';
 import FrameComponent1 from '../components/Home/FrameComponent1';
 import FrameComponent from '../components/Home/FrameComponent';
 import Subscription from '../components/Home/Subscription';
-
+//serg EDIT
 import arrow from "../assets/svg/Home/vector-1.svg";
 
 import star10 from "../assets/svg/Home/star-10.svg";
@@ -70,11 +70,9 @@ const Homepage: React.FC = () => {
               Perfect for those seeking enhanced banking convenience."/>
             </div>
           </div>
-          <div style={{paddingLeft: '5%', paddingRight: '5%'}}>
-            <BottomFeatures />
-            <FrameComponent1 />
-            <FrameComponent />
-          </div>
+          <BottomFeatures />
+          <FrameComponent1 />
+          <FrameComponent />
          
         </section>
       </main>

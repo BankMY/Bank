@@ -2,7 +2,6 @@ import { FunctionComponent } from "react";
 import styles from "./Label.module.css";
 
 export interface LabelType {
-  className?: string;
   websitenet?: string;
   label?: string;
   hadAGreatExperienceWithYo?: string;
@@ -12,7 +11,6 @@ export interface LabelType {
 };
 
 const Label: FunctionComponent<LabelType> = ({
-  className = "",
   websitenet,
   label,
   hadAGreatExperienceWithYo,
@@ -21,7 +19,7 @@ const Label: FunctionComponent<LabelType> = ({
   loanWiz,
 }) => {
   return (
-    <div className={[styles.label, className].join(" ")}>
+    <div className={styles.label}>
       <div className={styles.labelChild} />
       <div className={styles.loanContent}>
         <div className={styles.loanStars}>

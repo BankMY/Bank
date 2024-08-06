@@ -15,7 +15,7 @@
   max-width: 100%;
 }
 .newsContainer {
-  width: 97.938rem;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
