@@ -1,0 +1,687 @@
+.logoIcon {
+  align-self: stretch;
+  height: 2.188rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoContainer {
+  width: 8.563rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.cards1 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 3.125rem;
+}
+.component4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+  color: var(--color1);
+}
+.cards2 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 4.563rem;
+}
+.component5 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+}
+.cards3 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 4.688rem;
+}
+.component6 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+}
+.cards4 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 5rem;
+  white-space: nowrap;
+}
+.component7 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0;
+}
+.cardsComponent,
+.logoSignIn {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.cardsComponent {
+  margin: 0;
+  width: 30.125rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-49xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+.logoSignIn {
+  width: 46.188rem;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.signIn1 {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: var(--font-red-hat-display);
+  color: var(--color);
+  text-align: left;
+  display: inline-block;
+  min-width: 3.563rem;
+}
+.signIn {
+  cursor: pointer;
+  border: 1.5px solid var(--color);
+  padding: var(--padding-3xs) var(--padding-24xl) var(--padding-3xs)
+    var(--padding-26xl);
+  background-color: var(--color-mediumblue-100);
+  flex: 1;
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.signIn:hover {
+  background-color: var(--color-blueviolet-200);
+  border: 1.5px solid var(--color-dimgray-300);
+  box-sizing: border-box;
+}
+.singUp {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 4.313rem;
+}
+.signUp {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-20xl);
+  background-color: var(--color);
+  border-radius: var(--br-25xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.signUp:hover {
+  background-color: var(--color-dimgray-300);
+}
+.headerFinal,
+.signInSignUp,
+.signUp {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.signInSignUp {
+  width: 19.75rem;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.headerFinal {
+  align-self: stretch;
+  backdrop-filter: blur(36px);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-7xl) var(--padding-xl) var(--padding-3xl);
+  gap: var(--gap-526xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+.starSecurityIcon {
+  height: 4.063rem;
+  width: 3.688rem;
+  position: absolute;
+ /*  margin: 0 !important; */
+  margin-left: -50rem;
+  margin-top: -20rem;
+  border-radius: var(--br-12xs);
+}
+.exclusiveBusinessRewardsIcon {
+  height: 32.563rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+.starSecurityParent {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 224.813rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.versatileCardSolutionsIcon {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: -0.062rem;
+  top: 0.625rem;
+  width: 100%;
+  transform: scale(1.205);
+}
+.wrapperVersatileCardSolutio {
+  height: 28.813rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solutionContainer {
+  align-self: stretch;
+  height: 33.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) var(--padding-57xl) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.solutionCards {
+  width: 100rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.solutionCardsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 29.118rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.accordionIcon {
+  height: 4.063rem;
+  width: 3.688rem;
+  position: absolute;
+  /* margin: 0 !important; */
+  margin-left: -50rem;
+  margin-top: -20rem;
+  border-radius: var(--br-12xs);
+}
+.enhancedSecurityFeaturesIcon {
+  height: 30.938rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+.accordionParent {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 175.5rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.backgroundIcon {
+  position: absolute;
+  top: 0;
+  left: -13.312rem;
+  width: 155.044rem;
+  height: 86.675rem;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameItem {
+  position: absolute;
+  height: 52.46%;
+  width: 50.79%;
+  top: 24.59%;
+  right: 23.81%;
+  bottom: 22.95%;
+  left: 25.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.ourSocialMedia {
+  position: absolute;
+  top: 0.25rem;
+  left: 67.5rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 18.613rem;
+  height: 1.688rem;
+  z-index: 1;
+}
+.component8Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 6.225rem;
+  z-index: 1;
+}
+.socialMediaTitle {
+  position: absolute;
+  top: -3.875rem;
+  left: -67.5rem;
+  width: 86.113rem;
+  height: 6.225rem;
+}
+.footerContentChild,
+.rectangleParent {
+  position: absolute;
+  top: 21.981rem;
+  width: 3.938rem;
+  height: 3.813rem;
+  z-index: 1;
+}
+.rectangleParent {
+  left: 77.438rem;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+}
+.footerContentChild {
+  left: 83.125rem;
+  object-fit: contain;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.linkCountIcon,
+.rectangleGroup {
+  position: absolute;
+  top: 1.125rem;
+  left: 1.188rem;
+  width: 1.563rem;
+  height: 1.563rem;
+  z-index: 1;
+}
+.rectangleGroup {
+  top: 21.981rem;
+  left: 88.813rem;
+  backdrop-filter: blur(33px);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 3.938rem;
+  height: 3.813rem;
+}
+.footerContent {
+  height: 40.606rem;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -11.981rem;
+  right: 0;
+  left: 0;
+}
+.aboutTheBank {
+  align-self: stretch;
+  color: var(--color);
+  z-index: 1;
+}
+.aboutTheBank,
+.contactInformation {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.component9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 6.125rem;
+}
+.component10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation2 {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 5.875rem;
+}
+.component11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation3 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component12,
+.contactInfoContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component12 {
+  flex-direction: row;
+  z-index: 1;
+}
+.contactInfoContainer {
+  width: 15.125rem;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.contactInformation4,
+.support {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.support {
+  width: 15.125rem;
+  color: var(--color);
+  z-index: 1;
+}
+.contactInformation4 {
+  min-width: 2.5rem;
+}
+.component91 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation5 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component101 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation6 {
+  height: 1.625rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component111 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.contactInformation7 {
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.component121 {
+  width: 0;
+  height: 1.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.supportContainer,
+.supportContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.supportContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.supportContainerWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -14.125rem;
+}
+.contactInfoContainerParent {
+  width: 41rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  color: var(--color-dimgray-200);
+}
+.cards,
+.footer {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-90xl) var(--padding-417xl);
+  box-sizing: border-box;
+  min-height: 28.625rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+.cards {
+  width: 100%;
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  gap: 6.062rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .headerFinal {
+    gap: var(--gap-253xl);
+  }
+  .solutionCardsWrapper {
+    padding-bottom: 12.313rem;
+    box-sizing: border-box;
+  }
+  .footer {
+    padding-left: var(--padding-199xl);
+    padding-right: var(--padding-199xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .cardsComponent {
+    display: none;
+  }
+  .logoSignIn {
+    width: 16.063rem;
+  }
+  .solutionCardsWrapper {
+    padding-bottom: 8rem;
+    box-sizing: border-box;
+  }
+  .cards {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .cardsComponent {
+    gap: var(--gap-15xl);
+  }
+  .signInSignUp {
+    display: none;
+  }
+  .headerFinal {
+    gap: var(--gap-117xl);
+  }
+  .solutionContainer {
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding-left: var(--padding-90xl);
+    padding-right: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+  .cards {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .headerFinal {
+    gap: var(--gap-49xl);
+  }
+  .solutionCardsWrapper {
+    padding-bottom: 5.188rem;
+    box-sizing: border-box;
+  }
+  .aboutTheBank,
+  .contactInformation,
+  .contactInformation1,
+  .contactInformation2,
+  .contactInformation3,
+  .contactInformation4,
+  .contactInformation5,
+  .contactInformation6,
+  .contactInformation7,
+  .ourSocialMedia,
+  .support {
+    font-size: var(--font-size-base);
+  }
+  .footer {
+    padding: var(--padding-52xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

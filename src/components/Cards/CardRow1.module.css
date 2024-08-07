@@ -1,0 +1,173 @@
+.securityFeatureIcon {
+  position: absolute;
+  top: 2.269rem;
+  left: 0;
+  border-radius: var(--br-12xs);
+  width: 3.688rem;
+  height: 4.063rem;
+}
+.cardSolutions {
+  color: var(--color);
+}
+.versatileCardSolutionsContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.versatileCardSolutionsWrapper {
+  height: 4.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.solutionDescriptionChild {
+  width: 20.188rem;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 2;
+}
+.solutionDescription {
+  position: absolute;
+  top: 0;
+  left: 3.419rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cardFeature {
+  height: 6.331rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.cardContent {
+  width: 54.813rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.unlockAWorld {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  display: inline-block;
+  max-width: 100%;
+}
+.financialStarIcon {
+  height: 4.063rem;
+  width: 3.688rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -2.062rem;
+  border-radius: var(--br-12xs);
+  z-index: 1;
+}
+.cardContainer,
+.financialPossibilities {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.financialPossibilities {
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.cardContainer {
+  flex-direction: column;
+  gap: var(--gap-6xs-7);
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 6.563rem;
+}
+.component2,
+.planPickers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.component2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component2:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.planPickers {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.cardPair,
+.cardRow {
+  display: flex;
+  max-width: 100%;
+}
+.cardPair {
+  width: 57.625rem;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.cardRow {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color1);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 800px) {
+  .versatileCardSolutionsContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .versatileCardSolutionsContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .cardPair {
+    gap: var(--gap-lgi);
+  }
+}
