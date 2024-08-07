@@ -92,6 +92,9 @@
   font-family: var(--font-red-hat-display);
   cursor: pointer;
 }
+.menuitem.active {
+  color: #5e1ee5;
+}
 .title:hover{
   color: #5e1ee5;
 }

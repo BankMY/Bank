@@ -9,9 +9,11 @@ import logo_light_small from "../../assets/svg/header/logo1_small.svg"
 import logo_dark_small from "../../assets/svg/header/logo2_small.svg"
 import { Link } from "react-router-dom";
 
+interface HeaderFinalProps {
+  active?: string;
+}
 
-const HeaderFinal: FunctionComponent = (
-) => {
+const HeaderFinal: FunctionComponent<HeaderFinalProps> = ({ active }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -44,34 +46,32 @@ const HeaderFinal: FunctionComponent = (
           />
         </Link>
         <div className={styles.component4Parent}>
-          <MenuItem title="Cards" href="/cards"/>
-          <MenuItem title="Services" href="/Services"/>
-          <MenuItem title="Business"  href="/Services"/>
-          <MenuItem title="About Us"  href="/Services"/>
+          <MenuItem title="Cards" href="/cards" active={active === "cards"} />
+          <MenuItem title="Services" href="/services" active={active === "services"} />
+          <MenuItem title="Business" href="/business" active={active === "business"} />
+          <MenuItem title="About Us" href="/about-us" active={active === "about-us"} />
         </div>
       </div>
       <div className={styles.auth}>
-        <SignIn href="/sign-in" title="Sign In"/>
-        <SignUp href="/sign-up" title="Sign Up"/>
+        <SignIn href="/sign-in" title="Sign In" />
+        <SignUp href="/sign-up" title="Sign Up" />
       </div>
     </header>
   );
 };
 
-
-
 interface MenuItemProps {
   title: string;
   href: string;
+  active: boolean;
 }
-const MenuItem: React.FC<MenuItemProps> = ({ title, href }) => {
 
+const MenuItem: React.FC<MenuItemProps> = ({ title, href, active }) => {
   return (
-    <div className={styles.menuitem}>
+    <div className={`${styles.menuitem} ${active ? styles.active : ""}`}>
       <Link to={href} className={styles.title}>{title}</Link>
     </div>
   );
 };
-
 
 export default HeaderFinal;
