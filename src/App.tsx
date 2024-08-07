@@ -9,6 +9,7 @@ import Footer from './components/Footer/Footer';
 import Homepage from './pages/Homepage';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import Cards from './pages/Cards';
 
 
 function App() {
@@ -19,6 +20,13 @@ function App() {
             <>
               <HeaderFinal/>
               <Homepage />
+              <Footer />
+            </>
+          } />
+          <Route path="/Cards" element={
+            <>
+              <HeaderFinal/>
+              <Cards />
               <Footer />
             </>
           } />
