@@ -1,5 +1,9 @@
 import { FunctionComponent } from "react";
 import styles from "./FrameComponent7.module.css";
+import ImageComponent from '../ImageComponent';
+
+import group1912x from '../../assets/png/Cards/group-191@2x.png';
+import mancardillustration2x from '../../assets/png/Cards/man-card-illustration@2x.png';
 
 export interface FrameComponent7Type {
   className?: string;
@@ -19,11 +23,10 @@ const FrameComponent7: FunctionComponent<FrameComponent7Type> = ({
             </h1>
             
             <div className={styles.frameParent}>
-              <img
+              <ImageComponent
                 className={styles.frameChild}
-                loading="lazy"
                 alt=""
-                src="/group-191@2x.png"
+                src={group1912x}
               />
               <h1 className={styles.card}>Card</h1>
             </div>
@@ -40,11 +43,10 @@ const FrameComponent7: FunctionComponent<FrameComponent7Type> = ({
           </div>
         </div>
       </div>
-      <img
+      <ImageComponent
         className={styles.manCardIllustrationIcon}
-        loading="lazy"
         alt=""
-        src="/man-card-illustration@2x.png"
+        src={mancardillustration2x}
       />
     </div>
   );

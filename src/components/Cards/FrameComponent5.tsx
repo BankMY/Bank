@@ -1,6 +1,11 @@
 import { FunctionComponent } from "react";
 import styles from "./FrameComponent5.module.css";
 
+import ImageComponent from '../ImageComponent';
+
+import star9 from '../../assets/svg/Cards/star-9.svg';
+
+
 export interface FrameComponent5Type {
   className?: string;
 };
@@ -28,11 +33,11 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
                 efficiently.
               </div>
             </div>
-            <img
+            <ImageComponent
               className={styles.rewardsStarIcon}
               loading="lazy"
               alt=""
-              src="/star-9.svg"
+              src={star9}
             />
           </div>
         </div>
