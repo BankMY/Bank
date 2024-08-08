@@ -1,6 +1,26 @@
 import { FunctionComponent } from "react";
 import styles from "./FrameComponent4.module.css";
 
+import ImageComponent from '../ImageComponent';
+
+import star10 from '../../assets/svg/Cards/star-10.svg';
+import star11 from '../../assets/svg/Cards/star-11.svg';
+import vector1 from '../../assets/svg/Cards/vector-1.svg';
+
+import star101 from '../../assets/svg/Cards/star-10-1.svg';
+import vector3 from '../../assets/svg/Cards/vector-3.svg';
+import star111 from '../../assets/svg/Cards/star-111.svg';
+import star102 from '../../assets/svg/Cards/star-10-2.svg';
+
+import star112 from '../../assets/svg/Cards/star-11-2.svg';
+import vector4 from '../../assets/svg/Cards/vector-4.svg';
+import star103 from '../../assets/svg/Cards/star-10-3.svg';
+import star113 from '../../assets/svg/Cards/star-11-3.svg';
+import vector5 from '../../assets/svg/Cards/vector-5.svg';
+
+import star104 from '../../assets/svg/Cards/star-10-4.svg';
+import star114 from '../../assets/svg/Cards/star-11-4.svg';
+
 export interface FrameComponent4Type {
   className?: string;
 };
@@ -24,20 +44,20 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
         <div className={styles.planComparison}>
           <div className={styles.olulisedLingid}>
             <div className={styles.olulisedLingidChild} />
-            <img className={styles.linkIcon} alt="" src="/vector-1.svg" />
+            <ImageComponent className={styles.linkIcon} alt="" src={vector1} />
             <div className={styles.tierDetails}>
               <div className={styles.tierFeatures}>
                 <div className={styles.tierHighlights}>
-                  <img className={styles.linkIcon1} alt="" src="/star-10.svg" />
+                  <ImageComponent className={styles.linkIcon1} alt="" src={star10} />
                   <h1 className={styles.standart}>Standart</h1>
                 </div>
               </div>
               <div className={styles.freeTier}>
                 <div className={styles.free}>Free</div>
-                <img
+                <ImageComponent
                   className={styles.additionalContactIcon}
                   alt=""
-                  src="/star-11.svg"
+                  src={star11}
                 />
               </div>
               <div className={styles.standardDescription}>
@@ -52,30 +72,30 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
           </div>
           <div className={styles.alternativeContactEmail}>
             <div className={styles.alternativeContactEmailChild} />
-            <img
+            <ImageComponent
               className={styles.contactPersonIcon}
               alt=""
-              src="/vector-1.svg"
+              src={vector1}
             />
-            <img
+            <ImageComponent
               className={styles.alternativeContactEmailItem}
               alt=""
-              src="/star-111.svg"
+              src={star111}
             />
             <div className={styles.frameParent}>
               <div className={styles.frameWrapper}>
                 <div className={styles.alternativeContactAddressParent}>
-                  <img
+                  <ImageComponent
                     className={styles.alternativeContactAddress}
                     alt=""
-                    src="/star-10-1.svg"
+                    src={star101}
                   />
                   <h1 className={styles.standart1}>Plus</h1>
                 </div>
               </div>
               <div className={styles.freeParent}>
                 <div className={styles.free1}>$4,99/month</div>
-                <img className={styles.frameChild} alt="" src="/star-111.svg" />
+                <ImageComponent className={styles.frameChild} alt="" src={star111} />
               </div>
               <div className={styles.theStandardPlanOffersEssenWrapper}>
                 <div className={styles.theStandardPlan1}>
@@ -89,15 +109,15 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
           </div>
           <div className={styles.infoinfoee}>
             <div className={styles.infoinfoeeChild} />
-            <img className={styles.buttonIcon} alt="" src="/vector-3.svg" />
-            <img className={styles.infoinfoeeItem} alt="" src="/star-111.svg" />
+            <ImageComponent className={styles.buttonIcon} alt="" src={vector3} />
+            <ImageComponent className={styles.infoinfoeeItem} alt="" src={star111} />
             <div className={styles.frameGroup}>
               <div className={styles.frameContainer}>
                 <div className={styles.starParent}>
-                  <img
+                  <ImageComponent
                     className={styles.frameItem}
                     alt=""
-                    src="/star-10-2.svg"
+                    src={star102}
                   />
                   <h1 className={styles.standart2}>{`Premium `}</h1>
                 </div>
@@ -105,10 +125,10 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
               <div className={styles.frameDiv}>
                 <div className={styles.freeGroup}>
                   <div className={styles.free2}>$8,99/month</div>
-                  <img
+                  <ImageComponent
                     className={styles.accordionWithContent}
                     alt=""
-                    src="/star-11-2.svg"
+                    src={star112}
                   />
                 </div>
               </div>
@@ -124,27 +144,27 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
         <div className={styles.planComparison1}>
           <div className={styles.maaamet}>
             <div className={styles.maaametChild} />
-            <img
+            <ImageComponent
               className={styles.aadressiandmeteSsteemiEesm}
               alt=""
-              src="/vector-4.svg"
+              src={vector4}
             />
             <div className={styles.planName}>
               <div className={styles.planTitle}>
-                <img
+                <ImageComponent
                   className={styles.planTitleChild}
                   alt=""
-                  src="/star-10-3.svg"
+                  src={star103}
                 />
                 <h1 className={styles.ironPlan}>Iron Plan</h1>
               </div>
               <div className={styles.planBenefits}>
                 <div className={styles.benefitDetail}>
                   <div className={styles.month}>$15,99/month</div>
-                  <img
+                  <ImageComponent
                     className={styles.privaatneIcon}
                     alt=""
-                    src="/star-11-3.svg"
+                    src={star113}
                   />
                 </div>
               </div>
@@ -160,13 +180,13 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
           </div>
           <div className={styles.tags}>
             <div className={styles.tagsChild} />
-            <img className={styles.tagsIcon} alt="" src="/vector-5.svg" />
+            <ImageComponent className={styles.tagsIcon} alt="" src={vector5} />
             <div className={styles.frameParent1}>
               <div className={styles.starGroup}>
-                <img
+                <ImageComponent
                   className={styles.frameInner}
                   alt=""
-                  src="/star-10-4.svg"
+                  src={star104}
                 />
                 <h1 className={styles.ultraPlan}>Ultra Plan</h1>
               </div>
@@ -174,7 +194,7 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
                 <div className={styles.monthWrapper}>
                   <div className={styles.month1}>$24,99/month</div>
                 </div>
-                <img className={styles.cardIcon} alt="" src="/star-11-4.svg" />
+                <ImageComponent className={styles.cardIcon} alt="" src={star114} />
               </div>
               <div className={styles.theUltraPlanIsOurTopTierWrapper}>
                 <div className={styles.theUltraPlan}>

@@ -1,5 +1,9 @@
 import { FunctionComponent } from "react";
 import styles from "./CardRow.module.css";
+import ImageComponent from '../ImageComponent';
+
+import line28 from '../../assets/svg/Cards/line-28.svg';
+import star9 from '../../assets/svg/Cards/star-9.svg';
 
 export interface CardRowType {
   className?: string;
@@ -13,11 +17,11 @@ const CardRow: FunctionComponent<CardRowType> = ({ className = "" }) => {
           <div className={styles.frameWrapper}>
             <div className={styles.frameContainer}>
               <div className={styles.vectorParent}>
-                <img
+                <ImageComponent
                   className={styles.frameChild}
                   loading="lazy"
                   alt=""
-                  src="/line-28.svg"
+                  src={line28}
                 />
                 <h1 className={styles.enhancedSecurityFeaturesContainer}>
                   <span>Enhanced</span>
@@ -27,11 +31,11 @@ const CardRow: FunctionComponent<CardRowType> = ({ className = "" }) => {
                   </span>
                 </h1>
               </div>
-              <img
+              <ImageComponent
                 className={styles.accordionHeaderIcon}
                 loading="lazy"
                 alt=""
-                src="/star-9.svg"
+                src={star9}
               />
             </div>
           </div>
