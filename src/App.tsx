@@ -10,6 +10,7 @@ import Homepage from './pages/Homepage';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Cards from './pages/Cards';
+import FAQ from './pages/FAQ';
 
 
 function App() {
@@ -27,6 +28,13 @@ function App() {
             <>
               <HeaderFinal active='cards'/>
               <Cards />
+              <Footer />
+            </>
+          } />
+          <Route path="/faq" element={
+            <>
+              <HeaderFinal/>
+              <FAQ />
               <Footer />
             </>
           } />
