@@ -197,6 +197,7 @@
   margin-left: -50rem;
   margin-top: -20rem;
   border-radius: var(--br-12xs);
+ 
 }
 .exclusiveBusinessRewardsIcon {
   height: 32.563rem;
@@ -205,18 +206,21 @@
   max-width: 100%;
   overflow: hidden;
   z-index: 2;
+   /* маржин для свг с банком margin-top: -24rem;*/
+  
 }
 .starSecurityParent {
   width: 100%;
   margin: 0 !important;
   position: absolute;
-  top: 224.813rem;
+  top: 208.813rem;
   left: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   max-width: 100%;
+ 
 }
 .versatileCardSolutionsIcon {
   height: 100%;
@@ -284,17 +288,19 @@
   max-width: 100%;
   overflow: hidden;
   z-index: 2;
+   /*отступ свг с брелком margin-top: -12rem;*/
 }
 .accordionParent {
   width: 100%;
   margin: 0 !important;
   position: absolute;
-  top: 175.5rem;
+  top: 164.5rem;
   left: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
 }
 .backgroundIcon {
   position: absolute;
