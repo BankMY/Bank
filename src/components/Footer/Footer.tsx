@@ -23,7 +23,7 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
     return (
-        <footer className={styles.footer} style={{ backgroundImage: `url(${Background})`, height: '300px' }}>
+        <footer className={styles.footer} style={{ backgroundImage: `url(${Background})`}}>
             <div className={styles.elements}>
                 <LogoSection/> 
                 <AboutSection/>
@@ -49,7 +49,7 @@ const AboutSection: React.FC = () => {
             <Link to="/">
                 <img src={ContactInfo}/>
             </Link>
-            <Link to="/">
+            <Link to="/privacy">
                 <img src={Security}/>
             </Link>
             <Link to="/">

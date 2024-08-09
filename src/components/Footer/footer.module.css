@@ -1,19 +1,22 @@
 .footer{
-    width: 100%;
+    margin-top: 10rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-}
-.background{
     width: 100%;
+    height: 20rem;
+    padding-bottom: 5rem;
 }
+
 .elements{
     display: flex;
     flex-wrap: wrap;
-    
+    height: 100%;
+    align-items: center;
     justify-content: space-between;
     margin: 5rem;
+    
+    /* background-color: red; */
 }
 .buttonscontainer, .buttonscontainerSocial1{
     display: flex;
@@ -41,7 +44,7 @@
     }
     .buttonscontainer, .buttonscontainerSocial
     {
-        gap:0;
+        gap: 0.9rem;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -60,16 +63,35 @@
         transform: scale(0.85);
         gap: 0;
     }
+    .buttonscontainerSocial1{
+        margin-top: 1rem;
+    }
 }
 @media screen and (max-width: 685px) {
 
-    .buttonscontainerSocial1{
+    /* .buttonscontainerSocial1{
         display: none;
+    } */
+    .buttonscontainer, .buttonscontainerSocial
+    {
+        margin: 0.3rem;
+        gap: 0.3rem;
+    }
+    .buttonscontainerSocial1{
+        margin-left: 0;
     }
 }
     
-@media screen and (max-width: 550px) {   
+/* @media screen and (max-width: 550px) {   
     .elements{
         transform: scale(0.7);
+    }
+} */
+@media screen and (max-width: 430px) {   
+    /* .buttonscontainerSocial1{
+        display: none;
+    } */
+    .elements{
+        transform: scale(0.8);
     }
 }

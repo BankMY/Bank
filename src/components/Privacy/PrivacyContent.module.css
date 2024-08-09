@@ -1,0 +1,111 @@
+.frameChild {
+  width: 40.938rem;
+  position: relative;
+  border-radius: var(--br-7xl);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.informationSharing,
+.weMayShare {
+  align-self: stretch;
+  position: relative;
+}
+.informationSharing {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.weMayShare {
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+}
+.informationSharingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.frameParent,
+.frameWrapper,
+.privacyContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-184xl) 0 0;
+  box-sizing: border-box;
+  min-width: 32.063rem;
+}
+.frameParent,
+.privacyContent {
+  flex-direction: row;
+  justify-content: center;
+}
+.frameParent {
+  width: 100rem;
+  gap: var(--gap-136xl);
+}
+.privacyContent {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-49xl-3);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color1);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1325px) {
+  .frameChild {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: var(--gap-58xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .informationSharing {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-20xl);
+  }
+  .privacyContent {
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .informationSharing {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .informationSharingParent {
+    gap: var(--gap-lgi);
+  }
+  .frameWrapper {
+    padding-top: var(--padding-113xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-lgi);
+  }
+}

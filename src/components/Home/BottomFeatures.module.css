@@ -53,11 +53,15 @@
   max-width: 100%;
 }
 .bankingMadeSimple {
+  width: 100%;
+  max-width: 50rem;
+  display: flex;
   align-self: stretch;
   position: relative;
+  word-wrap: break-word;
   font-size: var(--font-size-lg);
-  letter-spacing: 0.01em;
-  line-height: 192%;
+ /*  letter-spacing: 0.01em;
+  line-height: 192%; */
   color: var(--color-black);
 }
 .manageFinance {
@@ -102,27 +106,31 @@
   gap: var(--gap-32xl);
 }
 .mobileFeature {
-  width: 46.5rem;
+  width: 100%;
+  max-width: 50rem;
   padding: 0 0 var(--padding-47xl);
   box-sizing: border-box;
-  min-width: 46.5rem;
-  min-height: 33.688rem;
+ /*  min-width: 46.5rem;
+  min-height: 33.688rem; */
 }
 .phoneIllustrationIcon {
-  height: 41.375rem;
-  flex: 1;
   position: relative;
-  max-width: 100%;
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
   overflow: hidden;
   object-fit: contain;
-  min-width: 32.063rem;
+  /* min-height: 41.375rem; */
+  min-width: 40%;
 }
 .bottomFeatures {
   /* align-self: stretch; */
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: space-around;
+  width: 100%;
   /* padding: 0 0 var(--padding-17xl);
   box-sizing: border-box;
   gap: var(--gap-47xl);
@@ -139,11 +147,6 @@
   .bottomFeatures {
     flex-wrap: wrap;
   }
-}
-@media screen and (max-width: 1125px) {
-  /* .mobileFeature {
-    min-width: 100%;
-  } */
 }
 @media screen and (max-width: 800px) {
   .menageYourFinanceContainer {
@@ -165,6 +168,10 @@
   }
   .bottomFeatures {
     gap: var(--gap-14xl);
+  }
+  .appDescriptionChild
+  {
+    display: none;
   }
 }
 @media screen and (max-width: 450px) {

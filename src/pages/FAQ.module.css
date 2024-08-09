@@ -1,0 +1,206 @@
+.starIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-12xs);
+  max-width: 90%;
+  overflow: hidden;
+  max-height: 90%;
+  flex-shrink: 0;
+}
+.starIconWrapper {
+  align-self: stretch;
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.143rem 0 0;
+  box-sizing: border-box;
+}
+.faq1 {
+  margin-left: -0.063rem;
+  margin: 0;
+  height: 4.5rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.fAQStar {
+  /* height: 4.775rem;
+  width: 4.694rem; */
+  position: absolute;
+  margin: 0 !important;
+  top: -1.978rem;
+  right: -2.631rem;
+  border-radius: var(--br-12xs);
+  object-fit: contain;
+}
+.fAQContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  position: relative;
+}
+
+.frameParent,
+.mainContentInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.mainContentInner {
+  margin-top: 7rem;
+  width: 79.313rem;
+  height: 6.644rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.generalInformation {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  max-width: 100%;
+  cursor: pointer;
+}
+.generalInformation {
+  margin: 0;
+  height: 2.75rem;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-schibsted-grotesk);
+  color: var(--color1);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.frameItem {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.generalInformationParent,
+.mainContent {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.generalInformationParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-red-hat-display);
+}
+.mainContent {
+  width: 83.125rem;
+  gap: var(--gap-81xl);
+}
+.content,
+.faq,
+.headerFinalParent,
+.mainContent {
+  display: flex;
+  align-items: center;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+.faq,
+.headerFinalParent {
+  flex-direction: column;
+  justify-content: center;
+}
+.headerFinalParent {
+  width: 120rem;
+  gap: var(--gap-90xl-7);
+  max-width: 100%;
+}
+.faq {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: auto;
+  gap: 10rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .faq1 {
+    font-size: var(--font-size-32xl);
+  }
+  .generalInformation {
+    font-size: var(--font-size-10xl);
+  }
+  .generalInformationParent {
+    gap: var(--gap-base);
+  }
+  .mainContent {
+    gap: var(--gap-31xl);
+  }
+  .headerFinalParent {
+    gap: var(--gap-8xl);
+  }
+  .faq {
+    gap: var(--gap-21xl);
+  }
+  .starIcon {
+    width: 70%;
+    left: 1.5rem;
+    top: -1rem;
+  }
+  .fAQStar {
+    height: 50%;
+    top: -1.378rem;
+    right: -1.931rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faq1 {
+    font-size: var(--font-size-19xl);
+  }
+  .generalInformation {
+    font-size: var(--font-size-3xl);
+  }
+  .whatIsVeridion {
+    line-height: 1.5rem;
+  }
+  .veridionIsA,
+  .whatIsVeridion {
+    font-size: var(--font-size-lgi);
+  }
+  
+  .mainContent {
+    gap: var(--gap-6xl);
+  }
+}

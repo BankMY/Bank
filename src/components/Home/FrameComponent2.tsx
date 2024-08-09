@@ -20,10 +20,10 @@ const FrameComponent2: FunctionComponent = () => {
         </div>
         
           <div className={styles.pricingContent}>
-            <Link className={styles.component1} to="/sign-in">
+            <Link className={styles.component1} to="/sign-up">
               <b className={styles.pickAPlan}>Get Started</b>
             </Link>
-            <div className={styles.pricingSubheading}>
+            <Link to="/faq" className={styles.pricingSubheading}>
               <b className={styles.howItWorks}>How it works</b>
               <div className={styles.pricingSubheadingIcon}>
                 <img
@@ -32,7 +32,7 @@ const FrameComponent2: FunctionComponent = () => {
                   src="/pricing-subheading-icon-image.svg"
                 />
               </div>
-            </div>
+            </Link>
           </div>
 
       </div>
