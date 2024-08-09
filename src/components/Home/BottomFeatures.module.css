@@ -54,6 +54,7 @@
 }
 .bankingMadeSimple {
   width: 100%;
+  max-width: 50rem;
   display: flex;
   align-self: stretch;
   position: relative;
@@ -106,6 +107,7 @@
 }
 .mobileFeature {
   width: 100%;
+  max-width: 50rem;
   padding: 0 0 var(--padding-47xl);
   box-sizing: border-box;
  /*  min-width: 46.5rem;
@@ -114,6 +116,7 @@
 .phoneIllustrationIcon {
   position: relative;
   width: 100%;
+  max-width: 30rem;
   height: auto;
   overflow: hidden;
   object-fit: contain;
