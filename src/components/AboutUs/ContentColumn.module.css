@@ -1,0 +1,234 @@
+.financialFuture {
+  color: var(--color1);
+}
+.empoweringYourFinancialContainer {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 8.75rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.introContainerChild {
+  position: absolute;
+  top: 7.219rem;
+  left: 38.5rem;
+  width: 14.313rem;
+  height: 0.25rem;
+  z-index: 1;
+}
+.introContainer {
+  align-self: stretch;
+  height: 17.5rem;
+  position: relative;
+}
+.atVeridionBank {
+  width: 53.75rem;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+}
+.component1,
+.contentBlock {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.component1:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.contentBlock {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-19xl);
+  min-width: 40.5rem;
+  max-width: 100%;
+}
+.aboutUs {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.bankIcon {
+  height: 30.063rem;
+  width: 37.5rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -29.312rem;
+  right: -20.875rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.since2022 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  color: var(--color-dimgray-200);
+  display: inline-block;
+  min-width: 6.625rem;
+  z-index: 1;
+}
+.excludeIcon,
+.wrapperExclude {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.excludeIcon {
+  overflow: hidden;
+  object-fit: contain;
+  transform: scale(1.045);
+}
+.wrapperExclude {
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backgroundShape {
+  position: absolute;
+  top: 31.5rem;
+  left: 0;
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-palegoldenrod);
+  width: 27.563rem;
+  height: 4.25rem;
+  z-index: 1;
+}
+.excludeContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.aboutWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-400xl) var(--padding-12xl) var(--padding-59xl);
+  position: relative;
+  gap: var(--gap-7xs);
+}
+.aboutContainer,
+.contentColumn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutContainer {
+  width: 27.581rem;
+  flex-direction: column;
+  padding: var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  min-width: 27.581rem;
+  font-size: var(--font-size-17xl);
+}
+.contentColumn {
+  width: 97.019rem;
+  flex-direction: row;
+  gap: var(--gap-95xl);
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1350px) {
+  .aboutContainer {
+    flex: 1;
+  }
+  .contentColumn {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .empoweringYourFinancialContainer {
+    font-size: var(--font-size-29xl);
+    line-height: 5.25rem;
+  }
+  .contentBlock {
+    gap: var(--gap-lgi);
+    min-width: 100%;
+  }
+  .aboutUs {
+    font-size: var(--font-size-10xl);
+  }
+  .aboutWrapper {
+    padding-top: var(--padding-253xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .aboutContainer {
+    min-width: 100%;
+  }
+  .contentColumn {
+    gap: var(--gap-38xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .empoweringYourFinancialContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 3.5rem;
+  }
+  .aboutUs {
+    font-size: var(--font-size-3xl);
+  }
+  .since2022 {
+    font-size: var(--font-size-base);
+  }
+  .contentColumn {
+    gap: var(--gap-9xl);
+  }
+}

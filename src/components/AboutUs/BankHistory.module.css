@@ -1,0 +1,753 @@
+.history {
+  color: var(--color1);
+}
+.bankHistory1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.starOneIcon {
+  position: absolute;
+  top: 27.525rem;
+  left: 48.938rem;
+  border-radius: var(--br-12xs);
+  width: 4.313rem;
+  height: 4.688rem;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50.988rem;
+  height: 32.219rem;
+  object-fit: contain;
+}
+.starTwoIcon {
+  top: 19.15rem;
+  left: 28.688rem;
+  width: 4.563rem;
+  height: 5.125rem;
+  z-index: 1;
+}
+.starFiveIcon,
+.starFourIcon,
+.starThreeIcon,
+.starTwoIcon {
+  position: absolute;
+  border-radius: var(--br-12xs);
+}
+.starThreeIcon {
+  top: 21.713rem;
+  left: 21.75rem;
+  width: 4.313rem;
+  height: 4.688rem;
+  z-index: 1;
+}
+.starFiveIcon,
+.starFourIcon {
+  top: 31.213rem;
+  left: 30.313rem;
+  width: 3.063rem;
+  height: 3.313rem;
+}
+.starFiveIcon {
+  top: 0.463rem;
+  left: 27rem;
+  width: 2.313rem;
+  height: 2.563rem;
+}
+.vectorParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 50.988rem;
+}
+.starSixIcon {
+  position: absolute;
+  top: 24.775rem;
+  left: 0.75rem;
+  border-radius: var(--br-12xs);
+  width: 4.938rem;
+  height: 5.438rem;
+  z-index: 2;
+}
+.ratingStars {
+  height: 34.525rem;
+  width: 53.25rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -13.25rem;
+  left: -0.75rem;
+}
+.veridionBankHas {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.historyBlock,
+.historyContent,
+.ratingContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ratingContainer {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.historyBlock,
+.historyContent {
+  flex-direction: column;
+}
+.historyBlock {
+  align-self: stretch;
+  gap: var(--gap-19xl);
+}
+.historyContent {
+  flex: 1;
+  padding: var(--padding-24xl) 0 0;
+  box-sizing: border-box;
+  min-width: 37.563rem;
+}
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  height: 76.32%;
+  width: 52.88%;
+  top: 22.64%;
+  right: 47.12%;
+  bottom: 1.04%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon1 {
+  height: 0.57%;
+  width: 14.8%;
+  top: 57.92%;
+  right: 28.96%;
+  bottom: 41.51%;
+  left: 56.24%;
+}
+.groupIcon2,
+.groupIcon3 {
+  position: absolute;
+  top: 15.1rem;
+  left: 23.519rem;
+  width: 1.825rem;
+  height: 5.719rem;
+}
+.groupIcon3 {
+  left: 25.6rem;
+}
+.groupIcon4,
+.groupIcon5 {
+  position: absolute;
+  height: 50.83%;
+  width: 7.6%;
+  top: 35.85%;
+  right: 62.9%;
+  bottom: 13.32%;
+  left: 29.49%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.groupIcon5 {
+  right: 52.74%;
+  left: 39.66%;
+}
+.groupIcon6 {
+  height: 50.86%;
+  right: 42.58%;
+  bottom: 13.29%;
+  left: 49.82%;
+  z-index: 1;
+}
+.groupIcon10,
+.groupIcon6,
+.groupIcon7,
+.groupIcon8,
+.groupIcon9 {
+  position: absolute;
+  width: 7.6%;
+  top: 35.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon7 {
+  height: 50.86%;
+  right: 22.61%;
+  bottom: 13.29%;
+  left: 69.79%;
+  z-index: 1;
+}
+.groupIcon10,
+.groupIcon8,
+.groupIcon9 {
+  height: 50.83%;
+  right: 12.44%;
+  bottom: 13.32%;
+  left: 79.95%;
+}
+.groupIcon10,
+.groupIcon9 {
+  right: 2.28%;
+  left: 90.12%;
+}
+.groupIcon10 {
+  height: 14.41%;
+  width: 72.77%;
+  top: 85.59%;
+  right: 0;
+  bottom: 0;
+  left: 27.23%;
+  z-index: 2;
+}
+.groupIcon11,
+.groupIcon12,
+.groupIcon13,
+.groupIcon14,
+.groupIcon15,
+.groupIcon16 {
+  position: absolute;
+  height: 3.69%;
+  width: 68.93%;
+  top: 30.19%;
+  right: 1.92%;
+  bottom: 66.12%;
+  left: 29.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.groupIcon12,
+.groupIcon13,
+.groupIcon14,
+.groupIcon15,
+.groupIcon16 {
+  height: 28.22%;
+  top: 0;
+  bottom: 71.78%;
+}
+.groupIcon13,
+.groupIcon14,
+.groupIcon15,
+.groupIcon16 {
+  height: 10.33%;
+  width: 15.94%;
+  top: 46.73%;
+  right: 28.4%;
+  bottom: 42.94%;
+  left: 55.66%;
+  z-index: 2;
+}
+.groupIcon14,
+.groupIcon15,
+.groupIcon16 {
+  height: 12.85%;
+  width: 7.73%;
+  top: 11.99%;
+  right: 32.51%;
+  bottom: 75.16%;
+  left: 59.77%;
+}
+.groupIcon15,
+.groupIcon16 {
+  height: 9.53%;
+  width: 5.73%;
+  top: 13.66%;
+  right: 33.51%;
+  bottom: 76.82%;
+  left: 60.77%;
+  z-index: 3;
+}
+.groupIcon16 {
+  height: 5.5%;
+  width: 3.83%;
+  top: 16.36%;
+  right: 34.47%;
+  bottom: 78.14%;
+  left: 61.7%;
+  z-index: 4;
+}
+.group1 {
+  position: absolute;
+  height: 83.11%;
+  width: 84.51%;
+  top: 3.78%;
+  right: 15.49%;
+  bottom: 13.12%;
+  left: 0;
+}
+.groupIcon17,
+.groupIcon18,
+.groupIcon19,
+.groupIcon20,
+.groupIcon21 {
+  position: absolute;
+  height: 1.45%;
+  width: 73.73%;
+  top: 86.15%;
+  right: 9.38%;
+  bottom: 12.41%;
+  left: 16.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 5;
+}
+.groupIcon18,
+.groupIcon19,
+.groupIcon20,
+.groupIcon21 {
+  height: 8.48%;
+  width: 15.86%;
+  top: 86.39%;
+  right: 52.18%;
+  bottom: 5.13%;
+  left: 31.96%;
+  z-index: 6;
+}
+.groupIcon19,
+.groupIcon20,
+.groupIcon21 {
+  height: 4.7%;
+  width: 4.08%;
+  top: 86.41%;
+  right: 75.55%;
+  bottom: 8.89%;
+  left: 20.37%;
+}
+.groupIcon20,
+.groupIcon21 {
+  height: 12.88%;
+  width: 3.92%;
+  right: 31.55%;
+  bottom: 0.71%;
+  left: 64.53%;
+}
+.groupIcon21 {
+  height: 0.95%;
+  width: 14.54%;
+  top: 92.36%;
+  right: 20.93%;
+  bottom: 6.69%;
+  z-index: 7;
+}
+.groupIcon22 {
+  height: 9.95%;
+  width: 3.27%;
+  top: 86.41%;
+  right: 14.43%;
+  bottom: 3.65%;
+  left: 82.29%;
+  z-index: 6;
+}
+.groupIcon22,
+.groupIcon23,
+.groupIcon24,
+.groupIcon25 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon23 {
+  height: 2.39%;
+  width: 1.46%;
+  top: 89.43%;
+  right: 74.75%;
+  bottom: 8.18%;
+  left: 23.79%;
+  z-index: 7;
+}
+.groupIcon24,
+.groupIcon25 {
+  height: 1.79%;
+  width: 1.1%;
+}
+.groupIcon24 {
+  top: 58.14%;
+  right: 79.09%;
+  bottom: 40.06%;
+  left: 19.82%;
+  z-index: 5;
+}
+.groupIcon25 {
+  top: 31.18%;
+  right: 6.91%;
+  bottom: 67.03%;
+  left: 91.99%;
+}
+.groupIcon26,
+.groupIcon27,
+.groupIcon28,
+.groupIcon29,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32,
+.groupIcon33 {
+  position: absolute;
+  height: 2.39%;
+  width: 1.46%;
+  top: 93.79%;
+  right: 67.01%;
+  bottom: 3.82%;
+  left: 31.52%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 7;
+}
+.groupIcon27,
+.groupIcon28,
+.groupIcon29,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32,
+.groupIcon33 {
+  top: 97.61%;
+  right: 30.74%;
+  bottom: 0;
+  left: 67.79%;
+}
+.groupIcon28,
+.groupIcon29,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32,
+.groupIcon33 {
+  top: 91.63%;
+  right: 20.19%;
+  bottom: 5.98%;
+  left: 78.35%;
+  z-index: 8;
+}
+.groupIcon29,
+.groupIcon30,
+.groupIcon31,
+.groupIcon32,
+.groupIcon33 {
+  top: 94.67%;
+  right: 17.11%;
+  bottom: 2.93%;
+  left: 81.42%;
+  z-index: 7;
+}
+.groupIcon30,
+.groupIcon31,
+.groupIcon32,
+.groupIcon33 {
+  height: 12.66%;
+  width: 7.18%;
+  top: 0;
+  right: 66.05%;
+  bottom: 87.34%;
+  left: 26.77%;
+  z-index: 5;
+}
+.groupIcon31,
+.groupIcon32,
+.groupIcon33 {
+  height: 8.89%;
+  width: 5.44%;
+  right: 57.95%;
+  bottom: 91.11%;
+  left: 36.61%;
+}
+.groupIcon32,
+.groupIcon33 {
+  top: 14.78%;
+  right: 77.48%;
+  bottom: 76.33%;
+  left: 17.09%;
+}
+.groupIcon33 {
+  height: 24.64%;
+  width: 18.78%;
+  top: 50.7%;
+  right: 0;
+  bottom: 24.66%;
+  left: 81.22%;
+}
+.groupIcon34,
+.groupIcon35,
+.groupIcon36,
+.groupIcon37,
+.groupIcon38 {
+  position: absolute;
+  height: 10.08%;
+  width: 0.29%;
+  top: 12.47%;
+  right: 69.63%;
+  bottom: 77.45%;
+  left: 30.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 6;
+}
+.groupIcon35,
+.groupIcon36,
+.groupIcon37,
+.groupIcon38 {
+  height: 6.49%;
+  top: 8.89%;
+  right: 60.52%;
+  bottom: 84.62%;
+  left: 39.19%;
+}
+.groupIcon36,
+.groupIcon37,
+.groupIcon38 {
+  height: 6.08%;
+  width: 3.48%;
+  top: 20.17%;
+  right: 74.28%;
+  bottom: 73.74%;
+  left: 22.23%;
+}
+.groupIcon37,
+.groupIcon38 {
+  height: 15.94%;
+  width: 12.35%;
+  top: 38.92%;
+  right: 3.83%;
+  bottom: 45.13%;
+  left: 83.82%;
+}
+.groupIcon38 {
+  height: 19.98%;
+  width: 14.74%;
+  top: 19.42%;
+  right: 11.44%;
+  bottom: 60.6%;
+  left: 73.82%;
+  z-index: 7;
+}
+.groupIcon39,
+.groupIcon40,
+.groupIcon41,
+.groupIcon42,
+.groupIcon43 {
+  position: absolute;
+  height: 3.13%;
+  width: 4.27%;
+  top: 28.33%;
+  right: 7.32%;
+  bottom: 68.54%;
+  left: 88.4%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 8;
+}
+.groupIcon40,
+.groupIcon41,
+.groupIcon42,
+.groupIcon43 {
+  height: 7.62%;
+  width: 5.67%;
+  top: 9.26%;
+  right: 25.23%;
+  bottom: 83.13%;
+  left: 69.1%;
+  z-index: 5;
+}
+.groupIcon41,
+.groupIcon42,
+.groupIcon43 {
+  height: 12.25%;
+  width: 13.08%;
+  top: 3.02%;
+  right: 12.26%;
+  bottom: 84.72%;
+  left: 74.67%;
+  z-index: 6;
+}
+.groupIcon42,
+.groupIcon43 {
+  height: 3%;
+  width: 3.69%;
+  top: 17.13%;
+  right: 63.74%;
+  bottom: 79.87%;
+  left: 32.56%;
+  z-index: 5;
+}
+.groupIcon43 {
+  height: 14.74%;
+  width: 1.24%;
+  top: 53.92%;
+  right: 16.03%;
+  bottom: 31.35%;
+  left: 82.73%;
+  z-index: 7;
+}
+.groupIcon44,
+.groupIcon45,
+.groupIcon46 {
+  position: absolute;
+  top: 6.469rem;
+  left: 36.706rem;
+  width: 0.138rem;
+  height: 0.138rem;
+  z-index: 8;
+}
+.groupIcon45,
+.groupIcon46 {
+  left: 37.131rem;
+  width: 4.319rem;
+}
+.groupIcon46 {
+  left: 41.738rem;
+  width: 0.138rem;
+}
+.groupIcon47,
+.groupIcon48,
+.groupIcon49,
+.groupIcon50 {
+  position: absolute;
+  height: 25.13%;
+  width: 3.83%;
+  top: 42.37%;
+  right: 73.8%;
+  bottom: 32.49%;
+  left: 22.38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 5;
+}
+.groupIcon48,
+.groupIcon49,
+.groupIcon50 {
+  height: 9.21%;
+  width: 5.62%;
+  top: 59.68%;
+  right: 74.17%;
+  bottom: 31.11%;
+  left: 20.21%;
+  z-index: 6;
+}
+.groupIcon49,
+.groupIcon50 {
+  height: 7.31%;
+  width: 5.59%;
+  top: 87.59%;
+  right: 49.24%;
+  bottom: 5.09%;
+  left: 45.16%;
+  z-index: 7;
+}
+.groupIcon50 {
+  height: 4.75%;
+  width: 0.29%;
+  right: 33.96%;
+  bottom: 7.66%;
+  left: 65.75%;
+}
+.group {
+  margin-left: -7.125rem;
+  height: 28.969rem;
+  width: 47.369rem;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 116%;
+}
+.history1 {
+  width: 41.125rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-64xl-3) 0 var(--padding-64xl-2);
+  box-sizing: border-box;
+  min-width: 41.125rem;
+  max-width: 100%;
+}
+.bankHistory,
+.history1,
+.historyContentParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.historyContentParent {
+  margin-left: -0.75rem;
+  width: 101.688rem;
+  padding: 0 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  flex-shrink: 0;
+  max-width: 102%;
+}
+.bankHistory {
+  align-self: stretch;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1350px) {
+  .history1 {
+    flex: 1;
+  }
+  .historyContentParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .bankHistory1 {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .history1,
+  .historyContent {
+    min-width: 100%;
+  }
+  .history1 {
+    padding-top: var(--padding-35xl);
+    padding-bottom: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+  .historyContentParent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bankHistory1 {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .historyBlock {
+    gap: var(--gap-lgi);
+  }
+  .historyContent {
+    padding-top: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}

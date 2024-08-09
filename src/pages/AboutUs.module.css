@@ -1,0 +1,594 @@
+.contentWrapper,
+.contentWrapperWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contentWrapper {
+  width: 100.063rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 4.625rem;
+}
+.contentWrapperWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 7.431rem var(--padding-2xl);
+  box-sizing: border-box;
+}
+.missionStatementChild {
+  position: absolute;
+  top: 4.506rem;
+  left: 25.188rem;
+  width: 14.313rem;
+  height: 0.25rem;
+}
+.andValues {
+  color: var(--color);
+}
+.missionAndValuesContainer {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.missionStatement {
+  height: 4.756rem;
+  width: 39.5rem;
+  position: relative;
+  max-width: 100%;
+}
+.missionContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.atVeridionBank,
+.defineOurApproach {
+  margin: 0;
+}
+.atVeridionBankContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+}
+.valuesBlock {
+  width: 66.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+}
+.valuesContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.groupIcon {
+  height: 12rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.valueItems {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 4.562rem 0 var(--padding-46xl);
+}
+.integrity,
+.weUpholdThe {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.integrity {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.weUpholdThe {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.valueDescriptions {
+  width: 18.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.groupIcon1,
+.valueItemsParent {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+}
+.valueItemsParent {
+  box-shadow: var(--effect);
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.462rem var(--padding-23xl) var(--padding-23xl);
+  box-sizing: border-box;
+  gap: 1.287rem;
+  min-width: 15.625rem;
+}
+.groupIcon1 {
+  height: 13.063rem;
+  position: relative;
+}
+.groupWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-53xl) 0 var(--padding-51xl);
+}
+.customerFocus,
+.weStriveTo {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.customerFocus {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.weStriveTo {
+  width: 18.375rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+  display: inline-block;
+}
+.frameParent {
+  flex: 1;
+  box-shadow: var(--effect);
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.743rem var(--padding-20xl) var(--padding-49xl) var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-sm-5);
+  min-width: 15.625rem;
+  max-width: 100%;
+}
+.ideaIcon {
+  height: 13.625rem;
+  width: 13.625rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ideaWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-26xl) 0 var(--padding-19xl);
+}
+.innovation,
+.weEmbraceChange {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.innovation {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.weEmbraceChange {
+  width: 18.375rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+  display: inline-block;
+}
+.frameGroup {
+  flex: 1;
+  box-shadow: var(--effect);
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-23xl) var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  min-width: 15.625rem;
+  max-width: 100%;
+}
+.community {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+}
+.community01Icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.communityParent {
+  width: 18.375rem;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+.wePositivelyImpact {
+  width: 18.375rem;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+}
+.frameContainer {
+  height: 28.25rem;
+  box-shadow: var(--effect);
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl) var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.coreValues {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}
+.coreValues,
+.valuesWrapper,
+.valuesWrapperWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.valuesWrapper {
+  width: 100rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-49xl);
+}
+.valuesWrapperWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-13xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color1);
+  font-family: var(--font-schibsted-grotesk);
+}
+.careersIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.careers {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.careersDividerChild {
+  height: 0.25rem;
+  width: 16.125rem;
+  position: relative;
+  z-index: 1;
+}
+.careersContent,
+.careersDivider {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.careersDivider {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+  margin-top: -0.875rem;
+}
+.careersContent {
+  height: 5.5rem;
+  flex-direction: column;
+}
+.joinTheVeridion {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.joinTheVeridionBankFamilyWrapper {
+  width: 57.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 5.563rem;
+}
+.component2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.component2:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.careersSection,
+.careersSectionWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.careersSection {
+  width: 100rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-53xl) 0 15.875rem;
+  gap: var(--gap-19xl);
+/*   background-image: url(/public/careers@2x.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.careersSectionWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-lgi);
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+.aboutUs {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-81xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+
+
+
+@media screen and (max-width: 1350px) {
+  .contentWrapperWrapper {
+    padding-bottom: 4.813rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .aboutUs {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .contentWrapper {
+    gap: var(--gap-18xl);
+  }
+  .contentWrapperWrapper {
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .missionAndValuesContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .valuesBlock {
+    gap: var(--gap-3xl);
+  }
+  .community,
+  .customerFocus,
+  .innovation,
+  .integrity {
+    font-size: var(--font-size-7xl);
+  }
+  .valuesWrapper {
+    gap: var(--gap-15xl);
+  }
+  .careers {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .careersSection {
+    padding-top: var(--padding-28xl);
+    padding-bottom: 10.313rem;
+    box-sizing: border-box;
+  }
+  .aboutUs {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contentWrapper {
+    gap: var(--gap-lg);
+  }
+  .missionAndValuesContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .valueItems {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .integrity {
+    font-size: var(--font-size-lgi);
+  }
+  .weUpholdThe {
+    font-size: var(--font-size-base);
+  }
+  .valueItemsParent {
+    padding: var(--padding-7xl) var(--padding-xl) var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .groupWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .customerFocus {
+    font-size: var(--font-size-lgi);
+  }
+  .weStriveTo {
+    font-size: var(--font-size-base);
+  }
+  .frameParent {
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .ideaWrapper {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .innovation {
+    font-size: var(--font-size-lgi);
+  }
+  .weEmbraceChange {
+    font-size: var(--font-size-base);
+  }
+  .frameGroup {
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .community {
+    font-size: var(--font-size-lgi);
+  }
+  .wePositivelyImpact {
+    font-size: var(--font-size-base);
+  }
+  .frameContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .valuesWrapper {
+    gap: var(--gap-mid);
+  }
+  .careers {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .careersSection {
+    gap: var(--gap-lgi);
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-88xl);
+    box-sizing: border-box;
+  }
+}

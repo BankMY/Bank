@@ -12,6 +12,7 @@ import SignUp from './pages/SignUp';
 import Cards from './pages/Cards';
 import FAQ from './pages/FAQ';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import AboutUs from './pages/AboutUs';
 
 
 
@@ -44,6 +45,13 @@ function App() {
             <>
               <HeaderFinal/>
               <PrivacyPolicy />
+              <Footer />
+            </>
+          } />
+          <Route path="/about-us" element={
+            <>
+              <HeaderFinal active='about-us'/>
+              <AboutUs />
               <Footer />
             </>
           } />
