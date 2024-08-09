@@ -153,6 +153,8 @@
   letter-spacing: normal;
 }
 
+
+
 @media screen and (max-width: 800px) {
   .faq1 {
     font-size: var(--font-size-32xl);

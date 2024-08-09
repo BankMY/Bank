@@ -11,6 +11,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Cards from './pages/Cards';
 import FAQ from './pages/FAQ';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
 function App() {
@@ -35,6 +36,13 @@ function App() {
             <>
               <HeaderFinal/>
               <FAQ />
+              <Footer />
+            </>
+          } />
+          <Route path="/privacy" element={
+            <>
+              <HeaderFinal/>
+              <PrivacyPolicy />
               <Footer />
             </>
           } />

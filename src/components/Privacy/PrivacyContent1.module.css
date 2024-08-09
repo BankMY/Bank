@@ -1,0 +1,109 @@
+.useOfInformation,
+.weUseYour {
+  align-self: stretch;
+  position: relative;
+}
+.useOfInformation {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.weUseYour {
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+}
+.frameWrapper,
+.useOfInformationParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.useOfInformationParent {
+  align-self: stretch;
+  gap: var(--gap-19xl);
+}
+.frameWrapper {
+  flex: 1;
+  padding: var(--padding-184xl) 0 0;
+  box-sizing: border-box;
+  min-width: 32.063rem;
+  max-width: 100%;
+}
+.frameChild {
+  width: 40.938rem;
+  position: relative;
+  border-radius: var(--br-7xl);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frameParent,
+.privacyContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.frameParent {
+  width: 100rem;
+  gap: var(--gap-136xl);
+}
+.privacyContent {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-49xl-3);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color1);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1325px) {
+  .frameChild {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: var(--gap-58xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .useOfInformation {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-20xl);
+  }
+  .privacyContent {
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .useOfInformation {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .useOfInformationParent {
+    gap: var(--gap-lgi);
+  }
+  .frameWrapper {
+    padding-top: var(--padding-113xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-lgi);
+  }
+}

@@ -49,7 +49,7 @@ const AboutSection: React.FC = () => {
             <Link to="/">
                 <img src={ContactInfo}/>
             </Link>
-            <Link to="/">
+            <Link to="/privacy">
                 <img src={Security}/>
             </Link>
             <Link to="/">
