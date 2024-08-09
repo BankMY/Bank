@@ -14,6 +14,7 @@ import FAQ from './pages/FAQ';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 
 
+
 function App() {
   return (
     <Router>
