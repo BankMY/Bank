@@ -62,7 +62,7 @@ const SupportSection: React.FC = () => {
     return (
         <div className={styles.buttonscontainer}>
             <img src={Support}></img>
-            <Link to="/">
+            <Link to="/faq">
                 <img src={Faq}/>
             </Link>
             <Link to="/">
