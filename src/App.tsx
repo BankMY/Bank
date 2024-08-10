@@ -13,6 +13,7 @@ import Cards from './pages/Cards';
 import FAQ from './pages/FAQ';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import AboutUs from './pages/AboutUs';
+import Services from './pages/Services';
 
 
 
@@ -52,6 +53,13 @@ function App() {
             <>
               <HeaderFinal active='about-us'/>
               <AboutUs />
+              <Footer />
+            </>
+          } />
+          <Route path="/services" element={
+            <>
+              <HeaderFinal active='services'/>
+              <Services />
               <Footer />
             </>
           } />
