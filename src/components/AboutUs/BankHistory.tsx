@@ -16,7 +16,6 @@ const BankHistory: FunctionComponent = () => {
   return (
     <div className={styles.bankHistory}>
       <div className={styles.historyContentParent}>
-        <div className={styles.historyContent}>
           <div className={styles.historyBlock}>
             <h1 className={styles.bankHistory1}>
               <span>{`Bank `}</span>
@@ -80,11 +79,11 @@ const BankHistory: FunctionComponent = () => {
                 clients.
               </div>
             </div>
-          </div>
+          
         </div>
-        <div className={styles.history1}>
-          <img src={history1}  />
-        </div>
+
+        <img className={styles.history1} src={history1}  />
+        
       </div>
     </div>
   );

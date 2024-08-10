@@ -81,7 +81,7 @@
   z-index: 1;
 }
 .bankIcon {
-  height: 30.063rem;
+  height: auto;
   width: 37.5rem;
   position: absolute;
   margin: 0 !important;
@@ -164,6 +164,7 @@
 .aboutContainer,
 .contentColumn {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
@@ -177,7 +178,7 @@
   font-size: var(--font-size-17xl);
 }
 .contentColumn {
-  width: 97.019rem;
+  width: 100%;
   flex-direction: row;
   gap: var(--gap-95xl);
   text-align: left;
@@ -186,49 +187,43 @@
   font-family: var(--font-schibsted-grotesk);
 }
 @media screen and (max-width: 1350px) {
-  .aboutContainer {
+  /* .aboutContainer {
     flex: 1;
-  }
+  } */
   .contentColumn {
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .empoweringYourFinancialContainer {
-    font-size: var(--font-size-29xl);
+    font-size: 5rem;
     line-height: 5.25rem;
   }
   .contentBlock {
     gap: var(--gap-lgi);
     min-width: 100%;
   }
-  .aboutUs {
-    font-size: var(--font-size-10xl);
-  }
-  .aboutWrapper {
-    padding-top: var(--padding-253xl);
-    padding-bottom: var(--padding-32xl);
-    box-sizing: border-box;
-  }
-  .aboutContainer {
-    min-width: 100%;
-  }
   .contentColumn {
     gap: var(--gap-38xl);
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .empoweringYourFinancialContainer {
-    font-size: var(--font-size-10xl);
-    line-height: 3.5rem;
+    font-size: 4rem;
+    line-height: 5.25rem;
   }
-  .aboutUs {
-    font-size: var(--font-size-3xl);
+}
+@media screen and (max-width: 520px) {
+  .empoweringYourFinancialContainer {
+    font-size: 3.7rem;
+    line-height: 4.2rem;
   }
-  .since2022 {
-    font-size: var(--font-size-base);
+  .bankIcon{
+    width: 30rem;
+    left: -5rem;
+    top: -25rem;
   }
-  .contentColumn {
-    gap: var(--gap-9xl);
+  .aboutWrapper{
+    width: 20rem;
   }
 }
