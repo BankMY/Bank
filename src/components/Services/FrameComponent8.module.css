@@ -42,6 +42,7 @@
   line-height: 192%;
   color: var(--color-black);
   /* display: inline-block; */
+  width: 47rem;
   max-width: 100%;
 }
 .pickAPlan {
@@ -98,6 +99,7 @@
   align-items: flex-end;
   justify-content: space-around;
   row-gap: 20px;
+  gap: 3rem
 }
 .layoutWrapper {
   align-self: stretch;
@@ -120,10 +122,11 @@
   }
   .layout {
     flex-wrap: wrap;
+    /* gap: 0; */
   }
-  /* .atVeridionBank, .hero{
-    width: 60rem;
-  } */
+  .atVeridionBank {
+    width: auto;
+  }
 }
 /* @media screen and (max-width: 1250px) {
   .layout1 {
