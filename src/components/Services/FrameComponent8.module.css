@@ -1,0 +1,163 @@
+.welcomeTo {
+  margin: 0;
+}
+.veridionServices {
+  margin: 0;
+  color: var(--color1);
+  text-wrap: nowrap;
+}
+.welcomeToVeridionContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 8.75rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.heroChild {
+  width: 35.438rem;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -10.063rem;
+}
+.hero {
+  /* width: 62.313rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 17.5rem;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.atVeridionBank {
+  /* width: 53.75rem; */
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+  /* display: inline-block; */
+  max-width: 100%;
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+}
+.component1,
+.layout1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.component1:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.layout1 {
+  /* width: 57.813rem; */
+  flex-direction: column;
+  gap: var(--gap-19xl);
+  /* min-width: 57.813rem; */
+  flex-shrink: 0;
+  max-width: 100%;
+  flex: 1;
+}
+.heandWithLogoIcon {
+  /* width: 42.188rem; */
+  position: relative;
+  height: 100%;
+  flex-shrink: 0;
+  max-width: 70%;
+  z-index: 1;
+}
+.layout,
+.layoutWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.layout {
+  align-items: flex-end;
+  justify-content: space-around;
+  row-gap: 20px;
+}
+.layoutWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-62xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+
+
+
+
+@media screen and (max-width: 1575px) {
+  .heandWithLogoIcon,
+  .layout1 {
+    flex: 1;
+  }
+  .layout {
+    flex-wrap: wrap;
+  }
+  /* .atVeridionBank, .hero{
+    width: 60rem;
+  } */
+}
+/* @media screen and (max-width: 1250px) {
+  .layout1 {
+    min-width: 100%;
+  }
+} */
+@media screen and (max-width: 955px) {
+  .welcomeToVeridionContainer {
+    font-size: 4rem;
+    line-height: 5.25rem;
+  }
+  .layout1 {
+    gap: 0;
+  }
+  .atVeridionBank{
+    margin-top: -3rem;
+  }
+  .layoutWrapper {
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .heroChild{
+    top: 5rem;
+  }
+  /* .atVeridionBank, .hero{
+    width: 100%;
+  } */
+}
+@media screen and (max-width: 550px) {
+  .welcomeToVeridionContainer {
+    font-size: 3.0rem;
+    line-height: 5.25rem;
+  }
+  .atVeridionBank{
+    margin-top: -5rem;
+  }
+}

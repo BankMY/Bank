@@ -1,0 +1,113 @@
+.deposits {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: inherit;
+}
+.depositsInvestments {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+}
+.secureYourFunds {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  display: inline-block;
+  max-width: 100%;
+}
+.depositsIcon {
+  width: 125rem;
+  max-width: 190%;
+  margin-top: -8rem;
+}
+.insuranceCallToAction {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 7.063rem;
+}
+.component3,
+.components {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.component3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+}
+.component3:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.components {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.depositsInvestmentsParent,
+.hero {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.depositsInvestmentsParent {
+  max-width: 53.75rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-18xl-5);
+}
+.hero {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  /* padding: 0 var(--padding-xl) var(--padding-432xl-5); */
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 825px) {
+  .deposits {
+    font-size: var(--font-size-32xl);
+  }
+  
+}
+@media screen and (max-width: 450px) {
+  .deposits {
+    font-size: var(--font-size-19xl);
+  }
+  .depositsInvestmentsParent {
+    gap: var(--gap-lgi);
+  }
+}
