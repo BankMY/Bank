@@ -50,6 +50,7 @@
 
   .arrow {
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
   }
   
   .arrow.rotated {

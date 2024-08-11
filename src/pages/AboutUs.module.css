@@ -402,6 +402,7 @@
   color: var(--color-white);
   text-align: left;
   min-width: 5.563rem;
+  transition: color 0.3s ease;
 }
 .component2 {
   cursor: pointer;
@@ -415,9 +416,13 @@
   justify-content: flex-start;
   white-space: nowrap;
   z-index: 1;
+  transition: background-color 0.3s ease;
 }
 .component2:hover {
-  background-color: var(--color-blueviolet-100);
+  background-color: #afe638;
+}
+.component2:hover .pickAPlan {
+  color: black;
 }
 .careersSection,
 .careersSectionWrapper {

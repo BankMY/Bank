@@ -1,0 +1,912 @@
+.onePlatformFor {
+  margin: 0;
+}
+.yourBusinessNeeds {
+  margin: 0;
+  color: var(--color1);
+}
+.affordAllYour,
+.onePlatformForContainer {
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  max-width: 100%;
+}
+.onePlatformForContainer {
+  margin: 0;
+  width: 83rem;
+  font-size: inherit;
+  line-height: 8.75rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+.affordAllYour {
+  width: 49.375rem;
+  line-height: 192%;
+  flex-shrink: 0;
+}
+.projectDescription {
+  width: 83rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.cardsHeadBusinessIcon,
+.wrapperCardsHeadBusiness {
+  width: 120%;
+  position: absolute;
+  left: 0;
+  margin-left: -10%;
+  z-index: 1;
+  overflow: hidden;
+}
+.cardsHeadBusinessIcon {
+  display: flex;
+  overflow: hidden;
+  object-fit: contain;
+  /* top: -0.625rem; */
+}
+.wrapperCardsHeadBusiness {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 5.563rem;
+  transition: color 0.3s ease;
+}
+.component1,
+.component1Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.component1:hover {
+  background-color: #afe638;
+}
+
+.component1:hover .pickAPlan {
+  color: black;
+}
+.component1Wrapper {
+  width: 83rem;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mainTaglineHeaderForBusine,
+.mainTaglineHeaderForBusineWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mainTaglineHeaderForBusine {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.25rem var(--padding-xl) 14.562rem var(--padding-3xl);
+  position: relative;
+  gap: var(--gap-19xl);
+}
+.mainTaglineHeaderForBusineWrapper {
+  width: 120rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 5.875rem;
+}
+.financialSolutions {
+  color: var(--color);
+}
+.comprehensiveFinancialSolutiContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 10.188rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.frameChild {
+  height: 0.25rem;
+  width: 16.313rem;
+  position: relative;
+}
+.solutionsHeaderInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 6.887rem;
+  margin-top: -0.3rem;
+}
+.solutionsHeader {
+  width: 40.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.discoverOurRange {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+}
+.solutionsContent,
+.solutionsHeaderParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.solutionsHeaderParent {
+  align-self: stretch;
+  gap: 2.887rem;
+}
+.solutionsContent {
+  flex: 1;
+  padding: 1.493rem 0 0;
+  box-sizing: border-box;
+  min-width: 32.063rem;
+}
+.billsCollageIcon {
+  width: 42.188rem;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.solutionsContentParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-116xl);
+  max-width: 100%;
+}
+.cardCollageIcon {
+  width: 42.188rem;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.allInOne {
+  margin: 0;
+}
+.projectFinancing {
+  margin: 0;
+  color: var(--color);
+}
+.allInOneProjectFinancingContainer {
+  margin: 0;
+  width: 40.938rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.manageAllYour {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+}
+.contentColumns,
+.financingSecurity,
+.financingSecurityDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.financingSecurityDetails {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-19xl);
+}
+.contentColumns,
+.financingSecurity {
+  box-sizing: border-box;
+}
+.financingSecurity {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-17xl) 0 0;
+  min-width: 32.063rem;
+}
+.contentColumns {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xs);
+  gap: var(--gap-116xl);
+}
+.safeCollageIcon {
+  width: 42.188rem;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.andCompliance {
+  color: var(--color);
+}
+.advancedSecurityAndContainer {
+  margin: 0;
+  width: 40.938rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.safeguardYourBusiness {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+}
+.advancedSecurityAndComplianParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+}
+.contentColumns1,
+.contentColumnsInner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contentColumnsInner {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-28xl);
+  min-width: 32.063rem;
+  min-height: 25.063rem;
+}
+.contentColumns1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-57xl);
+  gap: var(--gap-116xl);
+}
+.fAQTitleChild {
+  height: 0.25rem;
+  width: 11.563rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -0.562rem;
+  bottom: 0.594rem;
+}
+.businessFaqs {
+  color: var(--color);
+}
+.veridionBusinessFaqsContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.fAQHeader,
+.fAQTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.fAQTitle {
+  justify-content: flex-start;
+  position: relative;
+}
+.fAQHeader {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.whatIsVeridion {
+  margin: 0;
+  width: 81rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.fAQQuestions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA {
+  width: 65.313rem;
+  height: 6rem;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.fAQItemsChild,
+.fAQQuestionsParent {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.fAQQuestionsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.fAQItemsChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whatIsVeridion1 {
+  margin: 0;
+  width: 81rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke1 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA1 {
+  width: 65.313rem;
+  height: 8rem;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  display: none;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.fAQItemsItem,
+.whatIsVeridion2 {
+  position: relative;
+  max-width: 100%;
+}
+.fAQItemsItem {
+  align-self: stretch;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion2 {
+  margin: 0;
+  width: 81rem;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.vector24Stroke2 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA2 {
+  width: 65.313rem;
+  height: 6rem;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  display: none;
+  max-width: 100%;
+}
+.fAQItemsInner,
+.frameContainer {
+  align-self: stretch;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.fAQItemsInner {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whatIsVeridion3 {
+  margin: 0;
+  width: 81rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.vector24Stroke3 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA3 {
+  width: 65.313rem;
+  height: 6rem;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.lineIcon,
+.whatIsVeridion4 {
+  position: relative;
+  max-width: 100%;
+}
+.lineIcon {
+  align-self: stretch;
+  overflow: hidden;
+  max-height: 100%;
+  flex-shrink: 0;
+}
+.whatIsVeridion4 {
+  margin: 0;
+  width: 81rem;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.vector24Stroke4 {
+  height: 1.125rem;
+  width: 2.125rem;
+  position: relative;
+}
+.whatIsVeridionParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: var(--gap-0);
+}
+.veridionIsA4 {
+  width: 65.313rem;
+  height: 6rem;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  display: none;
+  max-width: 100%;
+}
+.frameParent1 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+}
+.fAQContent,
+.fAQItems,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fAQItems {
+  align-self: stretch;
+  
+  align-items: flex-start;
+  gap: var(--gap-19xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color);
+  font-family: var(--font-red-hat-display);
+}
+.fAQContent {
+  width: 83.125rem;
+  align-items: flex-end;
+  gap: 3.25rem;
+}
+.fAQContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
+.frameParent {
+  width: 100rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 9.562rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color1);
+  font-family: var(--font-schibsted-grotesk);
+}
+.forBusiness,
+.forBusinessInner,
+.frameParent {
+  display: flex;
+  align-items: center;
+}
+.forBusinessInner {
+  width: 120rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 10rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.forBusiness {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+
+
+
+@media screen and (max-width: 1600px) {
+.cardsHeadBusinessIcon,
+.wrapperCardsHeadBusiness {
+  width: 130%;
+  position: absolute;
+  left: 0;
+  margin-left: -15%;
+  z-index: 1;
+  overflow: hidden;
+}
+}
+
+
+@media screen and (max-width: 1400px) {
+  .billsCollageIcon {
+    flex: 1;
+  }
+  .solutionsContentParent {
+    flex-wrap: wrap;
+    gap: var(--gap-48xl);
+  }
+  .cardCollageIcon {
+    flex: 1;
+  }
+  .contentColumns {
+    flex-wrap: wrap;
+    gap: var(--gap-48xl);
+  }
+  .safeCollageIcon {
+    flex: 1;
+  }
+  .contentColumns1 {
+    flex-wrap: wrap;
+    gap: var(--gap-48xl);
+  }
+  .fAQQuestions,
+  .whatIsVeridionContainer,
+  .whatIsVeridionGroup,
+  .whatIsVeridionParent,
+  .whatIsVeridionParent1 {
+    flex-wrap: wrap;
+  }
+  .fAQItems {
+    height: auto;
+  }
+  .frameParent {
+    gap: 4.75rem;
+  }
+  .forBusinessInner {
+    padding-bottom: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+  .cardsHeadBusinessIcon,
+.wrapperCardsHeadBusiness {
+  width: 140%;
+  margin-left: -20%;
+}
+}
+@media screen and (max-width: 1200px) {
+  .mainTaglineHeaderForBusine {
+    padding-top: var(--padding-46xl);
+    padding-bottom: 9.438rem;
+    box-sizing: border-box;
+  }
+  .forBusinessInner,
+  .mainTaglineHeaderForBusineWrapper {
+    padding-bottom: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+  .forBusinessInner {
+    padding-bottom: var(--padding-25xl);
+  }
+
+  .cardsHeadBusinessIcon {
+    display: none;
+  }
+}
+@media screen and (max-width: 825px) {
+  
+  .onePlatformForContainer {
+    font-size: var(--font-size-29xl);
+    line-height: 5.25rem;
+  }
+  .mainTaglineHeaderForBusine {
+    gap: var(--gap-lgi);
+  }
+  .comprehensiveFinancialSolutiContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .solutionsContent {
+    min-width: 100%;
+  }
+  .solutionsContentParent {
+    gap: var(--gap-15xl);
+  }
+  .allInOneProjectFinancingContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .financingSecurity {
+    min-width: 100%;
+  }
+  .contentColumns {
+    gap: var(--gap-15xl);
+  }
+  .advancedSecurityAndContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .contentColumnsInner {
+    min-width: 100%;
+  }
+  .contentColumns1 {
+    gap: var(--gap-15xl);
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+  .veridionBusinessFaqsContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .whatIsVeridion,
+  .whatIsVeridion1,
+  .whatIsVeridion2,
+  .whatIsVeridion3,
+  .whatIsVeridion4 {
+    font-size: var(--font-size-7xl);
+  }
+  .fAQItems {
+    gap: var(--gap-lgi);
+  }
+  .fAQContent {
+    gap: var(--gap-7xl);
+  }
+  .frameParent {
+    gap: var(--gap-19xl);
+  }
+  .forBusinessInner {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  
+}
+@media screen and (max-width: 450px) {
+  .onePlatformForContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 3.5rem;
+  }
+  .mainTaglineHeaderForBusine {
+    padding-top: var(--padding-23xl);
+    padding-bottom: 6.125rem;
+    box-sizing: border-box;
+  }
+  .mainTaglineHeaderForBusineWrapper {
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .comprehensiveFinancialSolutiContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .solutionsHeaderParent {
+    gap: var(--gap-4xl);
+  }
+  .solutionsContentParent {
+    gap: var(--gap-mid);
+  }
+  .allInOneProjectFinancingContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .financingSecurityDetails {
+    gap: var(--gap-lgi);
+  }
+  .contentColumns {
+    gap: var(--gap-mid);
+  }
+  .advancedSecurityAndContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .advancedSecurityAndComplianParent {
+    gap: var(--gap-lgi);
+  }
+  .contentColumnsInner {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .contentColumns1 {
+    gap: var(--gap-mid);
+  }
+  .veridionBusinessFaqsContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .veridionIsA,
+  .veridionIsA1,
+  .veridionIsA2,
+  .veridionIsA3,
+  .veridionIsA4,
+  .whatIsVeridion,
+  .whatIsVeridion1,
+  .whatIsVeridion2,
+  .whatIsVeridion3,
+  .whatIsVeridion4 {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent {
+    gap: var(--gap-lgi);
+  }
+}

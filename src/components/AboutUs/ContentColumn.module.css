@@ -45,6 +45,7 @@
   font-family: var(--font-red-hat-display);
   color: var(--color-white);
   text-align: left;
+  transition: color 0.3s ease;
 }
 .component1,
 .contentBlock {
@@ -60,10 +61,15 @@
   border-radius: var(--br-25xl);
   flex-direction: row;
   white-space: nowrap;
+  transition: background-color 0.3s ease;
 }
 .component1:hover {
-  background-color: var(--color-blueviolet-100);
+  background-color: #afe638;
 }
+.component1:hover .pickAPlan {
+  color: black;
+}
+
 .contentBlock {
   flex: 1;
   flex-direction: column;

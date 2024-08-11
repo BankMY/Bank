@@ -1,0 +1,113 @@
+.accountSupportDetailsChild {
+  height: 0.063rem;
+  width: 32.5rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 4.625rem;
+  left: 0;
+  object-fit: contain;
+}
+.multiCurrencyAccounts {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 5.5rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.accountSupportDetails {
+  width: 40.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.operateGloballyWith {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+}
+.accountSupport,
+.accountSupportWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accountSupport {
+  align-self: stretch;
+  gap: var(--gap-19xl);
+}
+.accountSupportWrapper {
+  flex: 1;
+  padding: var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  min-width: 32.063rem;
+}
+.coinsCollageIcon {
+  width: 42.188rem;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.contentColumns {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-116xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1400px) {
+  .coinsCollageIcon {
+    flex: 1;
+  }
+  .contentColumns {
+    flex-wrap: wrap;
+    gap: var(--gap-48xl);
+  }
+}
+@media screen and (max-width: 825px) {
+  .multiCurrencyAccounts {
+    font-size: var(--font-size-32xl);
+    line-height: 4.375rem;
+  }
+  .accountSupportWrapper {
+    min-width: 100%;
+  }
+  .contentColumns {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .multiCurrencyAccounts {
+    font-size: var(--font-size-19xl);
+    line-height: 3.313rem;
+  }
+  .accountSupport {
+    gap: var(--gap-lgi);
+  }
+  .contentColumns {
+    gap: var(--gap-mid);
+  }
+}
