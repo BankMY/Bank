@@ -7,6 +7,8 @@
     gap: var(--gap-xl);
     max-width: 100%;
     flex-shrink: 0;
+
+    overflow: hidden;
   }
 
   .whatIsVeridionParent {
@@ -32,10 +34,25 @@
   }
   
   .veridionIsA {
-    width: 65.313rem;
-    /* height: 4rem; */
-    position: relative;
     letter-spacing: 0.02em;
-    
     max-width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out,
+    padding-bottom 0.5s ease-in-out;
+    height: 0;
+    overflow: hidden;
+  }
+  .veridionIsA.visible {
+    opacity: 1;
+    height: auto;
+    padding-bottom: 5rem;
+  }
+
+  .arrow {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .arrow.rotated {
+    transform: rotate(180deg);
   }

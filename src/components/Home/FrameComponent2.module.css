@@ -68,6 +68,7 @@ max-width: 100%;
   white-space: pre-wrap;
   text-align: left;
   min-width: 7.625rem;
+  transition: color 0.3s ease;
 }
 .component1 {
   cursor: pointer;
@@ -80,9 +81,15 @@ max-width: 100%;
   align-items: flex-start;
   justify-content: flex-start;
   white-space: nowrap;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 .component1:hover {
-  background-color: #8545ff;
+  background-color: #afe638;
+}
+
+.component1:hover .pickAPlan {
+  color: black;
 }
 .pricingSubheadingIconImage {
   width: 0.875rem;

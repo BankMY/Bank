@@ -49,6 +49,7 @@
   color: var(--color-white);
   text-align: left;
   min-width: 7.063rem;
+  transition: color 0.3s ease;
 }
 .component3,
 .components {
@@ -65,9 +66,15 @@
   justify-content: flex-start;
   white-space: nowrap;
   z-index: 2;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 .component3:hover {
-  background-color: var(--color-blueviolet-100);
+  background-color: #afe638;
+}
+
+.component3:hover .pickaplan {
+  color: black;
 }
 .components {
   align-self: stretch;

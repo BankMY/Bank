@@ -14,6 +14,7 @@ import FAQ from './pages/FAQ';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
+import ForBusiness from './pages/ForBusiness';
 
 
 
@@ -60,6 +61,13 @@ function App() {
             <>
               <HeaderFinal active='services'/>
               <Services />
+              <Footer />
+            </>
+          } />
+          <Route path="/for-business" element={
+            <>
+              <HeaderFinal active='for-business'/>
+              <ForBusiness />
               <Footer />
             </>
           } />

@@ -19,7 +19,6 @@ const Services: FunctionComponent = () => {
         deposits="Loans"
         secureYourFundsAndWatchTh="Veridion Bank offers a variety of loan products to help you finance your dreams and manage your expenses. Our competitive rates and flexible terms make borrowing simple and stress-free."
         goldBars={gold_bars}
-        /* heroPadding="0rem var(--padding-xl) 28.687rem" */
         userhref="/"
       />
       <Hero

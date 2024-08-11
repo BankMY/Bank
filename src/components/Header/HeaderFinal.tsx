@@ -48,7 +48,7 @@ const HeaderFinal: FunctionComponent<HeaderFinalProps> = ({ active }) => {
         <div className={styles.component4Parent}>
           <MenuItem title="Cards" href="/cards" active={active === "cards"} />
           <MenuItem title="Services" href="/services" active={active === "services"} />
-          <MenuItem title="Business" href="/business" active={active === "business"} />
+          <MenuItem title="Business" href="/for-business" active={active === "for-business"} />
           <MenuItem title="About Us" href="/about-us" active={active === "about-us"} />
         </div>
       </div>
