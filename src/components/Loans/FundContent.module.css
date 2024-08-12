@@ -1,0 +1,114 @@
+.fundIllustrationIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -0.062rem;
+  top: 0;
+  transform: scale(1.01);
+}
+.wrapperFundIllustration {
+  height: 18.625rem;
+  width: 113rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 3.625rem;
+  right: -81.687rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.planIcon {
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fundPlan {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl) 0 var(--padding-31xl);
+}
+.diversifiedPortfoliosManaged,
+.mutualFunds {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.mutualFunds {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.diversifiedPortfoliosManaged {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.fundContent,
+.fundDescription,
+.fundDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fundDetails {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.fundContent,
+.fundDescription {
+  max-width: 100%;
+}
+.fundDescription {
+  flex: 1;
+  box-shadow: 0 0 28px #d4c4f6;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-smi) var(--padding-12xl) var(--padding-26xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  z-index: 1;
+}
+.fundContent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}
+@media screen and (max-width: 800px) {
+  .mutualFunds {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .fundPlan {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mutualFunds {
+    font-size: var(--font-size-lgi);
+  }
+  .diversifiedPortfoliosManaged {
+    font-size: var(--font-size-base);
+  }
+  .fundDescription {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

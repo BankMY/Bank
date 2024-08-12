@@ -1,0 +1,171 @@
+.groupIcon,
+.groupIcon1 {
+  position: absolute;
+  top: 6.719rem;
+  width: 2.213rem;
+  height: 1.306rem;
+}
+.groupIcon {
+  left: 8.488rem;
+}
+.groupIcon1 {
+  left: 0;
+}
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 1.238rem;
+  width: 8.225rem;
+  height: 11.569rem;
+  z-index: 1;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: 0.856rem;
+  left: 1.781rem;
+  width: 7.088rem;
+  height: 3.838rem;
+  z-index: 2;
+}
+.groupIcon2,
+.groupIcon3,
+.groupIcon4 {
+  position: absolute;
+  top: 5.338rem;
+  left: 2.863rem;
+  width: 4.138rem;
+  height: 0.4rem;
+  z-index: 2;
+}
+.groupIcon3,
+.groupIcon4 {
+  top: 6.319rem;
+  width: 5.244rem;
+}
+.groupIcon4 {
+  top: 7.306rem;
+  width: 4.138rem;
+}
+.vectorIcon2 {
+  position: absolute;
+  top: 0;
+  left: 1.225rem;
+  width: 8.238rem;
+  height: 9.994rem;
+  z-index: 3;
+}
+.groupIcon5,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  top: 8.025rem;
+  height: 5.144rem;
+}
+.vectorIcon3 {
+  left: 0;
+  width: 10.7rem;
+  z-index: 4;
+}
+.groupIcon5,
+.vectorIcon4 {
+  left: 1.694rem;
+  width: 9.006rem;
+  z-index: 5;
+}
+.groupIcon5 {
+  top: 1.413rem;
+  left: 4.575rem;
+  width: 1.531rem;
+  height: 2.731rem;
+  z-index: 4;
+}
+.houseIllustration {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.featureItems,
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.group {
+  height: 13.169rem;
+  width: 10.7rem;
+  justify-content: flex-start;
+  position: relative;
+}
+.featureItems {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+}
+.equityAndFixed,
+.stocksAndBonds {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.stocksAndBonds {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.equityAndFixed {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.featureRows,
+.retirementFeature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.retirementFeature {
+  align-self: stretch;
+  gap: var(--gap-2xs);
+}
+.featureRows {
+  width: 25.313rem;
+  box-shadow: 0 0 28px #d4c4f6;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-20xl-2) var(--padding-11xl) var(--padding-26xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl-1);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}
+@media screen and (max-width: 800px) {
+  .stocksAndBonds {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .stocksAndBonds {
+    font-size: var(--font-size-lgi);
+  }
+  .equityAndFixed {
+    font-size: var(--font-size-base);
+  }
+  .featureRows {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
