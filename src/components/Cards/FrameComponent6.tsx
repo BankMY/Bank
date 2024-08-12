@@ -1,5 +1,14 @@
 import { FunctionComponent } from "react";
 import styles from "./FrameComponent6.module.css";
+import ImageComponent from '../ImageComponent';
+
+import line25 from '../../assets/svg/Cards/line-25.svg';
+import star9 from '../../assets/svg/Cards/star-9.svg';
+import star12 from '../../assets/svg/Cards/star-12.svg';
+import line26 from '../../assets/svg/Cards/line-26.svg';
+import line27 from '../../assets/svg/Cards/line-27.svg';
+import group2412x from '../../assets/png/Cards/group-241@2x.png';
+
 
 export interface FrameComponent6Type {
   className?: string;
@@ -16,31 +25,31 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
             <div className={styles.currencyDetails}>
               <div className={styles.currencyHighlight}>
                 <div className={styles.currencyTitle}>
-                  <img
+                  <ImageComponent
                     className={styles.currencyTitleChild}
                     loading="lazy"
                     alt=""
-                    src="/line-25.svg"
+                    src={line25}
                   />
                   <h1 className={styles.multiCurrencyCapabilities}>
                     <span>Multi-Currency</span>
                     <span className={styles.capabilities}> Capabilities</span>
                   </h1>
                 </div>
-                <img
+                <ImageComponent
                   className={styles.dataCellIcon}
                   loading="lazy"
                   alt=""
-                  src="/star-9.svg"
+                  src={star9}
                 />
               </div>
             </div>
             <div className={styles.globalReach}>
-              <img
+              <ImageComponent
                 className={styles.reachStarIcon}
                 loading="lazy"
                 alt=""
-                src="/star-12.svg"
+                src={star12}
               />
               <div className={styles.expandYourGlobal}>
                 Expand your global reach with our multi-currency card options.
@@ -49,6 +58,7 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
                 operating internationally, our cards make global transactions
                 seamless and cost-effective.
               </div>
+              
             </div>
           </div>
           <div className={styles.currencyPicker}>
@@ -62,24 +72,24 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
         <div className={styles.shadow} />
         <div className={styles.wrapperLine26Parent}>
           <div className={styles.wrapperLine26}>
-            <img
+            <ImageComponent
               className={styles.wrapperLine26Child}
               alt=""
-              src="/line-26.svg"
+              src={line26}
             />
           </div>
           <div className={styles.wrapperLine27}>
-            <img
+            <ImageComponent
               className={styles.wrapperLine27Child}
               alt=""
-              src="/line-27.svg"
+              src={line27}
             />
           </div>
-          <img
+          <ImageComponent
             className={styles.frameChild}
             loading="lazy"
             alt=""
-            src="/group-241@2x.png"
+            src={group2412x}
           />
         </div>
       </div>

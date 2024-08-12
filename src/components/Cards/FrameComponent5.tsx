@@ -1,6 +1,12 @@
 import { FunctionComponent } from "react";
 import styles from "./FrameComponent5.module.css";
 
+import ImageComponent from '../ImageComponent';
+
+import star9 from '../../assets/svg/Cards/star-9.svg';
+
+import starIcon from '../../assets/svg/Cards/star-12.svg';
+import exclusiveBusinessRewards from '../../assets/svg/Cards/exclusive-business-rewards.svg';
 export interface FrameComponent5Type {
   className?: string;
 };
@@ -20,6 +26,7 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
           </div>
           <div className={styles.rewardsDescription}>
             <div className={styles.maximizeYourBusinessPotentiWrapper}>
+            <div className={styles.container}>
               <div className={styles.maximizeYourBusiness}>
                 Maximize your business potential with our exclusive rewards
                 program. Earn points on every purchase and redeem them for
@@ -27,19 +34,32 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
                 rewards that can help you save and grow your business
                 efficiently.
               </div>
-            </div>
-            <img
-              className={styles.rewardsStarIcon}
-              loading="lazy"
-              alt=""
-              src="/star-9.svg"
-            />
-          </div>
-        </div>
-        <div className={styles.rewardsPicker}>
+              <div className={styles.rewardsPicker}>
           <button className={styles.component3}>
             <b className={styles.pickAPlan}>Try it now</b>
           </button>
+        </div>
+              <section className={styles.starSecurityParent}>
+            <ImageComponent
+            className={styles.starSecurityIcon}
+            alt="Star Security Icon"
+            src={starIcon}
+            />
+            <ImageComponent
+            className={styles.exclusiveBusinessRewardsIcon}
+            alt="Exclusive Business Rewards"
+            src={exclusiveBusinessRewards}
+            />
+        </section>
+        </div>
+            </div>
+            <ImageComponent
+              className={styles.rewardsStarIcon}
+              loading="lazy"
+              alt=""
+              src={star9}
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -156,18 +156,53 @@
   color: var(--color1);
   font-family: var(--font-schibsted-grotesk);
 }
-@media screen and (max-width: 800px) {
-  .versatileCardSolutionsContainer {
-    font-size: var(--font-size-32xl);
-    line-height: 4.375rem;
+
+@media screen and (max-width: 1125px) {
+  
+  .unlockAWorld {
+    flex: 1;
+    letter-spacing: 0.01em;
+    line-height: 192%;
+    max-width: 100%;
+    padding-top: 7vh;
   }
+  .solutionDescriptionChild{
+    visibility: hidden;
+  }
+
 }
 @media screen and (max-width: 450px) {
-  .versatileCardSolutionsContainer {
-    font-size: var(--font-size-19xl);
-    line-height: 3.313rem;
+  .frameChild{
+    visibility: hidden;
   }
-  .cardPair {
-    gap: var(--gap-lgi);
+  .starSecurityIcon
+  {
+    visibility: hidden;
+  }
+  .accordionIcon{
+    visibility: hidden;
+  }
+  .protectYourBusiness {
+    
+    position: relative;
+    width: 70vw;
+    font-size: var(--font-size-lg);
+    letter-spacing: 0.01em;
+    line-height: 192%;
+    color: var(--color-black);
+    display: inline-block;
+    left: 0;
+    padding-top: 2rem;
+    
+  }
+  .enhancedSecurityFeaturesContainer {
+    margin-top: -8rem;
+  }
+  .versatileCardSolutionsWrapper {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+  }
+  .versatileCardSolutionsContainer {
+    line-height: 1.5rem;
   }
 }

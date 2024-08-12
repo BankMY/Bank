@@ -1,6 +1,12 @@
 import { FunctionComponent } from "react";
 import styles from "./CardRow1.module.css";
 
+import ImageComponent from '../ImageComponent';
+
+import star6 from '../../assets/svg/Cards/star-6.svg';
+import line24 from '../../assets/svg/Cards/line-24.svg';
+import star7 from '../../assets/svg/Cards/star-7.svg';
+
 export interface CardRow1Type {
   className?: string;
 };
@@ -12,11 +18,11 @@ const CardRow1: FunctionComponent<CardRow1Type> = ({ className = "" }) => {
         <div className={styles.cardContainer}>
           <div className={styles.cardContent}>
             <div className={styles.cardFeature}>
-              <img
+              <ImageComponent
                 className={styles.securityFeatureIcon}
                 loading="lazy"
                 alt=""
-                src="/star-6.svg"
+                src={star6}
               />
               <div className={styles.solutionDescription}>
                 <div className={styles.versatileCardSolutionsWrapper}>
@@ -28,11 +34,11 @@ const CardRow1: FunctionComponent<CardRow1Type> = ({ className = "" }) => {
                     </span>
                   </h1>
                 </div>
-                <img
+                <ImageComponent
                   className={styles.solutionDescriptionChild}
                   loading="lazy"
                   alt=""
-                  src="/line-24.svg"
+                  src={line24}
                 />
               </div>
             </div>
@@ -45,11 +51,11 @@ const CardRow1: FunctionComponent<CardRow1Type> = ({ className = "" }) => {
               our options are designed to provide convenience, security, and
               control.
             </div>
-            <img
+            <ImageComponent
               className={styles.financialStarIcon}
               loading="lazy"
               alt=""
-              src="/star-7.svg"
+              src={star7}
             />
           </div>
         </div>
