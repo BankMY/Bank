@@ -31,6 +31,7 @@
     width: 81rem;
     line-height: 1.875rem;
     font-weight: 600;
+    font-size: 2rem;
   }
   
   .veridionIsA {
@@ -38,14 +39,17 @@
     max-width: 100%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out,
+    padding-top 0.5s ease-in-out,
     padding-bottom 0.5s ease-in-out;
     height: 0;
     overflow: hidden;
+    font-size: 1.4rem;
   }
   .veridionIsA.visible {
     opacity: 1;
     height: auto;
-    padding-bottom: 5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
   }
 
   .arrow {
@@ -55,4 +59,25 @@
   
   .arrow.rotated {
     transform: rotate(180deg);
+  }
+
+
+
+  @media screen and (max-width: 825px) {
+    .whatIsVeridion {
+      font-size: 2rem;
+    }
+    
+    .veridionIsA {
+      font-size: 1.1rem;
+    }
+  }
+  @media screen and (max-width: 525px) {
+    .whatIsVeridion {
+      font-size: 1.5rem;
+    }
+    
+    .veridionIsA {
+      font-size: 1rem;
+    }
   }
