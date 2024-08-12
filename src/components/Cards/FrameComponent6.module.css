@@ -28,7 +28,7 @@
   flex: 1;
   position: relative;
   min-width: 36.813rem;
-  max-width: 100%;
+  width: 100%;
 }
 .dataCellIcon {
   height: 4.063rem;
@@ -235,34 +235,99 @@
   color: var(--color1);
   font-family: var(--font-schibsted-grotesk);
 }
+
+
 @media screen and (max-width: 1125px) {
-  .currencyContentParent {
-    padding-bottom: var(--padding-23xl);
-    box-sizing: border-box;
+  
+  .currencyTitleChild {
+    left: 14vw;
+    height: 1.25rem;
+  }
+ 
+  .multiCurrencyCapabilities {
+
+    padding-top: -25rem;
+    margin-top: -5rem;
+  }
+  .wrapperLine26Parent {
+    
+    width: 70vw;
+    left: 0;
+    
+  }
+  .frameChild {
+    position: absolute;
+    left: 0;
+    width: 80vw;
+  }
+  .wrapperLine26Child{
+    left: 0;
+    width: 80vw;
+  }
+  .wrapperLine27Child{
+    width: 100%;
+    height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -10rem;
+  
+  transform: scale(1.012);
+    width: 80vw;
+  }
+  .currencyTitleChild{
+    visibility: hidden;
   }
 }
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 450px) {
+  .currencyTitleChild {
+    left: 14vw;
+    height: 1.25rem;
+  }
+ 
   .multiCurrencyCapabilities {
-    font-size: var(--font-size-32xl);
-    line-height: 4.375rem;
+
+    padding-top: -25rem;
+    margin-top: -5rem;
+  }
+  .wrapperLine26Parent {
+    
+    width: 70vw;
+    left: 0;
+    
+  }
+  .frameChild {
+    position: absolute;
+    left: 0;
+    width: 80vw;
+  }
+  .wrapperLine26Child{
+    left: 0;
+    width: 80vw;
+  }
+  .wrapperLine27Child{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: -10rem;
+  
+  transform: scale(1.012);
+    width: 80vw;
+  }
+  .currencyTitleChild{
+    visibility: hidden;
   }
   .currencyTitle {
-    min-width: 100%;
+    font-size: 1.5rem;
   }
-  .currencyFeatures {
-    gap: var(--gap-lgi);
-  }
-  .currencyContentParent {
-    gap: var(--gap-xl);
-  }
-}
-@media screen and (max-width: 450px) {
   .multiCurrencyCapabilities {
-    font-size: var(--font-size-19xl);
-    line-height: 3.313rem;
+    margin: 0;
+    line-height: 2.5rem;
+    width: 65vw;
   }
-  .currencyContentParent {
-    padding-bottom: var(--padding-8xl);
-    box-sizing: border-box;
+  .shadow {
+    margin-bottom: 2rem;
   }
 }
+

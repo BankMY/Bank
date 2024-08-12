@@ -5,6 +5,8 @@ import ImageComponent from '../ImageComponent';
 import line28 from '../../assets/svg/Cards/line-28.svg';
 import star9 from '../../assets/svg/Cards/star-9.svg';
 
+import starIcon from '../../assets/svg/Cards/star-12.svg';
+import enhancedSecurityFeatures from '../../assets/svg/Cards/enhanced-security-features.svg';
 export interface CardRowType {
   className?: string;
 };
@@ -23,13 +25,7 @@ const CardRow: FunctionComponent<CardRowType> = ({ className = "" }) => {
                   alt=""
                   src={line28}
                 />
-                <h1 className={styles.enhancedSecurityFeaturesContainer}>
-                  <span>Enhanced</span>
-                  <span className={styles.securityFeatures}>
-                    {" "}
-                    Security Features
-                  </span>
-                </h1>
+                
               </div>
               <ImageComponent
                 className={styles.accordionHeaderIcon}
@@ -39,6 +35,14 @@ const CardRow: FunctionComponent<CardRowType> = ({ className = "" }) => {
               />
             </div>
           </div>
+      <div className={styles.container}>
+                <h1 className={styles.enhancedSecurityFeaturesContainer}>
+                  <span>Enhanced</span>
+                  <span className={styles.securityFeatures}>
+                    {" "}
+                    Security Features
+                  </span>
+                </h1>
           <div className={styles.protectYourBusiness}>
             Protect your business with our advanced security features. Our cards
             are equipped with state-of-the-art encryption and fraud detection
@@ -46,6 +50,19 @@ const CardRow: FunctionComponent<CardRowType> = ({ className = "" }) => {
             on your business goals with peace of mind, knowing your finances are
             well-guarded.
           </div>
+          <section className={styles.accordionParent}>
+          <ImageComponent
+            className={styles.accordionIcon}
+            alt="Accordion Icon"
+            src={starIcon}
+          />
+          <ImageComponent
+            className={styles.enhancedSecurityFeaturesIcon}
+            alt="Enhanced Security Features"
+            src={enhancedSecurityFeatures}
+          />
+        </section>
+      </div>
         </div>
         <div className={styles.component3Wrapper}>
           <button className={styles.component3}>

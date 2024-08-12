@@ -270,7 +270,9 @@
   justify-content: center;
   padding: 0 var(--padding-xl) 29.118rem;
   box-sizing: border-box;
-  max-width: 100%;
+  width: 100vw;
+  
+
 }
 .accordionIcon {
   height: 4.063rem;
@@ -604,90 +606,43 @@
   color: var(--color);
   font-family: var(--font-red-hat-display);
 }
-.cards {
-  width: 100%;
-  background-color: var(--color-white);
-  flex-direction: column;
-  align-items: center;
-  gap: 6.062rem;
-  line-height: normal;
-  letter-spacing: normal;
-}
+
 @media screen and (max-width: 1325px) {
-  .headerFinal {
-    gap: var(--gap-253xl);
-  }
+  
   .solutionCardsWrapper {
-    padding-bottom: 12.313rem;
-    box-sizing: border-box;
-  }
-  .footer {
-    padding-left: var(--padding-199xl);
-    padding-right: var(--padding-199xl);
-    box-sizing: border-box;
+    /* align-self: stretch; */
+    /* align-self:baseline;
+    align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 29.118rem;
+  box-sizing: border-box;
+  max-width: 100%; */
+  
+  /* display: inline-block;
+  max-width: 50%; */
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  column-width: 1rem;
+  width:100%;
+  
   }
 }
 @media screen and (max-width: 1125px) {
-  .cardsComponent {
-    display: none;
-  }
-  .logoSignIn {
-    width: 16.063rem;
-  }
   .solutionCardsWrapper {
-    padding-bottom: 8rem;
-    box-sizing: border-box;
-  }
-  .cards {
-    gap: var(--gap-29xl);
+  width: 80vw;
+  margin-left: 10vw;
   }
 }
 @media screen and (max-width: 800px) {
-  .cardsComponent {
-    gap: var(--gap-15xl);
-  }
-  .signInSignUp {
-    display: none;
-  }
-  .headerFinal {
-    gap: var(--gap-117xl);
-  }
-  .solutionContainer {
-    padding-bottom: var(--padding-30xl);
-    box-sizing: border-box;
-  }
-  .footer {
-    padding-left: var(--padding-90xl);
-    padding-right: var(--padding-90xl);
-    box-sizing: border-box;
-  }
-  .cards {
-    gap: var(--gap-5xl);
-  }
+  
 }
 @media screen and (max-width: 450px) {
-  .headerFinal {
-    gap: var(--gap-49xl);
-  }
   .solutionCardsWrapper {
-    padding-bottom: 5.188rem;
-    box-sizing: border-box;
-  }
-  .aboutTheBank,
-  .contactInformation,
-  .contactInformation1,
-  .contactInformation2,
-  .contactInformation3,
-  .contactInformation4,
-  .contactInformation5,
-  .contactInformation6,
-  .contactInformation7,
-  .ourSocialMedia,
-  .support {
-    font-size: var(--font-size-base);
-  }
-  .footer {
-    padding: var(--padding-52xl) var(--padding-xl);
-    box-sizing: border-box;
-  }
+    width: 90vw;
+    margin-left: 5vw;
+    }
 }
