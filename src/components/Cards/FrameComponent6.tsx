@@ -8,6 +8,8 @@ import star12 from '../../assets/svg/Cards/star-12.svg';
 import line26 from '../../assets/svg/Cards/line-26.svg';
 import line27 from '../../assets/svg/Cards/line-27.svg';
 import group2412x from '../../assets/png/Cards/group-241@2x.png';
+
+
 export interface FrameComponent6Type {
   className?: string;
 };
@@ -56,6 +58,7 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
                 operating internationally, our cards make global transactions
                 seamless and cost-effective.
               </div>
+              
             </div>
           </div>
           <div className={styles.currencyPicker}>

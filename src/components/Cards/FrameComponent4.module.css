@@ -428,7 +428,7 @@
   border-radius: var(--br-7xl);
   background-color: var(--color-white);
   display: none;
-  max-width: 100%;
+  width: 100%;
   z-index: 0;
 }
 .aadressiandmeteSsteemiEesm,
@@ -532,7 +532,7 @@
   box-shadow: var(--effect);
   border-radius: var(--br-7xl);
   background-color: var(--color-white);
-  max-width: 100%;
+  max-width: 50%;
 }
 .maaamet {
   flex: 1;
@@ -615,6 +615,7 @@
   justify-content: flex-start;
   gap: var(--gap-7xs);
   font-size: var(--font-size-7xl);
+  
 }
 .theUltraPlan {
   flex: 1;
@@ -632,7 +633,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 100%;
+  width: 100%;
 }
 .theUltraPlanIsOurTopTierWrapper {
   align-self: stretch;
@@ -661,19 +662,23 @@
   position: relative;
   min-width: 31.75rem;
   min-height: 19.188rem;
+  
 }
 .planComparison1 {
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
   gap: var(--gap-21xl);
+  width: 50%;
 }
 .planComparison1,
 .progressContent,
 .progressContentWrapper {
   display: flex;
   align-items: flex-start;
-  max-width: 100%;
+  width: 95vw;
+  margin-right: -4vw;
+  
 }
 .progressContent {
   width: 100rem;
@@ -692,89 +697,85 @@
   color: var(--color);
   font-family: var(--font-schibsted-grotesk);
 }
-@media screen and (max-width: 1325px) {
-  .maaamet,
-  .tags {
-    flex: 1;
-  }
-  .planComparison1 {
-    flex-wrap: wrap;
-  }
+@media screen and (max-width: 1125px) {
+  .planComparison1,
+.progressContent,
+.progressContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 90vw;
+  margin-left: 1.5vw;
+
 }
-@media screen and (max-width: 800px) {
-  .moreEffectiveWayContainer {
-    font-size: var(--font-size-32xl);
-    line-height: 4.375rem;
-  }
-  .standart,
-  .standart1,
-  .standart2 {
-    font-size: var(--font-size-13xl);
-  }
-  .planComparison {
-    gap: var(--gap-lgi);
-  }
-  .ironPlan {
-    font-size: var(--font-size-13xl);
-  }
-  .maaamet {
-    min-width: 100%;
-  }
-  .ultraPlan {
-    font-size: var(--font-size-13xl);
-  }
-  .tags {
-    min-width: 100%;
-  }
-  .planComparison1 {
-    gap: var(--gap-xl);
-  }
-  .progressContent {
-    gap: var(--gap-lgi);
-  }
+.planComparison1 {
+  flex-direction: column;
 }
+.maaamet,
+.tagsChild {
+  max-width: 100vw;
+  margin-right: 5vw;
+}
+.frameParent1,
+.tags,
+.theUltraPlanIsOurTopTierWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 85vw;
+  margin-right: 5vw;
+  
+}
+.theUltraPlan {
+  max-width: 92%;
+}
+}
+
 @media screen and (max-width: 450px) {
-  .moreEffectiveWayContainer {
-    font-size: var(--font-size-19xl);
-    line-height: 3.313rem;
+  .planComparison1{
+    display: flex;
+    align-items: flex-start;
+    margin-left: -10rem;
+    scale: 0.75;
   }
-  .standart {
-    font-size: var(--font-size-5xl);
+  .progressContent{
+    width: 80vw;
+    scale: 0.8;
   }
-  .free {
-    font-size: var(--font-size-2xl);
+  .planComparison{
+    margin-left: -5rem;
+    
   }
-  .olulisedLingid {
-    min-width: 100%;
+  .progressContentWrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 5rem;
+  
   }
-  .standart1 {
-    font-size: var(--font-size-5xl);
+  .maaamet,
+  .tagsChild {
+    max-width: 80vw;
+    margin-right: 100vw;
+    
   }
-  .free1 {
-    font-size: var(--font-size-2xl);
+  .frameParent1,
+  .tags,
+  .theUltraPlanIsOurTopTierWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 85vw;
+    margin-right: 5vw;
+    
   }
-  .alternativeContactEmail {
-    min-width: 100%;
+  .theUltraPlan {
+    max-width: 92%;
   }
-  .standart2 {
-    font-size: var(--font-size-5xl);
-  }
-  .free2 {
-    font-size: var(--font-size-2xl);
-  }
-  .infoinfoee {
-    min-width: 100%;
-  }
-  .ironPlan {
-    font-size: var(--font-size-5xl);
-  }
-  .month {
-    font-size: var(--font-size-2xl);
-  }
-  .ultraPlan {
-    font-size: var(--font-size-5xl);
-  }
-  .month1 {
-    font-size: var(--font-size-2xl);
-  }
+  
+    .moreEffectiveWayContainer {
+      margin: -5rem;
+      margin-right: 5rem;
+      line-height: 2.5rem;
+      font-size: 1.5rem;
+    }
+  
 }
