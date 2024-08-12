@@ -19,19 +19,19 @@ const Services: FunctionComponent = () => {
         deposits="Loans"
         secureYourFundsAndWatchTh="Veridion Bank offers a variety of loan products to help you finance your dreams and manage your expenses. Our competitive rates and flexible terms make borrowing simple and stress-free."
         goldBars={gold_bars}
-        userhref="/"
+        userhref="/loans"
       />
       <Hero
         deposits="Deposits"
         secureYourFundsAndWatchTh="Secure your funds and watch them grow with Veridion Bank’s range of deposit accounts. We provide safe and convenient options for managing your money effectively."
         goldBars={deposits}
-        userhref="/"
+        userhref="/deposits"
       />
       <Hero
         deposits="Investments"
         secureYourFundsAndWatchTh="Grow your wealth and secure your future with Veridion Bank’s comprehensive investment services. Our expert advisors provide personalized guidance to help you make informed investment decisions."
         goldBars={investments}
-        userhref="/"
+        userhref="/investments"
       />
       <Hero
         deposits="Insurance"
@@ -40,7 +40,7 @@ const Services: FunctionComponent = () => {
         We partner with leading insurers to offer you reliable 
         coverage and peace of mind."
         goldBars={Insurance}
-        userhref="/"
+        userhref="/insurance"
       />
       </main>
       

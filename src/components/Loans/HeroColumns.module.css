@@ -1,0 +1,144 @@
+.products {
+  color: var(--color1);
+}
+.investmentProducts {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.featureNames {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+}
+.exploreOurRange {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  color: var(--color-black);
+  text-align: center;
+}
+.heroHighlights {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.pickAPlan {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+}
+.component2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.component2:hover {
+  background-color: var(--color-blueviolet-100);
+}
+.faq {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 2.625rem;
+}
+.heroButtons,
+.heroCallToAction,
+.heroFaq {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.heroFaq {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color);
+  border-radius: var(--br-25xl);
+  justify-content: flex-start;
+}
+.heroFaq:hover {
+  background-color: var(--color-dimgray-300);
+}
+.heroButtons,
+.heroCallToAction {
+  max-width: 100%;
+}
+.heroButtons {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.heroCallToAction {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.heroFeatures {
+  width: 83.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+}
+.heroColumns {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 800px) {
+  .investmentProducts {
+    font-size: var(--font-size-32xl);
+  }
+  .heroButtons {
+    flex-wrap: wrap;
+  }
+  .heroFeatures {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .investmentProducts {
+    font-size: var(--font-size-19xl);
+  }
+  .faq {
+    font-size: var(--font-size-base);
+  }
+}

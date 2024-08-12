@@ -1,0 +1,77 @@
+.houseIcon {
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.houseWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-32xl);
+}
+.planForA,
+.retirementAcc {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.retirementAcc {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.planForA {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.featureRows {
+  width: 25.313rem;
+  box-shadow: 0 0 28px #d4c4f6;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) var(--padding-12xl) var(--padding-26xl)
+    var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}
+@media screen and (max-width: 800px) {
+  .retirementAcc {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .houseWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .retirementAcc {
+    font-size: var(--font-size-lgi);
+  }
+  .planForA {
+    font-size: var(--font-size-base);
+  }
+  .featureRows {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

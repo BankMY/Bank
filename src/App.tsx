@@ -15,6 +15,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import ForBusiness from './pages/ForBusiness';
+import LoansUpdate from './pages/LoansUpdate';
 
 
 
@@ -64,6 +65,15 @@ function App() {
               <Footer />
             </>
           } />
+          <Route path="/loans" element={
+            <>
+              <HeaderFinal active='services'/>
+              <LoansUpdate/>
+              <Footer />
+            </>
+          } />
+
+
           <Route path="/for-business" element={
             <>
               <HeaderFinal active='for-business'/>

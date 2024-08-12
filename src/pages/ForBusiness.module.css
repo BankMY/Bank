@@ -776,7 +776,9 @@
   }
 }
 @media screen and (max-width: 825px) {
-  
+  .fAQTitleChild {
+    visibility: hidden;
+  }
   .onePlatformForContainer {
     font-size: var(--font-size-29xl);
     line-height: 5.25rem;
