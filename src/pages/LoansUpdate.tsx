@@ -3,8 +3,6 @@ import { FunctionComponent } from "react";
 import HeroColumns from "../components/Loans/HeroColumns";
 import FundContent from "../components/Loans/FundContent";
 import FeatureRows from "../components/Loans/FeatureRows";
-import FeatureRows1 from "../components/Loans/FeatureRows1";
-import ShortTermDescription from "../components/Loans/ShortTermDescription";
 import styles from "./LoansUpdate.module.css";
 
 import loans from "../assets/svg/Loans/loans.svg";
