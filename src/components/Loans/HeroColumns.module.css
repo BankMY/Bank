@@ -42,6 +42,7 @@
   font-family: var(--font-red-hat-display);
   color: var(--color-white);
   text-align: left;
+  transition: color 0.3s ease;
 }
 .component2 {
   cursor: pointer;
@@ -54,9 +55,15 @@
   align-items: flex-start;
   justify-content: flex-start;
   white-space: nowrap;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 .component2:hover {
-  background-color: var(--color-blueviolet-100);
+  background-color: #afe638;
+}
+
+.component2:hover .pickAPlan {
+  color: black;
 }
 .faq {
   position: relative;

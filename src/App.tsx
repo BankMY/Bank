@@ -16,6 +16,7 @@ import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import ForBusiness from './pages/ForBusiness';
 import LoansUpdate from './pages/LoansUpdate';
+import InsuranceUpdate from './pages/InsuranceUpdate';
 
 
 
@@ -72,7 +73,13 @@ function App() {
               <Footer />
             </>
           } />
-
+          <Route path="/insurance" element={
+            <>
+              <HeaderFinal active='services'/>
+              <InsuranceUpdate/>
+              <Footer />
+            </>
+          } />
 
           <Route path="/for-business" element={
             <>

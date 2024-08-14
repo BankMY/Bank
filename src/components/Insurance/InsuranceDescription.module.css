@@ -1,0 +1,132 @@
+.protectWhatMatters {
+  width: 50.625rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -12.875rem;
+  bottom: 6.25rem;
+  letter-spacing: 0.01em;
+  line-height: 192%;
+  display: inline-block;
+  z-index: 1;
+}
+.insurance,
+.pickAPlan {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.insurance {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+}
+.pickAPlan {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-red-hat-display);
+  color: var(--color-white);
+  text-align: left;
+  transition: color 0.3s ease;
+}
+.component1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-21xl);
+  background-color: var(--color1);
+  border-radius: var(--br-25xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+.component1:hover {
+  background-color: #afe638;
+}
+
+.component1:hover .pickAPlan {
+  color: black;
+}
+.insuranceHighlight {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-127xl);
+  font-size: var(--font-size-77xl);
+  color: var(--color);
+}
+.insuranceHighlight,
+.veridionContent,
+.veridionInsurance {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.veridionContent {
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.veridionInsurance {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  min-width: 37.75rem;
+}
+.insuranceIcon {
+  height: 21.563rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 40.563rem;
+}
+.insuranceDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-schibsted-grotesk);
+}
+@media screen and (max-width: 1325px) {
+  .veridionInsurance {
+    flex: 1;
+  }
+  .insuranceDescription {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .insurance {
+    font-size: var(--font-size-29xl);
+  }
+  .insuranceHighlight {
+    gap: var(--gap-54xl);
+  }
+  .insuranceIcon,
+  .veridionInsurance {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .insurance {
+    font-size: var(--font-size-10xl);
+  }
+  .insuranceHighlight {
+    gap: var(--gap-17xl);
+  }
+  .insuranceDescription {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
