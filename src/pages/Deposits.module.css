@@ -238,6 +238,7 @@
     
   }
   .unsecuredLoan {
+    margin-left: 8rem;
     align-self: stretch;
     justify-content: flex-start;
     padding: 0 0 var(--padding-13xl-4) var(--padding-12xs);
@@ -718,31 +719,300 @@
     }
   }
 
-  .shapeIcon {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    position: absolute;
-    left: -0.062rem;
-    top: 0;
-    transform: scale(1.01);
+  .logoIcon {
+    align-self: stretch;
+    height: 2.188rem;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
   }
-  .wrapperShape {
+  .logoContainer {
+    width: 8.563rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 0.375rem;
+    box-sizing: border-box;
+  }
+  .cards {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 3.125rem;
+  }
+  .component4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.75rem 0;
+  }
+  .cards1 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.563rem;
+  }
+  .component5 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.75rem 0;
+    color: #5e1ee5;
+  }
+  .cards2 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.688rem;
+  }
+  .component6 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.75rem 0;
+  }
+  .cards3 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 5rem;
+    white-space: nowrap;
+  }
+  .component4Parent,
+  .logoContainerParent {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .component4Parent {
+    margin: 0;
+    width: 30.125rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4.25rem;
+    text-align: left;
+    font-size: 1.125rem;
+    color: #1c2027;
+    font-family: "Red Hat Display";
+  }
+  .logoContainerParent {
+    width: 46.188rem;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1.25rem;
+  }
+  .signIn1 {
+    text-decoration: none;
+    position: relative;
+    font-size: 1.125rem;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-family: "Red Hat Display";
+    color: #1c2027;
+    text-align: left;
+    display: inline-block;
+    min-width: 3.563rem;
+  }
+  .signIn {
+    cursor: pointer;
+    border: 1.5px solid #1c2027;
+    padding: 0.625rem 2.687rem 0.625rem 2.812rem;
+    background-color: rgba(94, 30, 229, 0.01);
+    flex: 1;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .signIn:hover {
+    background-color: rgba(133, 69, 255, 0.01);
+    border: 1.5px solid #4f5459;
+    box-sizing: border-box;
+  }
+  .singUp {
+    text-decoration: none;
+    position: relative;
+    font-size: 1.125rem;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-family: "Red Hat Display";
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    min-width: 4.313rem;
+  }
+  .signUp {
+    cursor: pointer;
+    border: 0;
+    padding: 0.75rem 2.437rem;
+    background-color: #1c2027;
+    border-radius: 44px;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .signUp:hover {
+    background-color: #4f5459;
+  }
+  .authButtons,
+  .headerFinal,
+  .signUp {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .authButtons {
+    width: 19.75rem;
+    justify-content: flex-start;
+    gap: 1.25rem;
+  }
+  .headerFinal {
+    align-self: stretch;
+    backdrop-filter: blur(36px);
+    background-color: rgba(255, 255, 255, 0.76);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: center;
+    padding: 1.625rem 1.25rem 1.375rem;
+    gap: 34.062rem;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+  }
+  .heroIllustrationIcon {
     width: 113rem;
     height: 18.625rem;
     position: absolute;
     margin: 0 !important;
-    bottom: 95.563rem;
-    left: calc(50% - 904px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 67.625rem;
+    right: 3.125rem;
+  }
+  .secureYourFunds {
+    width: 53.75rem;
+    position: absolute;
+    margin: 0 !important;
+    right: -21.562rem;
+    bottom: 6.25rem;
+    letter-spacing: 0.01em;
+    line-height: 192%;
+    display: inline-block;
     z-index: 1;
   }
-  .insurance {
-    color: var(--color);
+  .deposits,
+  .pickAPlan {
+    position: relative;
+    letter-spacing: 0.02em;
   }
-  .healthInsurance {
+  .deposits {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .pickAPlan {
+    font-size: 1.25rem;
+    display: inline-block;
+    font-family: "Red Hat Display";
+    color: #fff;
+    text-align: left;
+    min-width: 7.438rem;
+  }
+  .component1 {
+    cursor: pointer;
+    border: 0;
+    padding: 1.125rem 2.5rem;
+    background-color: #5e1ee5;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .component1:hover {
+    background-color: #8545ff;
+  }
+  .depositsParent {
+    flex-direction: column;
+    gap: 9.125rem;
+    flex-shrink: 0;
+    font-size: 6rem;
+    color: #1c2027;
+  }
+  .depositsParent,
+  .heroTitle,
+  .secureYourFundsAndWatchThParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .secureYourFundsAndWatchThParent {
+    flex-direction: row;
+    position: relative;
+  }
+  .heroTitle {
+    flex-direction: column;
+    padding: 1.062rem 0 0;
+    box-sizing: border-box;
+    min-width: 32.188rem;
+  }
+  .depositsIcon {
+    margin-left: -0.25rem;
+    align-self: stretch;
+    height: 23.5rem;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .depositsHeader,
+  .heroTitleParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .depositsHeader {
+    flex: 1;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 44.063rem;
+  }
+  .heroTitleParent {
+    align-self: stretch;
+    flex-direction: row;
+    row-gap: 20px;
+  }
+  .deposits1 {
+    color: #1c2027;
+  }
+  .shortTermDeposits {
     margin: 0;
     position: relative;
     font-size: inherit;
@@ -751,513 +1021,758 @@
     font-weight: 700;
     font-family: inherit;
   }
-  .healthInsuranceTitle {
+  .shortDepositsType {
     align-self: stretch;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+    padding: 0 1.25rem 0 1.312rem;
   }
-  .stayCoveredWith {
-    flex: 1;
+  .needQuickAccess {
+    align-self: stretch;
     position: relative;
+    font-size: 1.125rem;
     letter-spacing: 0.01em;
     line-height: 192%;
-    display: inline-block;
-    max-width: 100%;
-  }
-  .healthInsuranceDescription {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 0 var(--padding-sm);
-    box-sizing: border-box;
-    max-width: 100%;
+    color: #000;
     text-align: center;
-    font-size: var(--font-size-lg);
-    color: var(--color-black);
   }
-  .pickAPlan {
-    position: relative;
-    font-size: var(--font-size-xl);
-    letter-spacing: 0.02em;
-    font-family: var(--font-red-hat-display);
-    color: var(--color-white);
-    text-align: left;
-    transition: color 0.3s ease;
-  }
-  .component2 {
-    cursor: pointer;
-    border: 0;
-    padding: var(--padding-lg) var(--padding-21xl);
-    background-color: var(--color1);
-    border-radius: var(--br-25xl);
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    white-space: nowrap;
-  }
-  .component2:hover {
-    background-color: var(--color-blueviolet-100);
-  }
-  .faq {
-    position: relative;
-    font-size: var(--font-size-xl);
-    letter-spacing: 0.02em;
-    display: inline-block;
-    font-family: var(--font-red-hat-display);
-    color: var(--color-white);
-    text-align: left;
-    min-width: 2.625rem;
-  }
-  .healthFAQButton,
-  .healthPlanButton {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .healthFAQButton {
-    cursor: pointer;
-    border: 0;
-    padding: var(--padding-lg) var(--padding-21xl);
-    background-color: var(--color);
-    border-radius: var(--br-25xl);
-    justify-content: flex-start;
-  }
-  .healthFAQButton:hover {
-    background-color: var(--color-dimgray-300);
-  }
-  .healthPlanButton {
-    justify-content: center;
-    gap: var(--gap-xl-5);
-    max-width: 100%;
-  }
-  .healthInsurancePlan {
+  .shortDepositsTypeParent {
     align-self: stretch;
-    justify-content: center;
-    padding: 0 var(--padding-xl) var(--padding-32xl);
-    box-sizing: border-box;
-  }
-  .frameParent,
-  .healthInsuranceContentInner,
-  .healthInsurancePlan {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    max-width: 100%;
-  }
-  .frameParent {
-    justify-content: center;
-    gap: var(--gap-173xl);
-  }
-  .healthInsuranceContentInner {
-    justify-content: flex-end;
-    padding: 4rem var(--padding-25xl);
-    box-sizing: border-box;
-  }
-  .healthInsuranceContent {
-    width: 83.125rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: var(--gap-lgi);
+    gap: 1.25rem;
+  }
+  .faq,
+  .pickAPlan1 {
+    position: relative;
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+    font-family: "Red Hat Display";
+    color: #fff;
+    text-align: left;
+  }
+  .faq {
+    display: inline-block;
+    min-width: 2.625rem;
+  }
+  .shortDepositsFaq {
+    cursor: pointer;
+    border: 0;
+    padding: 1.125rem 2.5rem;
+    background-color: #1c2027;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .shortDepositsFaq:hover {
+    background-color: #4f5459;
+  }
+  .pickPlanButton,
+  .pickPlanButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     max-width: 100%;
   }
-  .healthInsuranceContentWrapper {
-    width: 100rem;
+  .pickPlanButton {
+    justify-content: flex-start;
+    gap: 1.25rem;
+  }
+  .pickPlanButtonWrapper {
+    width: 76.25rem;
+    justify-content: center;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+  }
+  .groupIcon,
+  .groupIcon1 {
+    position: absolute;
+    top: 6.694rem;
+    width: 2.213rem;
+    height: 1.3rem;
+  }
+  .groupIcon {
+    left: 8.488rem;
+  }
+  .groupIcon1 {
+    left: 0;
+  }
+  .cancellationIcon {
+    position: absolute;
+    top: 0;
+    left: 1.238rem;
+    width: 8.225rem;
+    height: 11.519rem;
+    z-index: 1;
+  }
+  .cancellationIcon1 {
+    position: absolute;
+    top: 0.856rem;
+    left: 1.781rem;
+    width: 7.088rem;
+    height: 3.819rem;
+    z-index: 2;
+  }
+  .groupIcon2,
+  .groupIcon3,
+  .groupIcon4 {
+    position: absolute;
+    top: 5.313rem;
+    left: 2.863rem;
+    width: 4.138rem;
+    height: 0.4rem;
+    z-index: 2;
+  }
+  .groupIcon3,
+  .groupIcon4 {
+    top: 6.294rem;
+    width: 5.244rem;
+  }
+  .groupIcon4 {
+    top: 7.281rem;
+    width: 4.138rem;
+  }
+  .cancellationIcon2 {
+    position: absolute;
+    top: 0;
+    left: 1.225rem;
+    width: 8.238rem;
+    height: 9.956rem;
+    z-index: 3;
+  }
+  .cancellationIcon3 {
+    position: absolute;
+    top: 7.994rem;
+    left: 0;
+    width: 10.7rem;
+    height: 5.119rem;
+    z-index: 4;
+  }
+  .cancellationIcon4,
+  .groupIcon5 {
+    position: absolute;
+    top: 7.994rem;
+    left: 1.694rem;
+    width: 9.006rem;
+    height: 5.119rem;
+    z-index: 5;
+  }
+  .groupIcon5 {
+    top: 1.413rem;
+    left: 4.575rem;
+    width: 1.531rem;
+    height: 2.719rem;
+    z-index: 4;
+  }
+  .cancellationIcons {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .group,
+  .shortDepositOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .group {
+    height: 13.113rem;
+    width: 10.7rem;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .shortDepositOptions {
+    align-self: stretch;
+    justify-content: center;
+  }
+  .savingsAccounts {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .earnInterestWith {
+    margin: 0;
+  }
+  .earnInterestWithContainer {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .accountAccess {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.375rem 0 0;
+    box-sizing: border-box;
+    min-width: 13.875rem;
+    max-width: 100%;
+  }
+  .savingsYieldIcon {
+    position: absolute;
+    top: 2.625rem;
+    left: 1.875rem;
+    border-radius: 1px;
+    width: 5.625rem;
+    height: 6.313rem;
+  }
+  .marketYieldIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 1px;
+    width: 3.75rem;
+    height: 4.125rem;
+    z-index: 1;
+  }
+  .accountYield {
+    height: 8.938rem;
+    width: 7.5rem;
+    position: relative;
+    min-width: 7.5rem;
+  }
+  .accountDescriptions,
+  .accountOptions,
+  .shortDepositsFeatures {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .accountDescriptions {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 2.812rem;
+    max-width: 100%;
+    margin-top: -0.688rem;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+  }
+  .accountOptions,
+  .shortDepositsFeatures {
+    width: 31.688rem;
+    flex-direction: column;
+    max-width: 112%;
+    flex-shrink: 0;
+  }
+  .shortDepositsFeatures {
+    height: 26.688rem;
+    width: 32.5rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: 36px;
+    background-color: #fff;
+    overflow-y: auto;
+    padding: 2.006rem 2rem 11.568rem;
+    box-sizing: border-box;
+    gap: 2.131rem;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .shortDepositsDetails,
+  .shortDepositsPlanButton {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    padding: 0 var(--padding-xl) var(--padding-13xl);
-    box-sizing: border-box;
+    gap: 12rem;
     max-width: 100%;
   }
-  .protectionIcon1 {
+  .shortDepositsPlanButton {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  .shortDepositsPlan {
+    flex-direction: row;
+    padding: 0 2.687rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: #000;
+    font-family: "Red Hat Display";
+  }
+  .shortDepositsPlan,
+  .shortDepositsTitle,
+  .shortDepositsTitleWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .shortDepositsTitle {
+    flex: 1;
+    flex-direction: column;
+    gap: 2.062rem;
+  }
+  .shortDepositsTitleWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 2rem 0.375rem;
+    box-sizing: border-box;
+  }
+  .longTermDeposits {
+    margin: 0;
+    height: 4.938rem;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .longTermDepositsWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1.25rem;
+  }
+  .longDepositsContentParent,
+  .longDepositsPlan {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .longDepositsPlan {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+  }
+  .longDepositsContentParent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.062rem;
+  }
+  .documentIcon {
     height: 15rem;
     width: 15rem;
     position: relative;
     overflow: hidden;
     flex-shrink: 0;
   }
-  .protection {
+  .certificatesIcon {
+    align-self: stretch;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 var(--padding-25xl);
-    box-sizing: border-box;
-    max-width: 100%;
+    justify-content: center;
+    padding: 0 0 0 0.5rem;
   }
-  .liabilityCoverage,
-  .protectionForBodily {
+  .certificatesCds,
+  .fixedInterestRates {
     position: relative;
     letter-spacing: 0.02em;
-    font-weight: 600;
+    font-weight: 400;
   }
-  .liabilityCoverage {
+  .certificatesCds {
     margin: 0;
     font-size: inherit;
     text-transform: uppercase;
     font-family: inherit;
   }
-  .protectionForBodily {
-    width: 21.375rem;
-    font-size: var(--font-size-xl);
-    color: var(--color-dimgray-100);
-    display: inline-block;
-    max-width: 100%;
-  }
-  .liability,
-  .protectionIcon {
+  .fixedInterestRates {
     align-self: stretch;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+  }
+  .certificateTerms {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: var(--gap-2xs);
+    gap: 0.75rem;
+    min-width: 13.875rem;
     max-width: 100%;
   }
-  .protectionIcon {
-    gap: var(--gap-mid);
-    flex-shrink: 0;
-  }
-  .extrudeGroupIcon {
-    margin-left: -57.313rem;
-    width: 0;
-    height: 0;
+  .retirementAccounts {
+    align-self: stretch;
+    height: 8.938rem;
     position: relative;
-    flex-shrink: 0;
   }
-  .protectionIconParent {
-    height: 26.688rem;
-    width: 25.313rem;
-    box-shadow: 0 0 28px #d4c4f6;
-    border-radius: var(--br-17xl);
-    background-color: var(--color-white);
-    overflow: hidden;
-    flex-shrink: 0;
+  .retirementOptions {
+    width: 7.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: var(--padding-lgi) var(--padding-lgi) var(--padding-26xl)
-      var(--padding-13xl);
+    padding: 2rem 0 0;
     box-sizing: border-box;
-    gap: var(--gap-218xl);
+    min-width: 7.5rem;
+  }
+  .certificateDetails,
+  .certificateTypes {
+    width: 31.688rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2.812rem;
+    flex-shrink: 0;
+    max-width: 112%;
+  }
+  .certificateTypes {
+    height: 26.688rem;
+    width: 32.5rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: 36px;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.437rem 2rem 10.25rem;
+    box-sizing: border-box;
+    gap: 0.812rem;
     max-width: 100%;
     z-index: 1;
   }
-  .frameChild {
+  .certificateTypesChild {
     height: 18.625rem;
     width: 113rem;
     position: absolute;
     margin: 0 !important;
-    top: 3.875rem;
-    left: -43.875rem;
-    object-fit: contain;
+    top: 2.563rem;
+    left: -62.5rem;
   }
-  .autoIcon1 {
-    height: 15rem;
-    width: 15rem;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .autoIcon {
+  .pensionWrapper {
     align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 var(--padding-33xl) 0 var(--padding-31xl);
-  }
-  .andCollision,
-  .comprehensive {
-    margin: 0;
-  }
-  .comprehensiveAndCollisionContainer {
-    margin: 0;
-    position: relative;
-    font-size: inherit;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: inherit;
-  }
-  .coverageForTheft {
-    align-self: stretch;
-    position: relative;
-    font-size: var(--font-size-xl);
-    letter-spacing: 0.02em;
-    font-weight: 600;
-    color: var(--color-dimgray-100);
-  }
-  .autoIconParent,
-  .collision,
-  .vectorParent {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .collision {
-    align-self: stretch;
-    flex-direction: column;
-    gap: var(--gap-2xs);
-  }
-  .autoIconParent,
-  .vectorParent {
-    max-width: 100%;
-  }
-  .autoIconParent {
-    flex: 1;
-    box-shadow: 0 0 28px #d4c4f6;
-    border-radius: var(--br-17xl);
-    background-color: var(--color-white);
-    overflow: hidden;
-    flex-direction: column;
-    padding: var(--padding-smi) var(--padding-12xl) var(--padding-7xl)
-      var(--padding-13xl);
-    box-sizing: border-box;
-    gap: 0.062rem;
-    z-index: 1;
-  }
-  .vectorParent {
-    width: 25.313rem;
-    flex-direction: row;
-    position: relative;
-  }
-  .ideaIcon {
-    height: 15rem;
-    width: 15rem;
-    position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .ideaWrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 var(--padding-33xl) 0 var(--padding-31xl);
-  }
-  .additionOptions {
-    margin: 0;
-    position: relative;
-    font-size: inherit;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: inherit;
-    display: inline-block;
-    max-width: 100%;
-  }
-  .extrudeGroupIcon1 {
-    width: 0;
-    height: 0;
-    position: absolute;
-    margin: 0 !important;
-    top: 1.188rem;
-    left: 11.875rem;
-  }
-  .uninsuredMotoristPersonal {
-    align-self: stretch;
-    position: relative;
-    font-size: var(--font-size-xl);
-    letter-spacing: 0.02em;
-    font-weight: 600;
-    color: var(--color-dimgray-100);
-  }
-  .frameContainer {
-    width: 25.313rem;
-    box-shadow: 0 0 28px #d4c4f6;
-    border-radius: var(--br-17xl);
-    background-color: var(--color-white);
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: var(--padding-8xl) var(--padding-12xl) var(--padding-26xl)
-      var(--padding-13xl);
-    box-sizing: border-box;
-    position: relative;
-    gap: var(--gap-2xs-5);
-    max-width: 100%;
-    z-index: 1;
-  }
-  .frameGroup,
-  .lifeInsuranceContent {
-    width: 100rem;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 100%;
-    gap: var(--gap-xl);
-    font-size: var(--font-size-13xl);
-    color: var(--color-black);
-    font-family: var(--font-red-hat-display);
-  }
-  .lifeInsuranceContent {
-    width: 100.688rem;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: var(--gap-51xl);
-    text-align: left;
-    font-size: var(--font-size-45xl);
-    color: var(--color1);
-    font-family: var(--font-schibsted-grotesk);
-  }
-  .lifeInsuranceContentWrapper {
-    width: 119.313rem;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    padding: 0 var(--padding-xl) var(--padding-15xl);
-    box-sizing: border-box;
+    padding: 0 0.625rem 0 0;
+  }
+  .taxAdvantagedSavingsForContainer {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    display: inline-block;
     max-width: 100%;
   }
-  .insuranceUpdate {
-    width: 100%;
-    position: relative;
-    background-color: var(--color-white);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: var(--gap-67xl);
-    line-height: normal;
-    letter-spacing: normal;
+  .taxRatingParent {
+    height: 8.938rem;
+    width: 7.5rem;
+    position: absolute;
+    margin: 0 !important;
+    right: -2.687rem;
+    bottom: -4.312rem;
   }
-  .insuranceOptions {
-    width: 100rem;
+  .retirementDescription {
+    align-self: stretch;
+    flex-direction: row;
+    position: relative;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+  }
+  .certificateTypes1,
+  .frameParent,
+  .retirementAccIrasParent,
+  .retirementDescription {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .retirementAccIrasParent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .certificateTypes1,
+  .frameParent {
+    flex: 1;
+  }
+  .frameParent {
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: 36px;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 1rem 1.5rem 2.812rem 2rem;
+    box-sizing: border-box;
+    gap: 1.25rem;
+    z-index: 1;
+  }
+  .certificateTypes1 {
+    flex-direction: row;
+    position: relative;
+    min-width: 21.125rem;
+  }
+  .certificateOptions {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12rem;
+  }
+  .certificateOptions,
+  .certificateOptionsWrapper,
+  .shortDepositsContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .certificateOptionsWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 3.437rem 0 3.062rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: #000;
+    font-family: "Red Hat Display";
+  }
+  .shortDepositsContent {
+    width: 83.5rem;
+    flex-direction: column;
+    gap: 4.375rem;
+  }
+  .shortDepositsContentWrapper {
+    align-self: stretch;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
-    padding: 0 0 var(--padding-13xl);
+    justify-content: center;
+    padding: 0 1.25rem 0 1.625rem;
     box-sizing: border-box;
     max-width: 100%;
-    gap: var(--gap-xl);
+    font-size: 4rem;
+    color: #5e1ee5;
   }
-  
-  
-  
+  .heroContent {
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 7.375rem;
+    max-width: 100%;
+    text-align: left;
+    font-size: 1.125rem;
+    color: #000;
+    font-family: "Schibsted Grotesk";
+  }
+  .heroContentWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1.25rem 2.312rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .depositesUpdate {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5.187rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
   @media screen and (max-width: 1325px) {
-    .frameParent {
-      flex-wrap: wrap;
-      gap: var(--gap-77xl);
+    .headerFinal {
+      gap: 17rem;
     }
-    .healthInsuranceContentInner {
-      padding-left: var(--padding-3xl);
-      padding-right: var(--padding-3xl);
+    .heroTitle {
+      flex: 1;
+    }
+    .heroTitleParent {
+      flex-wrap: wrap;
+    }
+    .shortDepositsDetails {
+      flex-wrap: wrap;
+      gap: 6rem;
+    }
+    .shortDepositsPlan {
+      padding-left: 1.313rem;
+      padding-right: 1.313rem;
       box-sizing: border-box;
     }
-    .frameGroup {
-      flex-wrap: wrap;
-      justify-content: center;
+    .certificateOptions {
+      gap: 6rem;
     }
-    .insuranceOptions {
-      flex-wrap: wrap;
-      justify-content: center;
+    .certificateOptionsWrapper {
+      padding-left: 1.5rem;
+      padding-right: 1.688rem;
+      box-sizing: border-box;
     }
   }
   @media screen and (max-width: 1125px) {
-    .insuranceUpdate {
-      gap: var(--gap-24xl);
+    .component4Parent {
+      display: none;
+    }
+    .logoContainerParent {
+      width: 16.063rem;
+    }
+    .depositesUpdate {
+      gap: 2.563rem;
     }
   }
   @media screen and (max-width: 800px) {
-    .healthInsurance {
-      font-size: var(--font-size-32xl);
+    .component4Parent {
+      gap: 2.125rem;
     }
-    .healthPlanButton {
+    .authButtons {
+      display: none;
+    }
+    .headerFinal {
+      gap: 8.5rem;
+    }
+    .deposits {
+      font-size: 3rem;
+    }
+    .depositsParent {
+      gap: 4.563rem;
+    }
+    .depositsHeader,
+    .heroTitle {
+      min-width: 100%;
+    }
+    .shortTermDeposits {
+      font-size: 3.188rem;
+    }
+    .pickPlanButton {
       flex-wrap: wrap;
     }
-    .frameParent {
-      gap: var(--gap-29xl);
+    .savingsAccounts {
+      font-size: 1.625rem;
     }
-    .liabilityCoverage {
-      font-size: var(--font-size-7xl);
+    .accountYield {
+      flex: 1;
     }
-    .protectionIconParent {
-      padding-top: var(--padding-xl);
-      padding-bottom: var(--padding-10xl);
+    .accountDescriptions {
+      flex-wrap: wrap;
+      gap: 1.375rem;
+    }
+    .shortDepositsFeatures {
+      height: auto;
+      gap: 1.063rem;
+      padding-top: 1.313rem;
+      padding-bottom: 7.5rem;
       box-sizing: border-box;
     }
-    .additionOptions,
-    .comprehensiveAndCollisionContainer {
-      font-size: var(--font-size-7xl);
+    .shortDepositsDetails {
+      gap: 3rem;
     }
-    .lifeInsuranceContent {
-      gap: var(--gap-16xl);
+    .shortDepositsPlanButton {
+      gap: 1.5rem;
     }
-    .insuranceUpdate {
-      gap: var(--gap-2xl);
+    .shortDepositsTitle {
+      gap: 1rem;
+    }
+    .longTermDeposits {
+      font-size: 3.188rem;
+    }
+    .longDepositsContentParent {
+      gap: 1rem;
+    }
+    .certificatesCds {
+      font-size: 1.625rem;
+    }
+    .retirementOptions {
+      flex: 1;
+    }
+    .certificateDetails {
+      flex-wrap: wrap;
+      gap: 1.375rem;
+    }
+    .certificateTypes {
+      height: auto;
+      padding-top: 1.25rem;
+      padding-bottom: 6.688rem;
+      box-sizing: border-box;
+    }
+    .certificateTypes1 {
+      min-width: 100%;
+    }
+    .certificateOptions {
+      gap: 3rem;
+    }
+    .shortDepositsContent {
+      gap: 2.188rem;
+    }
+    .heroContent {
+      gap: 3.688rem;
+    }
+    .depositesUpdate {
+      gap: 1.313rem;
     }
   }
   @media screen and (max-width: 450px) {
-    .healthInsurance {
-      font-size: var(--font-size-19xl);
+    .headerFinal {
+      gap: 4.25rem;
+    }
+    .deposits {
+      font-size: 1.813rem;
+    }
+    .depositsParent {
+      gap: 2.25rem;
+    }
+    .shortTermDeposits {
+      font-size: 2.375rem;
     }
     .faq {
-      font-size: var(--font-size-base);
+      font-size: 1rem;
+    }
+    .savingsAccounts {
+      font-size: 1.188rem;
+    }
+    .earnInterestWithContainer {
+      font-size: 1rem;
+    }
+    .shortDepositsDetails {
+      gap: 1.5rem;
+    }
+    .longTermDeposits {
+      font-size: 2.375rem;
+    }
+    .certificatesCds {
+      font-size: 1.188rem;
+    }
+    .fixedInterestRates,
+    .taxAdvantagedSavingsForContainer {
+      font-size: 1rem;
     }
     .frameParent {
-      gap: var(--gap-5xl);
-    }
-    .protection {
-      padding-left: var(--padding-xl);
-      padding-right: var(--padding-xl);
+      padding-top: 1.25rem;
+      padding-bottom: 1.813rem;
       box-sizing: border-box;
     }
-    .liabilityCoverage {
-      font-size: var(--font-size-lgi);
+    .certificateOptions {
+      gap: 1.5rem;
     }
-    .protectionForBodily {
-      font-size: var(--font-size-base);
+    .shortDepositsContent {
+      gap: 1.063rem;
     }
-    .protectionIconParent {
-      gap: var(--gap-99xl);
-    }
-    .autoIcon {
-      padding-left: var(--padding-xl);
-      padding-right: var(--padding-xl);
-      box-sizing: border-box;
-    }
-    .comprehensiveAndCollisionContainer {
-      font-size: var(--font-size-lgi);
-    }
-    .coverageForTheft {
-      font-size: var(--font-size-base);
-    }
-    .ideaWrapper {
-      padding-left: var(--padding-xl);
-      padding-right: var(--padding-xl);
-      box-sizing: border-box;
-    }
-    .additionOptions {
-      font-size: var(--font-size-lgi);
-    }
-    .uninsuredMotoristPersonal {
-      font-size: var(--font-size-base);
-    }
-    .frameContainer {
-      padding-top: var(--padding-xl);
-      padding-bottom: var(--padding-10xl);
-      box-sizing: border-box;
-    }
-    .lifeInsuranceContent {
-      gap: var(--gap-mid);
+    .heroContent {
+      gap: 1.813rem;
     }
   }
   

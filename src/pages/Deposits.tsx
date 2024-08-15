@@ -16,9 +16,18 @@ import document1 from "../assets/svg/Loans/document1.svg";
 import time from "../assets/svg/Loans/time.svg";
 import speed from "../assets/svg/Loans/speed.svg";
 import prot1 from "../assets/svg/Loans/protection1.svg";
-import idea1 from "../assets/svg/Loans/idea1.svg";
+import vector12 from "../assets/svg/Deposits/Vector 12.svg";
+import vector11 from "../assets/svg/Deposits/Vector 11.svg";
 import expert from "../assets/svg/Loans/expert.svg";
+import star23 from "../assets/svg/Deposits/Star 23.svg";
+import star24 from "../assets/svg/Deposits/Star 24.svg";
+import star21 from "../assets/svg/Deposits/Star21.svg";
+import star22 from "../assets/svg/Deposits/Star22.svg";
 
+import cancellation from "../assets/svg/Deposits/cancellation.svg";
+import certificate from "../assets/svg/Deposits/certificate.svg";
+import document from "../assets/svg/Deposits/document.svg";
+import Group from "../assets/svg/Deposits/Group.svg";
 import { Link } from "react-router-dom";
 
 const Deposits: FunctionComponent = () => {
@@ -67,113 +76,206 @@ const Deposits: FunctionComponent = () => {
             />
             <div className={styles.unsecuredLoan}>
               <div className={styles.unsecuredLoanContent}>
-            <FundContent
-                  fundIllustration={vector13}
-                  plan={expert}
-                  mutualFunds="SAVINGS ACCOUNTS:"
-                  diversifiedPortfoliosMana="Earn interest with easy access to your found"
-                  propAlignSelf="unset"
-                  propWidth="25.313rem"
-                  
-                />
-                 <FeatureRows
-                  house={extrudegroup1}
-                  retirementAcc="MONEY MARKET ACCOUNTS:"
-                  planForASecureFutureWithO="Higher yields with limited check-writing privileges."
-                  propPadding="1.475rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl)"
-                  propGap="0.731rem"
-                  propWidth="35.313rem"
-                  propFlex="unset"
-                />
+              <div className={styles.certificateOptionsWrapper}>
+                <div className={styles.certificateOptions}>
+                  <div className={styles.certificateTypes}>
+                    <div className={styles.certificatesIcon}>
+                      <img
+                        className={styles.documentIcon}
+                        loading="lazy"
+                        alt=""
+                        src={certificate}
+                      />
+                    </div>
+                    <div className={styles.certificateDetails}>
+                      <div className={styles.certificateTerms}>
+                        <h2 className={styles.certificatesCds}>
+                          Savings Accounts:
+                        </h2>
+                        <div className={styles.fixedInterestRates}>
+                        Earn interest with easy access to your funds.
+                        </div>
+                      </div>
+                      <div className={styles.retirementOptions}>
+                        <div className={styles.retirementAccounts}>
+                          <img
+                            className={styles.savingsYieldIcon}
+                            loading="lazy"
+                            alt=""
+                            src={star23}
+                          />
+                          <img
+                            className={styles.marketYieldIcon}
+                            alt=""
+                            src={star24}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.certificateTypes1}>
+                    <img
+                      className={styles.certificateTypesChild}
+                      alt=""
+                      src={vector11}
+                    />
+                    <div className={styles.frameParent}>
+                      <div className={styles.pensionWrapper}>
+                        <img
+                          className={styles.documentIcon}
+                          loading="lazy"
+                          alt=""
+                          src={cancellation}
+                        />
+                      </div>
+                      <div className={styles.retirementAccIrasParent}>
+                        <h2 className={styles.savingsAccounts}>
+                          money market accounts:
+                        </h2>
+                        <div className={styles.retirementDescription}>
+                          <div
+                            className={styles.taxAdvantagedSavingsForContainer}
+                          >
+                            <p
+                              className={styles.earnInterestWith}
+                            >{`Tax-advantaged savings for `}</p>
+                            <p className={styles.earnInterestWith}>
+                              your retirement.
+                            </p>
+                          </div>
+                          <div className={styles.taxRatingParent}>
+                            <img
+                              className={styles.savingsYieldIcon}
+                              loading="lazy"
+                              alt=""
+                              src={star21}
+                            />
+                            <img
+                              className={styles.marketYieldIcon}
+                              alt=""
+                              src={star22}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
                
                 
               </div>
             </div>
-            <div className={styles.loanTypes1}>
-              <div className={styles.frameParent}>
-                <FundContent
-                  fundIllustration={vector111}
-                  plan={extrudegroup}
-                  mutualFunds="Competitive Rates:"
-                  diversifiedPortfoliosMana="Benefit from low-interest rates to make homeownership affordable."
-                  propAlignSelf="unset"
-                  propWidth="25.313rem"
-                />
-                <FeatureRows
-                  house={extrudegroup1}
-                  retirementAcc="Flexible Terms:"
-                  planForASecureFutureWithO="Choose from fixed-rate or adjustable-rate mortgages."
-                  propPadding="1.475rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl)"
-                  propGap="0.731rem"
-                  propWidth="25.313rem"
-                  propFlex="unset"
-                />
-                <FeatureRows
-                  house={expert}
-                  retirementAcc="Expert Guidance:"
-                  planForASecureFutureWithO="Our mortgage specialists are here to assist you every step of the way."
-                  propPadding="1.475rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl)"
-                  propGap="0.731rem"
-                  propWidth="25.313rem"
-                  propFlex="unset"
-                />
-                
-              </div>
-            </div>
             <HeroColumns
-              investment="Personal"
-              products=" Loans"
-              exploreOurRangeOfInvestme="Need funds for an important expense? Our personalized personal loans offer flexible terms and competitive rates to fit your financial needs. Enjoy a quick and easy application process with support from our experienced advisors. Whether for debt consolidation, home improvement, or unexpected expenses, we’re here to help. Contact us today to explore your options and get started!"
-              pickAPlan="Get Personal Loan"
+              investment="LONG-TERM"
+              products=" Deposits"
+              exploreOurRangeOfInvestme=" Planning for the future? Our long-term deposit accounts
+                    provide higher interest rates and secure growth for your
+                    financial goals. Benefit from options like long-term CDs and
+                    money market accounts, with expert support from our team.
+                    Enjoy peace of mind with guaranteed returns over extended
+                    periods. Reach out to us today to secure your financial
+                    future!"
+              pickAPlan="Get Long-Term Deposit"
               propAlignSelf="unset"
               propWidth="99.375rem"
             />
             <div className={styles.unsecuredLoan}>
               <div className={styles.unsecuredLoanContent}>
-                
-                <FeatureRows
-                  house={speed}
-                  retirementAcc="Unsecured Loans:"
-                  planForASecureFutureWithO="No collateral required for quick 
-                  and easy funding."
-                  propPadding="25px 31px 45px 32px"
-                  propGap="11.5px"
-                  propWidth="25.313rem"
-                  propFlex="unset"
-                />
-                <FeatureRows
-                  house={prot1}
-                  retirementAcc="Fixed Rates:"
-                  planForASecureFutureWithO="Enjoy predictable monthly payments. Live with best rates."
-                  propPadding="25px 31px 45px 32px"
-                  propGap="11.5px"
-                  propWidth="25.313rem"
-                  propFlex="unset"
-                />
-                <FeatureRows
-                  house={idea1}
-                  retirementAcc="Fast Approval:"
-                  planForASecureFutureWithO="Receive your funds quickly to cover immediate needs."
-                  propPadding="24px 31px 45px 32px"
-                  propGap="11.5px"
-                  propWidth="25.313rem"
-                  propFlex="unset"
-                />
+              <div className={styles.certificateOptionsWrapper}>
+                <div className={styles.certificateOptions}>
+                  <div className={styles.certificateTypes}>
+                    <div className={styles.certificatesIcon}>
+                      <img
+                        className={styles.documentIcon}
+                        loading="lazy"
+                        alt=""
+                        src={document}
+                      />
+                    </div>
+                    <div className={styles.certificateDetails}>
+                      <div className={styles.certificateTerms}>
+                        <h2 className={styles.certificatesCds}>
+                          Certificates (CDs):
+                        </h2>
+                        <div className={styles.fixedInterestRates}>
+                          Fixed interest rates for terms ranging from 6 months
+                          to 5 years.
+                        </div>
+                      </div>
+                      <div className={styles.retirementOptions}>
+                        <div className={styles.retirementAccounts}>
+                          <img
+                            className={styles.savingsYieldIcon}
+                            loading="lazy"
+                            alt=""
+                            src={star21}
+                          />
+                          <img
+                            className={styles.marketYieldIcon}
+                            alt=""
+                            src={star22}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={styles.certificateTypes1}>
+                    <img
+                      className={styles.certificateTypesChild}
+                      alt=""
+                      src={vector11}
+                    />
+                    <div className={styles.frameParent}>
+                      <div className={styles.pensionWrapper}>
+                        <img
+                          className={styles.documentIcon}
+                          loading="lazy"
+                          alt=""
+                          src={Group}
+                        />
+                      </div>
+                      <div className={styles.retirementAccIrasParent}>
+                        <h2 className={styles.savingsAccounts}>
+                          Retirement Acc. (IRAs):
+                        </h2>
+                        <div className={styles.retirementDescription}>
+                          <div
+                            className={styles.taxAdvantagedSavingsForContainer}
+                          >
+                            <p
+                              className={styles.earnInterestWith}
+                            >{`Tax-advantaged savings for `}</p>
+                            <p className={styles.earnInterestWith}>
+                              your retirement.
+                            </p>
+                          </div>
+                          <div className={styles.taxRatingParent}>
+                            <img
+                              className={styles.savingsYieldIcon}
+                              loading="lazy"
+                              alt=""
+                              src={star23}
+                            />
+                            <img
+                              className={styles.marketYieldIcon}
+                              alt=""
+                              src={star24}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className={styles.autoLoanContentWrapper}>
-              <div className={styles.autoLoanContent}>
-              <HeroColumns
-              investment="Auto"
-              products=" Loans"
-              exploreOurRangeOfInvestme="Dreaming of a new car? Our auto loans provide competitive rates and flexible terms to make your vehicle purchase simple and affordable. Benefit from a straightforward application process and personalized service from our knowledgeable advisors. Whether you’re buying new or used, we’re here to help you drive away in your dream car. Reach out to us today to start your auto loan application!"
-              pickAPlan="Get Auto Loan"
-              propAlignSelf="unset"
-              propWidth="99.375rem"
-            />
 
+               
+                
               </div>
             </div>
+            
 
             
 
