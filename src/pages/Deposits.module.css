@@ -1,0 +1,1263 @@
+.loans {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .loanOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .pickAPlan {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    display: inline-block;
+    font-family: var(--font-red-hat-display);
+    color: var(--color-white);
+    text-align: left;
+    min-width: 5.688rem;
+    transition: color 0.3s ease;
+  }
+  .cardDetails,
+  .component1,
+  .loanCards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .component1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lg) var(--padding-21xl);
+    background-color: var(--color1);
+    border-radius: var(--br-25xl);
+    flex-direction: row;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  .component1:hover {
+    background-color: #afe638;
+  }
+  
+  .component1:hover .pickAPlan {
+    color: black;
+  }
+   
+  .component4:hover {
+    background-color: var(--color-blueviolet-100);
+  }
+  .cardDetails,
+  .loanCards {
+    flex-direction: column;
+  }
+  .cardDetails {
+    gap: var(--gap-127xl);
+    flex-shrink: 0;
+  }
+  .loanCards {
+    padding: var(--padding-sm) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .loansIcon {
+    margin-left: -0.125rem;
+    height: 25.713rem;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .veridionBankOffers {
+    width: 53.75rem;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 10.65rem;
+    left: -30.187rem;
+    letter-spacing: 0.01em;
+    line-height: 192%;
+    display: inline-block;
+    z-index: 1;
+  }
+  .bankLoanContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .bankLoans,
+  .loanTypes {
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .bankLoans {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    min-width: 51.125rem;
+    max-width: 100%;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .loanTypes {
+    align-self: stretch;
+    flex-wrap: wrap;
+    padding: 0 0 3.025rem;
+    row-gap: 20px;
+    font-size: var(--font-size-77xl);
+    color: var(--color);
+    font-family: var(--font-schibsted-grotesk);
+  }
+  .frameParent,
+  .loanTypes,
+  .loanTypes1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .loanTypes1 {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-13xl-4) var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .highlightIcons {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: -0.062rem;
+    top: 0;
+    transform: scale(1.01);
+  }
+  .wrapperHighlightIcons {
+    height: 18.625rem;
+    width: 113rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 2.563rem;
+    right: -81.187rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+  .speedIcon1 {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .speedIcon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-33xl) 0 var(--padding-31xl);
+  }
+  .unsecuredLoans {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .andEasyFunding,
+  .noCollateralRequired {
+    margin: 0;
+  }
+  .noCollateralRequiredContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    color: var(--color-dimgray-100);
+  }
+  .highlightDetails {
+    flex: 1;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xl) var(--padding-12xl) var(--padding-26xl)
+      var(--padding-13xl);
+    box-sizing: border-box;
+    gap: var(--gap-smi-5);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .loanHighlights {
+    width: 5.313rem;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .loanHighlights,
+  .unsecuredLoan,
+  .unsecuredLoanContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+    
+  }
+  .unsecuredLoanContent {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    
+  }
+  .unsecuredLoan {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-13xl-4) var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .pickAPlan1 {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-family: var(--font-red-hat-display);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .component4 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lg) var(--padding-21xl);
+    background-color: var(--color1);
+    border-radius: var(--br-25xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .faq {
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 2.625rem;
+  }
+  .autoLoanHelpLabel {
+    border-radius: var(--br-25xl);
+    background-color: var(--color);
+    padding: var(--padding-lg) var(--padding-21xl);
+  }
+  .autoLoanHelpLabel,
+  .autoLoanHelpLabelWrapper,
+  .component4Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .autoLoanHelpLabelWrapper {
+    cursor: pointer;
+  }
+  .component4Parent {
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .autoLoanCTA {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .autoLoanCTA,
+  .autoLoanContent,
+  .autoLoanContentWrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .autoLoanContent {
+    width: 83.125rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-13xl-6);
+  }
+  .autoLoanContentWrapper {
+    width: 99.375rem;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .flowerIcon {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .affordableIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-24xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .affordable,
+  .competitiveRatesFor {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .affordable {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .competitiveRatesFor {
+    align-self: stretch;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray-100);
+  }
+  .affordableDescription,
+  .benefitIcons {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .affordableDescription {
+    gap: var(--gap-2xs);
+  }
+  .benefitIcons {
+    gap: 1.1rem;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .extrudeGroupIcon {
+    margin-left: -57.313rem;
+    width: 0;
+    height: 0;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .benefitDetails {
+    height: 26.688rem;
+    width: 25.313rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.15rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl);
+    box-sizing: border-box;
+    gap: var(--gap-218xl);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .benefitDetailsChild {
+    height: 18.625rem;
+    width: 113rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 3.875rem;
+    left: -43.875rem;
+    object-fit: contain;
+  }
+  .documentIcon {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .flexibleIcon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-29xl) 0 var(--padding-35xl);
+  }
+  .flexible,
+  .repayment {
+    margin: 0;
+  }
+  .flexibleRepayment,
+  .termsTailoredTo {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .flexibleRepayment {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .termsTailoredTo {
+    align-self: stretch;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray-100);
+  }
+  .flexibleDescription {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xs);
+  }
+  .benefitDetails1,
+  .flexibleIconParent {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .flexibleIconParent {
+    flex: 1;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1.462rem var(--padding-15xl) var(--padding-19xl) var(--padding-10xl);
+    box-sizing: border-box;
+    gap: 0.287rem;
+    z-index: 1;
+  }
+  .benefitDetails1 {
+    width: 25.313rem;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+  }
+  .extrudeGroupIcon1 {
+    height: 0;
+    width: 0;
+    position: relative;
+  }
+  .extrudeGroupWrapper {
+    width: 19.75rem;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .timeIcon {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .timeWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-32xl);
+  }
+  .efficientApprovalProcess,
+  .quickProcess {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .quickProcess {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .efficientApprovalProcess {
+    align-self: stretch;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray-100);
+  }
+  .benefitDetails2 {
+    width: 25.313rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.193rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl);
+    box-sizing: border-box;
+    gap: 0.581rem;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .loanBenefits {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .loanBenefits,
+  .loanTypesParent,
+  .mainContent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .loanTypesParent {
+    width: 100.063rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4.35rem;
+  }
+  .mainContent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-red-hat-display);
+  }
+  .headerFinalParent,
+  .loansUpdate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .headerFinalParent {
+    align-self: stretch;
+    gap: var(--gap-67xl);
+    max-width: 100%;
+  }
+  .loansUpdate {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    gap: 7.525rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1300px) {
+    .frameParent,
+    .loanBenefits,
+    .unsecuredLoanContent {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .bankLoans {
+      min-width: 100%;
+    }
+    .headerFinalParent {
+      gap: var(--gap-24xl);
+    }
+    .loansUpdate {
+      gap: var(--gap-41xl);
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .loans {
+      font-size: var(--font-size-29xl);
+    }
+    .unsecuredLoans {
+      font-size: var(--font-size-7xl);
+    }
+    .component4Parent {
+      flex-wrap: wrap;
+    }
+    .autoLoanContent {
+      gap: var(--gap-base);
+    }
+    .affordable {
+      font-size: var(--font-size-7xl);
+    }
+    .benefitDetails {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .flexibleRepayment,
+    .quickProcess {
+      font-size: var(--font-size-7xl);
+    }
+    .loanTypesParent {
+      gap: var(--gap-16xl);
+    }
+    .headerFinalParent {
+      gap: var(--gap-2xl);
+    }
+    .loansUpdate {
+      gap: var(--gap-11xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .loans {
+      font-size: var(--font-size-10xl);
+    }
+    .cardDetails {
+      gap: var(--gap-54xl);
+    }
+    .loanTypes {
+      padding-bottom: var(--padding-12xl);
+      box-sizing: border-box;
+    }
+    .speedIcon {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .unsecuredLoans {
+      font-size: var(--font-size-lgi);
+    }
+    .noCollateralRequiredContainer {
+      font-size: var(--font-size-base);
+    }
+    .highlightDetails {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .faq {
+      font-size: var(--font-size-base);
+    }
+    .affordableIcon {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .affordable {
+      font-size: var(--font-size-lgi);
+    }
+    .competitiveRatesFor {
+      font-size: var(--font-size-base);
+    }
+    .benefitDetails {
+      gap: var(--gap-99xl);
+    }
+    .flexibleIcon {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .flexibleRepayment {
+      font-size: var(--font-size-lgi);
+    }
+    .termsTailoredTo {
+      font-size: var(--font-size-base);
+    }
+    .flexibleIconParent {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .timeWrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .quickProcess {
+      font-size: var(--font-size-lgi);
+    }
+    .efficientApprovalProcess {
+      font-size: var(--font-size-base);
+    }
+    .benefitDetails2 {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .loanTypesParent {
+      gap: var(--gap-mid);
+    }
+  }
+
+  .shapeIcon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: -0.062rem;
+    top: 0;
+    transform: scale(1.01);
+  }
+  .wrapperShape {
+    width: 113rem;
+    height: 18.625rem;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 95.563rem;
+    left: calc(50% - 904px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  .insurance {
+    color: var(--color);
+  }
+  .healthInsurance {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .healthInsuranceTitle {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-3xl);
+  }
+  .stayCoveredWith {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.01em;
+    line-height: 192%;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .healthInsuranceDescription {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-sm);
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .pickAPlan {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-family: var(--font-red-hat-display);
+    color: var(--color-white);
+    text-align: left;
+    transition: color 0.3s ease;
+  }
+  .component2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lg) var(--padding-21xl);
+    background-color: var(--color1);
+    border-radius: var(--br-25xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .component2:hover {
+    background-color: var(--color-blueviolet-100);
+  }
+  .faq {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    display: inline-block;
+    font-family: var(--font-red-hat-display);
+    color: var(--color-white);
+    text-align: left;
+    min-width: 2.625rem;
+  }
+  .healthFAQButton,
+  .healthPlanButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .healthFAQButton {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lg) var(--padding-21xl);
+    background-color: var(--color);
+    border-radius: var(--br-25xl);
+    justify-content: flex-start;
+  }
+  .healthFAQButton:hover {
+    background-color: var(--color-dimgray-300);
+  }
+  .healthPlanButton {
+    justify-content: center;
+    gap: var(--gap-xl-5);
+    max-width: 100%;
+  }
+  .healthInsurancePlan {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .frameParent,
+  .healthInsuranceContentInner,
+  .healthInsurancePlan {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent {
+    justify-content: center;
+    gap: var(--gap-173xl);
+  }
+  .healthInsuranceContentInner {
+    justify-content: flex-end;
+    padding: 4rem var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .healthInsuranceContent {
+    width: 83.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+    max-width: 100%;
+  }
+  .healthInsuranceContentWrapper {
+    width: 100rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-13xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .protectionIcon1 {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .protection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-25xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .liabilityCoverage,
+  .protectionForBodily {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .liabilityCoverage {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .protectionForBodily {
+    width: 21.375rem;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray-100);
+    display: inline-block;
+    max-width: 100%;
+  }
+  .liability,
+  .protectionIcon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xs);
+    max-width: 100%;
+  }
+  .protectionIcon {
+    gap: var(--gap-mid);
+    flex-shrink: 0;
+  }
+  .extrudeGroupIcon {
+    margin-left: -57.313rem;
+    width: 0;
+    height: 0;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .protectionIconParent {
+    height: 26.688rem;
+    width: 25.313rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lgi) var(--padding-lgi) var(--padding-26xl)
+      var(--padding-13xl);
+    box-sizing: border-box;
+    gap: var(--gap-218xl);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frameChild {
+    height: 18.625rem;
+    width: 113rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 3.875rem;
+    left: -43.875rem;
+    object-fit: contain;
+  }
+  .autoIcon1 {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .autoIcon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-33xl) 0 var(--padding-31xl);
+  }
+  .andCollision,
+  .comprehensive {
+    margin: 0;
+  }
+  .comprehensiveAndCollisionContainer {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .coverageForTheft {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    color: var(--color-dimgray-100);
+  }
+  .autoIconParent,
+  .collision,
+  .vectorParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .collision {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-2xs);
+  }
+  .autoIconParent,
+  .vectorParent {
+    max-width: 100%;
+  }
+  .autoIconParent {
+    flex: 1;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-smi) var(--padding-12xl) var(--padding-7xl)
+      var(--padding-13xl);
+    box-sizing: border-box;
+    gap: 0.062rem;
+    z-index: 1;
+  }
+  .vectorParent {
+    width: 25.313rem;
+    flex-direction: row;
+    position: relative;
+  }
+  .ideaIcon {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .ideaWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-33xl) 0 var(--padding-31xl);
+  }
+  .additionOptions {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .extrudeGroupIcon1 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin: 0 !important;
+    top: 1.188rem;
+    left: 11.875rem;
+  }
+  .uninsuredMotoristPersonal {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    color: var(--color-dimgray-100);
+  }
+  .frameContainer {
+    width: 25.313rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xl) var(--padding-12xl) var(--padding-26xl)
+      var(--padding-13xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-2xs-5);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .frameGroup,
+  .lifeInsuranceContent {
+    width: 100rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-red-hat-display);
+  }
+  .lifeInsuranceContent {
+    width: 100.688rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-51xl);
+    text-align: left;
+    font-size: var(--font-size-45xl);
+    color: var(--color1);
+    font-family: var(--font-schibsted-grotesk);
+  }
+  .lifeInsuranceContentWrapper {
+    width: 119.313rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-15xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .insuranceUpdate {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-67xl);
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  .insuranceOptions {
+    width: 100rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 0 var(--padding-13xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  
+  
+  
+  @media screen and (max-width: 1325px) {
+    .frameParent {
+      flex-wrap: wrap;
+      gap: var(--gap-77xl);
+    }
+    .healthInsuranceContentInner {
+      padding-left: var(--padding-3xl);
+      padding-right: var(--padding-3xl);
+      box-sizing: border-box;
+    }
+    .frameGroup {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .insuranceOptions {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .insuranceUpdate {
+      gap: var(--gap-24xl);
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .healthInsurance {
+      font-size: var(--font-size-32xl);
+    }
+    .healthPlanButton {
+      flex-wrap: wrap;
+    }
+    .frameParent {
+      gap: var(--gap-29xl);
+    }
+    .liabilityCoverage {
+      font-size: var(--font-size-7xl);
+    }
+    .protectionIconParent {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .additionOptions,
+    .comprehensiveAndCollisionContainer {
+      font-size: var(--font-size-7xl);
+    }
+    .lifeInsuranceContent {
+      gap: var(--gap-16xl);
+    }
+    .insuranceUpdate {
+      gap: var(--gap-2xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .healthInsurance {
+      font-size: var(--font-size-19xl);
+    }
+    .faq {
+      font-size: var(--font-size-base);
+    }
+    .frameParent {
+      gap: var(--gap-5xl);
+    }
+    .protection {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .liabilityCoverage {
+      font-size: var(--font-size-lgi);
+    }
+    .protectionForBodily {
+      font-size: var(--font-size-base);
+    }
+    .protectionIconParent {
+      gap: var(--gap-99xl);
+    }
+    .autoIcon {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .comprehensiveAndCollisionContainer {
+      font-size: var(--font-size-lgi);
+    }
+    .coverageForTheft {
+      font-size: var(--font-size-base);
+    }
+    .ideaWrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .additionOptions {
+      font-size: var(--font-size-lgi);
+    }
+    .uninsuredMotoristPersonal {
+      font-size: var(--font-size-base);
+    }
+    .frameContainer {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .lifeInsuranceContent {
+      gap: var(--gap-mid);
+    }
+  }
+  
