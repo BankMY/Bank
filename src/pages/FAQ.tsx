@@ -39,7 +39,7 @@ const FAQ: FunctionComponent = () => {
             
             <div className={styles.generalInformationParent}>
               <h3 className={styles.generalInformation}>General Information</h3>
-              <Droplist 
+                  <Droplist 
               question="What is Veridion?"
               answer=" Veridion is a comprehensive online banking platform offering a
                   range of financial services, including checking and savings

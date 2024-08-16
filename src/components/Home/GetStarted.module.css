@@ -1,6 +1,13 @@
 .getStarted{
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
+
+
+@media screen and (max-width: 1600px) {
+    .getStarted{
+        flex-wrap: wrap;
+    }
+  }
