@@ -84,14 +84,14 @@
   gap: var(--gap-19xl);
 }
 .mainContent {
-  width: 90%;
+  width: 80%;
   gap: var(--gap-54xl);
   text-align: center;
   font-size: var(--font-size-45xl);
   color: var(--color);
   font-family: var(--font-schibsted-grotesk);
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .content,
 .homepage,

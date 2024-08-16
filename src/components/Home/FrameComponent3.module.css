@@ -56,6 +56,18 @@
   color: var(--color);
   font-family: var(--font-schibsted-grotesk);
 }
+@media screen and (max-width: 925px) {
+  .unlockLifesJoyContainer {
+    font-size: 5rem;
+  }
+  .featureOneCard{
+    width: 0;
+    height: 0;
+    top: 8.375rem;
+    left: 21.563rem;
+  } 
+}
+
 @media screen and (max-width: 800px) {
   .card,
   .unlockLifesJoyContainer {
@@ -86,27 +98,29 @@
   }
   .featureOneCard{
     top: 5.375rem;
-    left: 14.563rem;
+    left: 12.863rem;
   } 
   .featureOneCardChild {
     width: 11.431rem;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
   .card,
   .unlockLifesJoyContainer {
     font-size: 3rem;
     line-height: 4.25rem;
   }
   .card {
-    line-height: 5rem;
+    line-height: 4.5rem;
+    font-size: 2.5rem;
+    margin-left: -1rem;
   }
   .featureOneCard{
-    top: 4.375rem;
-    left: 14.563rem;
+    top: 8.575rem;
+    left: 12.563rem;
   } 
   .featureOneCardChild {
-    width: 9.431rem;
+    width: 8.431rem;
   }
 }
 @media screen and (max-width: 380px) {
@@ -115,10 +129,14 @@
     font-size: 2rem;
   }
   .featureOneCard{
-    top: 4.375rem;
-    left: 13.063rem;
+    top: 8.575rem;
+    left: 11.563rem;
   } 
   .featureOneCardChild {
-    width: 8.431rem;
+    width: 7.431rem;
+  }
+  .unlockLifesJoyContainer {
+    font-size: 2.75rem;
+    line-height: 4.25rem;
   }
 }

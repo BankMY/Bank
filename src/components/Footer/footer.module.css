@@ -13,8 +13,9 @@
     flex-wrap: wrap;
     height: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 5rem;
+    gap: 5rem
     
     /* background-color: red; */
 }
@@ -82,11 +83,6 @@
     }
 }
     
-/* @media screen and (max-width: 550px) {   
-    .elements{
-        transform: scale(0.7);
-    }
-} */
 @media screen and (max-width: 430px) {   
     /* .buttonscontainerSocial1{
         display: none;

@@ -6,7 +6,7 @@ const GetStarted: FunctionComponent = () => {
   return (
     <div className={styles.getStarted}>
       <FrameComponent2/>
-      <img style={{maxWidth: "80%"}} src="/Groupfull.svg"></img>       
+      <img style={{maxWidth: "80%"}} src="/Groupfull.svg" alt=""></img>       
     </div>
   );
 }
