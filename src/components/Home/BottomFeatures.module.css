@@ -10,9 +10,12 @@
 .menageYour {
   margin: 0;
 }
+.menageYour, .financeWithFriendly,.mobileApp {
+  font-family: 'Grotesk';
+}
 .finance {
   font-weight: 700;
-  font-family: var(--font-schibsted-grotesk);
+  font-family: 'GroteskItalic';
   color: var(--color1);
 }
 .financeWithFriendly,
@@ -59,7 +62,8 @@
   align-self: stretch;
   position: relative;
   word-wrap: break-word;
-  font-size: var(--font-size-lg);
+  font-size: 1.3rem;
+  line-height: 2rem;
  /*  letter-spacing: 0.01em;
   line-height: 192%; */
   color: var(--color-black);
