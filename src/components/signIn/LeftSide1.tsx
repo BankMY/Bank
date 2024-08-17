@@ -7,6 +7,7 @@ import image3 from "../../assets/png/auth/image-3@2x.png";
 import result1 from "../../assets/png/auth/result-10@2x.png";
 import result2 from "../../assets/png/auth/result-12@2x.png";
 import result3 from "../../assets/png/auth/result-13@2x.png";
+import { Link } from "react-router-dom";
 
 export interface LeftSide1Type {
   className?: string;
@@ -19,9 +20,9 @@ const LeftSide1: FunctionComponent<LeftSide1Type> = ({ className = "" }) => {
       <img className={styles.image3Icon} alt="" src={image3} />
       <div className={styles.leftContent}>
         <div className={styles.leftGraphic} />
-        <div className={styles.logoContainer}>
+        <Link to="/" className={styles.logoContainer}>
           <img className={styles.logoIcon} alt="" src={logo1} />
-        </div>
+        </Link>
         <div className={styles.leftContentInner}>
           <div className={styles.welcomeBackParent}>
             <h1 className={styles.welcomeBack}>Welcome back!</h1>
@@ -34,8 +35,7 @@ const LeftSide1: FunctionComponent<LeftSide1Type> = ({ className = "" }) => {
                 />
               </div>
               <div className={styles.wereExcitedToContainer}>
-                <p
-                  className={styles.wereExcitedTo}
+                <p className={styles.wereExcitedTo}
                 >{`We're excited to support your financial journey with our wide range of services. `}</p>
                 <p className={styles.thankYouFor}>Thank you for choosing us!</p>
               </div>
@@ -46,7 +46,7 @@ const LeftSide1: FunctionComponent<LeftSide1Type> = ({ className = "" }) => {
           <div className={styles.youDontHaveAnAccountParent}>
             <div className={styles.youDontHave}>You don`t have an account?</div>
             <div className={styles.component13}>
-              <a href='/sign-up' className={styles.signUp}>Sign Up</a>
+              <Link to='/sign-up' className={styles.signUp}>Sign Up</Link>
             </div>
           </div>
         </div>
