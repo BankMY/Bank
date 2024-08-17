@@ -18,12 +18,14 @@
   font-size: inherit;
   line-height: 8.75rem;
   font-weight: 700;
-  font-family: inherit;
+  font-family: 'Grotesk';
 }
 .affordAllYour {
   width: 49.375rem;
   line-height: 192%;
   flex-shrink: 0;
+  font-size: 1.2rem;
+  font-family: "Grotesk";
 }
 .projectDescription {
   width: 83rem;
@@ -138,13 +140,14 @@
   letter-spacing: 0.02em;
   line-height: 5.5rem;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
   display: inline-block;
   z-index: 1;
 }
 .frameChild {
   height: 0.25rem;
-  width: 16.313rem;
+  width: 18.313rem;
+  left: 2.2rem;
   position: relative;
 }
 .solutionsHeaderInner {
@@ -167,7 +170,8 @@
 .discoverOurRange {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-lg);
+  font-size: 1.15rem;
+  font-family: "Grotesk";
   letter-spacing: 0.01em;
   line-height: 192%;
   color: var(--color-black);
@@ -226,7 +230,7 @@
   letter-spacing: 0.02em;
   line-height: 5.5rem;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
   display: inline-block;
   max-width: 100%;
 }
@@ -234,6 +238,7 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
+  font-family: "Grotesk";
   letter-spacing: 0.01em;
   line-height: 192%;
   color: var(--color-black);
@@ -284,7 +289,7 @@
   letter-spacing: 0.02em;
   line-height: 5.5rem;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
   display: inline-block;
   max-width: 100%;
 }
@@ -292,6 +297,7 @@
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
+  font-family: "Grotesk";
   letter-spacing: 0.01em;
   line-height: 192%;
   color: var(--color-black);
@@ -345,7 +351,7 @@
   letter-spacing: 0.02em;
   line-height: 5.5rem;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
   z-index: 1;
 }
 .fAQHeader,

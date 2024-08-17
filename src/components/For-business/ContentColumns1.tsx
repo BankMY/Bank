@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import styles from "./ContentColumns1.module.css";
 import coins from "../../assets/svg/For-business/coins-collage.svg";
+import line32 from "../../assets/svg/For-business/line-32.svg";
 
 export interface ContentColumns1Type {
   className?: string;
@@ -18,7 +19,7 @@ const ContentColumns1: FunctionComponent<ContentColumns1Type> = ({
               className={styles.accountSupportDetailsChild}
               loading="lazy"
               alt=""
-              src="/line-332.svg"
+              src={line32}
             />
             <h1 className={styles.multiCurrencyAccounts}>
               Multi-Currency Accounts
