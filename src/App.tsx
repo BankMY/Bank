@@ -17,6 +17,7 @@ import Services from './pages/Services';
 import ForBusiness from './pages/ForBusiness';
 import LoansUpdate from './pages/LoansUpdate';
 import InsuranceUpdate from './pages/InsuranceUpdate';
+import Page404 from './pages/Page404';
 
 
 
@@ -91,7 +92,13 @@ function App() {
           <Route path="/sign-in" element={<SignIn />}/>
           <Route path="/sign-up" element={<SignUp />}/>
 
-          <Route path="*" element={<Homepage />} />
+          <Route path="*" element={
+            <>
+              <HeaderFinal/>
+              <Page404 />
+              <Footer />
+            </>
+          } />
       </Routes>
     </Router>
   );

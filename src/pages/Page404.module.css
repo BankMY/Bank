@@ -1,0 +1,93 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 5rem;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+}
+.btns{
+    display: flex;
+    margin-left: 160px;
+    gap: 40px;
+    height: 62px;
+}
+.mainText{
+    font-family: "Grotesk";
+    margin-left: 160px;
+    padding: 0;
+    margin-top: -4rem;
+}
+.Oops,.NotFound{
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 120px;
+    
+    white-space: nowrap;
+}
+.NotFound{
+    margin-top: -5rem;
+}
+.Sorry{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 61.44px;
+    margin-top: -3rem;
+    width: 648px;
+}
+.monkey{
+    height: 616px;
+    margin-right: 188px;
+    min-width: 40%;
+}
+
+.pickAPlan, .pickAPlan2 {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-family: var(--font-red-hat-display);
+    color: var(--color-white);
+    text-align: left;
+    transition: color 0.3s ease;
+}
+.pickAPlan2{
+    color: #AFE638;
+}
+.component1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lg) var(--padding-21xl);
+    background-color: var(--color1);
+    border-radius: var(--br-25xl);
+    flex-direction: row;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.component2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+    border: 2px solid #AFE638;
+    padding: var(--padding-lg) var(--padding-21xl);
+    
+    border-radius: var(--br-25xl);
+    flex-direction: row;
+    white-space: nowrap;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    color: #AFE638;
+}
+.component1:hover,.component2:hover {
+    background-color: #afe638;
+}
+.component1:hover .pickAPlan,.component2:hover .pickAPlan2 {
+    color: black;
+}
