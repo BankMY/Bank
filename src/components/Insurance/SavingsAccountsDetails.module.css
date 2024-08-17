@@ -30,7 +30,7 @@
 .higherYieldsWith {
   width: 29rem;
   flex-shrink: 0;
-  max-width: 120%;
+  max-width: 110%;
 }
 .higherYieldsWithLimitedCheWrapper {
   width: 24.188rem;
@@ -101,7 +101,7 @@
   text-align: left;
   font-size: var(--font-size-13xl);
   color: var(--color-black);
-  font-family: var(--font-red-hat-display);
+  font-family: "RedHat";
   overflow: hidden;
 }
 @media screen and (max-width: 800px) {

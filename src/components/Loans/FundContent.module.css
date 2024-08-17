@@ -45,6 +45,7 @@
   font-size: inherit;
   text-transform: uppercase;
   font-family: inherit;
+  white-space: nowrap;
 }
 .diversifiedPortfoliosManaged {
   align-self: stretch;
