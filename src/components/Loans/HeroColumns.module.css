@@ -128,7 +128,7 @@
   text-align: left;
   font-size: var(--font-size-45xl);
   color: var(--color);
-  font-family: var(--font-schibsted-grotesk);
+  font-family: "Grotesk";
 }
 @media screen and (max-width: 800px) {
   .investmentProducts {

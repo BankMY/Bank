@@ -8,6 +8,7 @@ export interface SavingsAccountsDetailsType {
   higherYieldsWithLimitedCh?: string;
   star23?: string;
   star24?: string;
+  widthText?: string;
 
   /** Style props */
   propPadding?: CSSProperties["padding"];
@@ -23,6 +24,7 @@ const SavingsAccountsDetails: FunctionComponent<SavingsAccountsDetailsType> = ({
   star24,
   propPadding,
   propGap,
+  widthText,
 }) => {
   const savingsAccountsDetailsStyle: CSSProperties = useMemo(() => {
     return {
@@ -48,7 +50,7 @@ const SavingsAccountsDetails: FunctionComponent<SavingsAccountsDetailsType> = ({
         <h2 className={styles.moneyMarketAccounts}>{moneyMarketAccounts}</h2>
         <div className={styles.frameParent}>
           <div className={styles.higherYieldsWithLimitedCheWrapper}>
-            <div className={styles.higherYieldsWith}>
+            <div className={styles.higherYieldsWith} style={{width: widthText}}>
               {higherYieldsWithLimitedCh}
             </div>
           </div>

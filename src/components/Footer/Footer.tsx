@@ -47,13 +47,13 @@ const AboutSection: React.FC = () => {
     return (
         <div className={styles.buttonscontainer}>
             <img src={About}></img>
-            <Link to="/">
+            <Link to="/about-us">
                 <img src={ContactInfo}/>
             </Link>
             <Link to="/privacy">
                 <img src={Security}/>
             </Link>
-            <Link to="/">
+            <Link to="/about-us">
                 <img src={Careers}/>
             </Link>
             <Link to="/privacy">

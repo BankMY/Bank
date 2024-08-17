@@ -14,7 +14,7 @@
   letter-spacing: 0.01em;
   line-height: 8.75rem;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
 }
 .heroChild {
   width: 35.438rem;
@@ -41,6 +41,7 @@
   letter-spacing: 0.01em;
   line-height: 192%;
   color: var(--color-black);
+  font-family: "Grotesk";
   /* display: inline-block; */
   width: 47rem;
   max-width: 100%;

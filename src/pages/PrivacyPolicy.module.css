@@ -24,7 +24,7 @@
   font-size: inherit;
   letter-spacing: 0.02em;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
   display: inline-block;
 }
 .starRightIcon {
@@ -68,6 +68,7 @@
   letter-spacing: 0.02em;
   line-height: 1.875rem;
   color: var(--color-black);
+  font-family: "Grotesk";
 }
 .frameParent,
 .policyContent {

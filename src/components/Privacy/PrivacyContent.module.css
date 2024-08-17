@@ -34,6 +34,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-19xl);
+  font-family: 'Grotesk';
 }
 .frameParent,
 .frameWrapper,

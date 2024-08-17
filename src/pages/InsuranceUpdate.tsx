@@ -22,6 +22,7 @@ import star24_1 from "../assets/svg/insurance/star-24-1.svg";
 import protection from "../assets/svg/insurance/protection.svg";
 import auto from "../assets/svg/insurance/auto.svg";
 import idea1 from "../assets/svg/Loans/idea1.svg";
+import insuLine from "../assets/svg/insurance/insu.svg";
 
 
 const InsuranceUpdate: FunctionComponent = () => {
@@ -84,8 +85,9 @@ const InsuranceUpdate: FunctionComponent = () => {
             propAlignSelf="unset"
             propWidth="100rem"
           />
-              <div className={styles.healthInsuranceContentInner}>
-                <div className={styles.frameParent}>
+              <div className={styles.healthInsuranceContentInner}
+              style={{ backgroundImage: `url(${insuLine})` }}>
+                <div className={styles.frameParent}> 
                   <SavingsAccountsDetails
                     cancellation={prices}
                     moneyMarketAccounts={`Individual & Family Plans:`}
@@ -94,6 +96,7 @@ const InsuranceUpdate: FunctionComponent = () => {
                     star24={star24}
                     propPadding="var(--padding-base) var(--padding-13xl) 10.687rem"
                     propGap="20px"
+                    widthText="80%"
                   />
                   <SavingsAccountsDetails
                     cancellation={cancellation}
@@ -104,6 +107,7 @@ const InsuranceUpdate: FunctionComponent = () => {
                     propPadding="23px 32px 164px"
                     propGap="13px"
                   />
+                  
                 </div>
               </div>
             </div>

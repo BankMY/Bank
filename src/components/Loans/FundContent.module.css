@@ -45,6 +45,7 @@
   font-size: inherit;
   text-transform: uppercase;
   font-family: inherit;
+  white-space: nowrap;
 }
 .diversifiedPortfoliosManaged {
   align-self: stretch;
@@ -87,7 +88,7 @@
   text-align: left;
   font-size: var(--font-size-13xl);
   color: var(--color-black);
-  font-family: var(--font-red-hat-display);
+  font-family: "RedHat";
 }
 @media screen and (max-width: 800px) {
   .mutualFunds {

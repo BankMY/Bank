@@ -5,6 +5,7 @@ import ellipse_78 from "../../assets/svg/auth/ellipse-78.svg";
 import result1 from "../../assets/png/auth/result-10@2x.png";
 import result2 from "../../assets/png/auth/result-12@2x.png";
 import result3 from "../../assets/png/auth/result-13@2x.png";
+import { Link } from "react-router-dom";
 
 
 export interface LeftSideType {
@@ -18,8 +19,10 @@ const LeftSide: FunctionComponent<LeftSideType> = ({ className = "" }) => {
       <div className={styles.result9} />
       <div className={styles.welcomeBackgroundParent}>
         <div className={styles.welcomeBackground} />
-        <div className={styles.bg7e4d046180434e539e485af} />
-        <img className={styles.logoIcon} alt="" src={logo1} />
+        
+        <Link to="/" className={styles.logoContainer}>
+          <img className={styles.logoIcon} alt="" src={logo1} />
+        </Link>
         <div className={styles.welcomeMessage}>
           <div className={styles.veridionTitle}>
             <div className={styles.wrapperEllipse78}>
@@ -32,8 +35,7 @@ const LeftSide: FunctionComponent<LeftSideType> = ({ className = "" }) => {
             <h1 className={styles.welcomeToVeridion}>Welcome to Veridion!</h1>
           </div>
           <div className={styles.yourFinancialAdventureContainer}>
-            <p
-              className={styles.yourFinancialAdventure}
+            <p className={styles.yourFinancialAdventure}
             >{`Your financial adventure begins here. `}</p>
             <p className={styles.letsBuildA}>
               Let's build a brighter future together!
@@ -44,7 +46,7 @@ const LeftSide: FunctionComponent<LeftSideType> = ({ className = "" }) => {
           <div className={styles.accountLink}>
             <div className={styles.alredyHaveAn}>Alredy have an account?</div>
             <div className={styles.component13}>
-              <a href='/sign-up' className={styles.signUp}>Sign In</a>
+              <a href='/sign-in' className={styles.signUp}>Sign In</a>
             </div>
           </div>
         </div>
