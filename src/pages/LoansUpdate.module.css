@@ -5,7 +5,7 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
   z-index: 1;
 }
 .loanOptions {
@@ -82,11 +82,12 @@
   position: absolute;
   margin: 0 !important;
   bottom: 10.65rem;
-  left: -21.187rem;
+  left: -20.187rem;
   letter-spacing: 0.01em;
   line-height: 192%;
   display: inline-block;
   z-index: 1;
+  font-family: "Grotesk";
 }
 .bankLoanContent {
   align-self: stretch;
@@ -580,6 +581,7 @@
   gap: 7.525rem;
   line-height: normal;
   letter-spacing: normal;
+  margin-top: 7rem;
 }
 @media screen and (max-width: 1300px) {
   .frameParent,
