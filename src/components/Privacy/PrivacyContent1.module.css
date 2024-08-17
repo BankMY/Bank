@@ -27,6 +27,7 @@
 .useOfInformationParent {
   align-self: stretch;
   gap: var(--gap-19xl);
+  font-family: 'Grotesk';
 }
 .frameWrapper {
   flex: 1;
