@@ -1,8 +1,10 @@
 .getStarted{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 
