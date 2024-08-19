@@ -5,7 +5,7 @@
     letter-spacing: 0.02em;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: inherit;
+    font-family: "Grotesk";
     z-index: 1;
   }
   .loanOptions {
@@ -20,7 +20,7 @@
     font-size: var(--font-size-xl);
     letter-spacing: 0.02em;
     display: inline-block;
-    font-family: var(--font-red-hat-display);
+    font-family: "RedHat";
     color: var(--color-white);
     text-align: left;
     min-width: 5.688rem;
@@ -87,6 +87,7 @@
     line-height: 192%;
     display: inline-block;
     z-index: 1;
+    font-family: "Grotesk";
     
   }
   .bankLoanContent {

@@ -99,8 +99,8 @@ const Investments: FunctionComponent = () => {
             <div className={styles.autoLoanContentWrapper}>
               <div className={styles.autoLoanContent}>
               <HeroColumns
-              investment="Advice and"
-              products=" Consultations"
+              investment="Advice and Consultations"
+              products=""
               exploreOurRangeOfInvestme="Looking for expert financial guidance? Our personalized
                     investment advice and consultations help you make informed
                     decisions and achieve your financial goals. Benefit from

@@ -1,5 +1,5 @@
 .products {
-  color: var(--color1);
+  color: var(--color);
 }
 .investmentProducts {
   margin: 0;
@@ -8,8 +8,11 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
   
+}
+.col{
+  color: var(--color1);
 }
 .featureNames {
   align-self: stretch;
@@ -28,6 +31,7 @@
   line-height: 192%;
   color: var(--color-black);
   text-align: center;
+  font-family: "Grotesk";
   
 }
 .heroHighlights {
@@ -43,7 +47,7 @@
   position: relative;
   font-size: var(--font-size-xl);
   letter-spacing: 0.02em;
-  font-family: var(--font-red-hat-display);
+  font-family: "RedHat";
   color: var(--color-white);
   text-align: left;
   
