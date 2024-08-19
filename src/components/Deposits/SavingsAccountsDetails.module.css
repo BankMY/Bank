@@ -1,0 +1,127 @@
+.cancellationIcon {
+  height: 15rem;
+  width: 15rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cancellationWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-7xs);
+}
+.higherYieldsWith,
+.moneyMarketAccounts {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: inline-block;
+}
+.moneyMarketAccounts {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+  max-width: 100%;
+}
+.higherYieldsWith {
+  width: 29rem;
+  flex-shrink: 0;
+  max-width: 120%;
+}
+.higherYieldsWithLimitedCheWrapper {
+  width: 24.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  border-radius: var(--br-12xs);
+}
+.frameChild {
+  top: 2.625rem;
+  left: 1.875rem;
+  width: 5.625rem;
+  height: 6.313rem;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  width: 3.75rem;
+  height: 4.125rem;
+  z-index: 1;
+}
+.starParent {
+  height: 8.938rem;
+  width: 7.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  max-width: 100%;
+  margin-top: -0.688rem;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
+}
+.moneyMarketAccountsParent,
+.savingsAccountsDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  max-width: 112%;
+}
+.savingsAccountsDetails {
+  height: 26.688rem;
+  width: 32.5rem;
+  box-shadow: 0 0 28px #d4c4f6;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  overflow-y: auto;
+  padding: var(--padding-4xl) var(--padding-13xl) var(--padding-145xl);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-red-hat-display);
+}
+@media screen and (max-width: 800px) {
+  .moneyMarketAccounts {
+    font-size: var(--font-size-7xl);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .savingsAccountsDetails {
+    height: auto;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-88xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .moneyMarketAccounts {
+    font-size: var(--font-size-lgi);
+  }
+  .higherYieldsWith {
+    font-size: var(--font-size-base);
+  }
+}
