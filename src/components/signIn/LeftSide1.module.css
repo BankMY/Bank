@@ -52,7 +52,7 @@
   font-size: inherit;
   letter-spacing: 0.06em;
   line-height: 3.688rem;
-  font-weight: 600;
+  font-weight: 400;
   font-family: inherit;
   z-index: 5;
 }
@@ -82,6 +82,7 @@
 .wereExcitedTo {
   margin: 0;
 }
+
 .wereExcitedToContainer {
   flex: 1;
   position: relative;
@@ -89,6 +90,9 @@
   display: inline-block;
   max-width: 100%;
   z-index: 5;
+  font-family: "RedHat";
+  font-weight: 100;
+  font-size: 1rem;
 }
 .journeyDescription {
   align-self: stretch;
@@ -131,6 +135,8 @@
   line-height: 1.648rem;
   min-width: 5.125rem;
   white-space: nowrap;
+  text-decoration: none;
+  color: white;
 }
 .component13 {
   flex-direction: row;

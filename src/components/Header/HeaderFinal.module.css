@@ -26,7 +26,7 @@
 .component4Parent {
   flex: 1;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 4.2rem;
   
 }
 .auth,
@@ -59,7 +59,7 @@
   /* box-sizing: border-box; */
   overflow: hidden;
   justify-content: space-between;
-  padding: 26px 161px 22px 159px;
+  padding: 26px 141px 22px 159px;
   top: 0;
   z-index: 99;
   position: sticky;
@@ -76,7 +76,7 @@
   font-weight: 500;
   color: inherit;
   display: inline-block;
-  min-width: 80px;
+  /* min-width: 80px; */
   white-space: nowrap;
 }
 .menuitem {

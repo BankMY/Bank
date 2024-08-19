@@ -96,6 +96,9 @@
   display: inline-block;
   max-width: 100%;
   z-index: 5;
+  font-size: 1rem;
+  font-family: "Grotesk";
+  font-weight: 100;
 }
 .welcomeMessage {
   display: flex;
@@ -120,6 +123,8 @@
   line-height: 1.648rem;
   display: inline-block;
   min-width: 4.5rem;
+  text-decoration: none;
+  color: white;
 }
 .component13 {
   display: flex;

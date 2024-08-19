@@ -1,11 +1,11 @@
 .accountSupportDetailsChild {
-  height: 0.063rem;
-  width: 32.5rem;
+  height: 0.263rem;
+  width: 29.5rem;
   position: absolute;
   margin: 0 !important;
   top: 4.625rem;
   left: 0;
-  object-fit: contain;
+  object-fit:cover;
 }
 .multiCurrencyAccounts {
   margin: 0;
@@ -15,7 +15,7 @@
   letter-spacing: 0.02em;
   line-height: 5.5rem;
   font-weight: 700;
-  font-family: inherit;
+  font-family: "Grotesk";
   display: inline-block;
   max-width: 100%;
   z-index: 1;
@@ -32,7 +32,8 @@
 .operateGloballyWith {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-lg);
+  font-size: 1.1rem;
+  font-family: 'Grotesk';
   letter-spacing: 0.01em;
   line-height: 192%;
   color: var(--color-black);

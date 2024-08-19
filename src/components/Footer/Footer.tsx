@@ -8,6 +8,7 @@ import About from '../../assets/svg/footer/About the Bank.svg'
 import ContactInfo from '../../assets/svg/footer/Contact Information.svg'
 import Security from '../../assets/svg/footer/Security.svg'
 import Careers from '../../assets/svg/footer/Careers.svg'
+import priva from '../../assets/svg/footer/priva.svg'
 
 import Support from '../../assets/svg/footer/Support.svg'
 import Faq from '../../assets/svg/footer/FAQ.svg'
@@ -46,14 +47,17 @@ const AboutSection: React.FC = () => {
     return (
         <div className={styles.buttonscontainer}>
             <img src={About}></img>
-            <Link to="/">
+            <Link to="/about-us">
                 <img src={ContactInfo}/>
             </Link>
             <Link to="/privacy">
                 <img src={Security}/>
             </Link>
-            <Link to="/">
+            <Link to="/about-us">
                 <img src={Careers}/>
+            </Link>
+            <Link to="/privacy">
+                <img src={priva}/>
             </Link>
         </div>
     );

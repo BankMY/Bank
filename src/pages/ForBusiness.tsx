@@ -4,8 +4,6 @@ import ContentColumns from "../components/For-business/ContentColumns";
 import styles from "./ForBusiness.module.css";
 
 import cards_head from "../assets/svg/For-business/cards-head-business.svg";
-import PrivacyContent from "../components/Privacy/PrivacyContent";
-import PrivacyContent1 from "../components/Privacy/PrivacyContent1";
 
 import line21 from "../assets/svg/For-business/line-21.svg";
 import line32 from "../assets/svg/For-business/line-32.svg";

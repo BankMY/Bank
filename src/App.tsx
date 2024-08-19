@@ -16,8 +16,14 @@ import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import ForBusiness from './pages/ForBusiness';
 import LoansUpdate from './pages/LoansUpdate';
+
+
 import Deposits from './pages/Deposits';
 import Investments from './pages/Investments';
+
+import InsuranceUpdate from './pages/InsuranceUpdate';
+import Page404 from './pages/Page404';
+
 
 function PageWithTitle({ title, children }: { title: string, children: React.ReactNode }) {
   useEffect(() => {
@@ -79,6 +85,13 @@ function App() {
           <Footer />
         </PageWithTitle>
       } />
+       <Route path="/insurance" element={
+            <>
+              <HeaderFinal active='services'/>
+              <InsuranceUpdate/>
+              <Footer />
+            </>
+          } />
       <Route path="/Deposits" element={
         <PageWithTitle title="Deposits">
           <HeaderFinal active='services'/>
@@ -112,10 +125,13 @@ function App() {
       } />
       <Route path="*" element={
         <PageWithTitle title="4o4 Monkey">
-          <Homepage />
+         <HeaderFinal/>
+              <Page404 />
+              <Footer />
         </PageWithTitle>
       } />
     </Routes>
+
   );
 }
 

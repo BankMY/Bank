@@ -47,7 +47,7 @@
   letter-spacing: 0.02em;
   line-height: 5.5rem;
   font-weight: 700;
-  font-family: inherit;
+  font-family: 'Grotesk';
   display: inline-block;
   flex-shrink: 0;
   max-width: 100%;
@@ -74,6 +74,7 @@
   flex-direction: column;
   justify-content: flex-start;
   max-width: 100%;
+  margin-top: 4rem;
 }
 .progressTracking {
   align-self: stretch;
@@ -84,14 +85,14 @@
   gap: var(--gap-19xl);
 }
 .mainContent {
-  width: 90%;
+  width: 85%;
   gap: var(--gap-54xl);
   text-align: center;
   font-size: var(--font-size-45xl);
   color: var(--color);
   font-family: var(--font-schibsted-grotesk);
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 .content,
 .homepage,

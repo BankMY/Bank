@@ -295,3 +295,34 @@ body {
   /* Effects */
   --effect: 0px 0px 10px rgba(94, 30, 229, 0.25);
 }
+
+
+@font-face {
+  font-family: 'RedHat';
+  src: url('./assets/fonts/RedHatDisplay-VariableFont_wght.ttf') format('truetype');
+       
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatItalic';
+  src: url('./assets/fonts/RedHatDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+       
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Grotesk';
+  src: url('./assets/fonts/SchibstedGrotesk-VariableFont_wght.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GroteskItalic';
+  src: url('./assets/fonts/SchibstedGrotesk-Italic-VariableFont_wght.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
