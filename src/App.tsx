@@ -17,6 +17,7 @@ import Services from './pages/Services';
 import ForBusiness from './pages/ForBusiness';
 import LoansUpdate from './pages/LoansUpdate';
 import Deposits from './pages/Deposits';
+import Investments from './pages/Investments';
 
 function PageWithTitle({ title, children }: { title: string, children: React.ReactNode }) {
   useEffect(() => {
@@ -82,6 +83,13 @@ function App() {
         <PageWithTitle title="Deposits">
           <HeaderFinal active='services'/>
           <Deposits />
+          <Footer />
+        </PageWithTitle>
+      } />
+       <Route path="/Investments" element={
+        <PageWithTitle title="Investments">
+          <HeaderFinal active='services'/>
+          <Investments />
           <Footer />
         </PageWithTitle>
       } />
