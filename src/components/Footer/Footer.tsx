@@ -39,43 +39,43 @@ const Footer: React.FC = () => {
 
 const LogoSection: React.FC = () => {
     return (
-        <img className={styles.logo} src={Logo}></img>
+        <img className={styles.logo} src={Logo} alt=''></img>
     );
 };
 
 const AboutSection: React.FC = () => {
     return (
-        <div className={styles.buttonscontainer}>
-            <img src={About}></img>
+        <nav className={styles.buttonscontainer}>
+            <img src={About} alt=''></img>
             <Link to="/about-us">
-                <img src={ContactInfo}/>
+                <img src={ContactInfo} alt=''/>
             </Link>
             <Link to="/privacy">
-                <img src={Security}/>
+                <img src={Security} alt=''/>
             </Link>
             <Link to="/about-us">
-                <img src={Careers}/>
+                <img src={Careers} alt=''/>
             </Link>
             <Link to="/privacy">
-                <img src={priva}/>
+                <img src={priva} alt=''/>
             </Link>
-        </div>
+        </nav>
     );
 };
 const SupportSection: React.FC = () => {
     return (
-        <div className={styles.buttonscontainer}>
-            <img src={Support}></img>
+        <nav className={styles.buttonscontainer}>
+            <img src={Support} alt=''></img>
             <Link to="/faq">
-                <img src={Faq}/>
+                <img src={Faq} alt=''/>
             </Link>
-            <Link to="/">
-                <img src={OnlineSupport}/>
+            <Link to="*">
+                <img src={OnlineSupport} alt=''/>
             </Link>
-            <Link to="/">
-                <img src={SupportContacts}/>
+            <Link to="*">
+                <img src={SupportContacts} alt=''/>
             </Link>
-        </div>
+        </nav>
     );
 };
 
@@ -87,21 +87,21 @@ const SocialSection: React.FC<SocialSectionpProps> = ({star}) => {
     return (
         <div className={styles.buttonscontainerSocial1}>
             <div style={{display:'flex'}}>
-                <img src={Social} />
-                <img src={star} />
+                <img src={Social} alt=''/>
+                <img src={star} alt=''/>
             </div>
             
-            <div className={styles.buttonscontainerSocial}>
-                <Link to="/" className={styles.padding}>
-                    <img src={F}/>
+            <nav className={styles.buttonscontainerSocial}>
+                <Link to="*" className={styles.padding}>
+                    <img src={F} alt=''/>
                 </Link>
-                <Link to="/" className={styles.padding}>
-                    <img src={X}/>
+                <Link to="*" className={styles.padding}>
+                    <img src={X} alt=''/>
                 </Link>
-                <Link to="/" className={styles.padding}>
-                    <img src={Insta}/>
+                <Link to="*" className={styles.padding}>
+                    <img src={Insta} alt=''/>
                 </Link>
-            </div>
+            </nav>
         </div>
     );
 };
