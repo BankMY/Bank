@@ -5,8 +5,8 @@
     letter-spacing: 0.02em;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: inherit;
     z-index: 1;
+    font-family: 'Grotesk';
   }
   .loanOptions {
     display: flex;
@@ -20,11 +20,11 @@
     font-size: var(--font-size-xl);
     letter-spacing: 0.02em;
     display: inline-block;
-    font-family: var(--font-red-hat-display);
     color: var(--color-white);
     text-align: left;
     min-width: 5.688rem;
     transition: color 0.3s ease;
+    font-family: 'RedHat';
   }
   .cardDetails,
   .component1,
@@ -87,6 +87,7 @@
     line-height: 192%;
     display: inline-block;
     z-index: 1;
+    font-family: 'Grotesk';
   }
   .bankLoanContent {
     align-self: stretch;
@@ -1201,19 +1202,23 @@
     font-size: inherit;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    font-weight: 400;
-    font-family: inherit;
+    font-weight: 600;
+    font-family: "RedHat";
     display: inline-block;
     max-width: 100%;
+
   }
   .earnInterestWith {
     margin: 0;
+    font-family: "RedHat";
+    
   }
   .earnInterestWithContainer {
     align-self: stretch;
     position: relative;
     letter-spacing: 0.02em;
     font-weight: 600;
+    
   }
   .accountAccess {
     flex: 1;
@@ -1383,13 +1388,13 @@
   .fixedInterestRates {
     position: relative;
     letter-spacing: 0.02em;
-    font-weight: 400;
+    font-weight: 600;
   }
   .certificatesCds {
     margin: 0;
     font-size: inherit;
     text-transform: uppercase;
-    font-family: inherit;
+    font-family: 'RedHat';
   }
   .fixedInterestRates {
     align-self: stretch;
@@ -1405,6 +1410,7 @@
     gap: 0.75rem;
     min-width: 13.875rem;
     max-width: 100%;
+    font-family: 'RedHat';
   }
   .retirementAccounts {
     align-self: stretch;
