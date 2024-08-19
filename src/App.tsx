@@ -18,8 +18,10 @@ import ForBusiness from './pages/ForBusiness';
 import LoansUpdate from './pages/LoansUpdate';
 import InsuranceUpdate from './pages/InsuranceUpdate';
 import Page404 from './pages/Page404';
+import Header from './components/CRM/Header';
+import Dashbord from './pages/CRM/Dashbord';
 
-
+import avatarcrm from "./assets/png/CRM/Header/ellipse-79@2x.png";
 
 function App() {
   return (
@@ -89,6 +91,14 @@ function App() {
               <Footer />
             </>
           } />
+
+          <Route path="/dashbord" element={
+            <>
+              <Header avatar={avatarcrm}/>
+              <Dashbord/>
+            </>
+          } />
+
           <Route path="/sign-in" element={<SignIn />}/>
           <Route path="/sign-up" element={<SignUp />}/>
 
