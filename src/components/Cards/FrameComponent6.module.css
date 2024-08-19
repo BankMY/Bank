@@ -22,6 +22,7 @@
   width: 100%;
   height: 100%;
   z-index: 1;
+  font-family: 'Grotesk';
 }
 .currencyTitle {
   height: 5.5rem;
@@ -71,6 +72,7 @@
   display: inline-block;
   max-width: 100%;
   z-index: 1;
+  font-family: 'Grotesk';
 }
 .currencyDescription,
 .globalReach {
@@ -100,6 +102,7 @@
   color: var(--color-white);
   text-align: left;
   min-width: 7.75rem;
+  font-family: 'RedHat';
 }
 .component3 {
   cursor: pointer;

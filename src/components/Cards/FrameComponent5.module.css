@@ -9,6 +9,7 @@
   line-height: 4.681rem;
   font-weight: 700;
   font-family: inherit;
+  font-family: 'Grotesk';
 }
 .rewardsTitle {
   display: flex;
@@ -28,6 +29,7 @@
   line-height: 192%;
   z-index: 1;
   margin-left: -6rem;
+  font-family: 'Grotesk';
 }
 .maximizeYourBusinessPotentiWrapper {
   flex: 1;
@@ -51,6 +53,7 @@
   align-self: stretch;
   display: flex;
   align-items: flex-start;
+  
   width: 100%;
 }
 .rewardsDescription {
@@ -76,6 +79,7 @@
   color: var(--color-white);
   text-align: left;
   min-width: 6.063rem;
+  font-family: 'RedHat';
 }
 .component3 {
   cursor: pointer;
@@ -114,6 +118,8 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-19xl);
+  
+
 }
 .rewardsContentWrapper {
   width: 116.938rem;
@@ -126,6 +132,8 @@
   color: var(--color1);
   font-family: var(--font-schibsted-grotesk);
   align-self: center;
+  margin-left: 6rem;
+  
 }
 
 .starSecurityParent {
