@@ -23,6 +23,10 @@ import Investments from './pages/Investments';
 
 import InsuranceUpdate from './pages/InsuranceUpdate';
 import Page404 from './pages/Page404';
+import Header from './components/CRM/Header';
+import Dashbord from './pages/CRM/Dashbord';
+
+import avatarcrm from "./assets/png/CRM/Header/ellipse-79@2x.png";
 
 
 function PageWithTitle({ title, children }: { title: string, children: React.ReactNode }) {
@@ -32,6 +36,7 @@ function PageWithTitle({ title, children }: { title: string, children: React.Rea
 
   return <>{children}</>;
 }
+
 
 function App() {
   return (
@@ -92,6 +97,17 @@ function App() {
               <Footer />
             </>
           } />
+
+
+        
+
+          <Route path="/dashbord" element={
+            <>
+              <Header avatar={avatarcrm}/>
+              <Dashbord/>
+            </>
+          } />
+
       <Route path="/Deposits" element={
         <PageWithTitle title="Deposits">
           <HeaderFinal active='services'/>
