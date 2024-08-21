@@ -1,0 +1,1778 @@
+.loans {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .loanOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .pickAPlan {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    display: inline-block;
+    font-family: var(--font-red-hat-display);
+    color: var(--color-white);
+    text-align: left;
+    min-width: 5.688rem;
+    transition: color 0.3s ease;
+  }
+  .cardDetails,
+  .component1,
+  .loanCards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .component1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lg) var(--padding-21xl);
+    background-color: var(--color1);
+    border-radius: var(--br-25xl);
+    flex-direction: row;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  .component1:hover {
+    background-color: #afe638;
+  }
+  
+  .component1:hover .pickAPlan {
+    color: black;
+  }
+   
+  .component4:hover {
+    background-color: var(--color-blueviolet-100);
+  }
+  .cardDetails,
+  .loanCards {
+    flex-direction: column;
+  }
+  .cardDetails {
+    gap: var(--gap-127xl);
+    flex-shrink: 0;
+  }
+  .loanCards {
+    padding: var(--padding-sm) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .loansIcon {
+    margin-left: -0.125rem;
+    height: 25.713rem;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .veridionBankOffers {
+    width: 53.75rem;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 10.65rem;
+    left: -30.187rem;
+    letter-spacing: 0.01em;
+    line-height: 192%;
+    display: inline-block;
+    z-index: 1;
+  }
+  .bankLoanContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .bankLoans,
+  .loanTypes {
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .bankLoans {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    min-width: 51.125rem;
+    max-width: 100%;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+  }
+  .loanTypes {
+    align-self: stretch;
+    flex-wrap: wrap;
+    padding: 0 0 3.025rem;
+    row-gap: 20px;
+    font-size: var(--font-size-77xl);
+    color: var(--color);
+    font-family: var(--font-schibsted-grotesk);
+  }
+  .frameParent,
+  .loanTypes,
+  .loanTypes1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .loanTypes1 {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-13xl-4) var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .highlightIcons {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: -0.062rem;
+    top: 0;
+    transform: scale(1.01);
+  }
+  .wrapperHighlightIcons {
+    height: 18.625rem;
+    width: 113rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 2.563rem;
+    right: -81.187rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+  .speedIcon1 {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .speedIcon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-33xl) 0 var(--padding-31xl);
+  }
+  .unsecuredLoans {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .andEasyFunding,
+  .noCollateralRequired {
+    margin: 0;
+  }
+  .noCollateralRequiredContainer {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    color: var(--color-dimgray-100);
+  }
+  .highlightDetails {
+    flex: 1;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xl) var(--padding-12xl) var(--padding-26xl)
+      var(--padding-13xl);
+    box-sizing: border-box;
+    gap: var(--gap-smi-5);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .loanHighlights {
+    width: 5.313rem;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .loanHighlights,
+  .unsecuredLoan,
+  .unsecuredLoanContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+    
+  }
+  .unsecuredLoanContent {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    
+  }
+  .unsecuredLoan {
+    margin-left: 8rem;
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-13xl-4) var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .pickAPlan1 {
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-family: var(--font-red-hat-display);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .component4 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lg) var(--padding-21xl);
+    background-color: var(--color1);
+    border-radius: var(--br-25xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .faq {
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 2.625rem;
+  }
+  .autoLoanHelpLabel {
+    border-radius: var(--br-25xl);
+    background-color: var(--color);
+    padding: var(--padding-lg) var(--padding-21xl);
+  }
+  .autoLoanHelpLabel,
+  .autoLoanHelpLabelWrapper,
+  .component4Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .autoLoanHelpLabelWrapper {
+    cursor: pointer;
+  }
+  .component4Parent {
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .autoLoanCTA {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .autoLoanCTA,
+  .autoLoanContent,
+  .autoLoanContentWrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .autoLoanContent {
+    width: 83.125rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-13xl-6);
+  }
+  .autoLoanContentWrapper {
+    width: 99.375rem;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+  }
+  .flowerIcon {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .affordableIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-24xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .affordable,
+  .competitiveRatesFor {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .affordable {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .competitiveRatesFor {
+    align-self: stretch;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray-100);
+  }
+  .affordableDescription,
+  .benefitIcons {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .affordableDescription {
+    gap: var(--gap-2xs);
+  }
+  .benefitIcons {
+    gap: 1.1rem;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .extrudeGroupIcon {
+    margin-left: -57.313rem;
+    width: 0;
+    height: 0;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .benefitDetails {
+    height: 26.688rem;
+    width: 25.313rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.15rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl);
+    box-sizing: border-box;
+    gap: var(--gap-218xl);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .benefitDetailsChild {
+    height: 18.625rem;
+    width: 113rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 3.875rem;
+    left: -43.875rem;
+    object-fit: contain;
+  }
+  .documentIcon {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .flexibleIcon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-29xl) 0 var(--padding-35xl);
+  }
+  .flexible,
+  .repayment {
+    margin: 0;
+  }
+  .flexibleRepayment,
+  .termsTailoredTo {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .flexibleRepayment {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .termsTailoredTo {
+    align-self: stretch;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray-100);
+  }
+  .flexibleDescription {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xs);
+  }
+  .benefitDetails1,
+  .flexibleIconParent {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .flexibleIconParent {
+    flex: 1;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1.462rem var(--padding-15xl) var(--padding-19xl) var(--padding-10xl);
+    box-sizing: border-box;
+    gap: 0.287rem;
+    z-index: 1;
+  }
+  .benefitDetails1 {
+    width: 25.313rem;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+  }
+  .extrudeGroupIcon1 {
+    height: 0;
+    width: 0;
+    position: relative;
+  }
+  .extrudeGroupWrapper {
+    width: 19.75rem;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .timeIcon {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .timeWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-32xl);
+  }
+  .efficientApprovalProcess,
+  .quickProcess {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .quickProcess {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .efficientApprovalProcess {
+    align-self: stretch;
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray-100);
+  }
+  .benefitDetails2 {
+    width: 25.313rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: var(--br-17xl);
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.193rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl);
+    box-sizing: border-box;
+    gap: 0.581rem;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .loanBenefits {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .loanBenefits,
+  .loanTypesParent,
+  .mainContent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .loanTypesParent {
+    width: 100.063rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4.35rem;
+  }
+  .mainContent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-red-hat-display);
+  }
+  .headerFinalParent,
+  .loansUpdate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .headerFinalParent {
+    align-self: stretch;
+    gap: var(--gap-67xl);
+    max-width: 100%;
+  }
+  .loansUpdate {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    gap: 7.525rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1300px) {
+    .frameParent,
+    .loanBenefits,
+    .unsecuredLoanContent {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .bankLoans {
+      min-width: 100%;
+    }
+    .headerFinalParent {
+      gap: var(--gap-24xl);
+    }
+    .loansUpdate {
+      gap: var(--gap-41xl);
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .loans {
+      font-size: var(--font-size-29xl);
+    }
+    .unsecuredLoans {
+      font-size: var(--font-size-7xl);
+    }
+    .component4Parent {
+      flex-wrap: wrap;
+    }
+    .autoLoanContent {
+      gap: var(--gap-base);
+    }
+    .affordable {
+      font-size: var(--font-size-7xl);
+    }
+    .benefitDetails {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .flexibleRepayment,
+    .quickProcess {
+      font-size: var(--font-size-7xl);
+    }
+    .loanTypesParent {
+      gap: var(--gap-16xl);
+    }
+    .headerFinalParent {
+      gap: var(--gap-2xl);
+    }
+    .loansUpdate {
+      gap: var(--gap-11xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .loans {
+      font-size: var(--font-size-10xl);
+    }
+    .cardDetails {
+      gap: var(--gap-54xl);
+    }
+    .loanTypes {
+      padding-bottom: var(--padding-12xl);
+      box-sizing: border-box;
+    }
+    .speedIcon {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .unsecuredLoans {
+      font-size: var(--font-size-lgi);
+    }
+    .noCollateralRequiredContainer {
+      font-size: var(--font-size-base);
+    }
+    .highlightDetails {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .faq {
+      font-size: var(--font-size-base);
+    }
+    .affordableIcon {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .affordable {
+      font-size: var(--font-size-lgi);
+    }
+    .competitiveRatesFor {
+      font-size: var(--font-size-base);
+    }
+    .benefitDetails {
+      gap: var(--gap-99xl);
+    }
+    .flexibleIcon {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .flexibleRepayment {
+      font-size: var(--font-size-lgi);
+    }
+    .termsTailoredTo {
+      font-size: var(--font-size-base);
+    }
+    .flexibleIconParent {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .timeWrapper {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .quickProcess {
+      font-size: var(--font-size-lgi);
+    }
+    .efficientApprovalProcess {
+      font-size: var(--font-size-base);
+    }
+    .benefitDetails2 {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .loanTypesParent {
+      gap: var(--gap-mid);
+    }
+  }
+
+  .logoIcon {
+    align-self: stretch;
+    height: 2.188rem;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .logoContainer {
+    width: 8.563rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 0.375rem;
+    box-sizing: border-box;
+  }
+  .cards {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 3.125rem;
+  }
+  .component4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.75rem 0;
+  }
+  .cards1 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.563rem;
+  }
+  .component5 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.75rem 0;
+    color: #5e1ee5;
+  }
+  .cards2 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.688rem;
+  }
+  .component6 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.75rem 0;
+  }
+  .cards3 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 5rem;
+    white-space: nowrap;
+  }
+  .component4Parent,
+  .logoContainerParent {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .component4Parent {
+    margin: 0;
+    width: 30.125rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4.25rem;
+    text-align: left;
+    font-size: 1.125rem;
+    color: #1c2027;
+    font-family: "Red Hat Display";
+  }
+  .logoContainerParent {
+    width: 46.188rem;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1.25rem;
+  }
+  .signIn1 {
+    text-decoration: none;
+    position: relative;
+    font-size: 1.125rem;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-family: "Red Hat Display";
+    color: #1c2027;
+    text-align: left;
+    display: inline-block;
+    min-width: 3.563rem;
+  }
+  .signIn {
+    cursor: pointer;
+    border: 1.5px solid #1c2027;
+    padding: 0.625rem 2.687rem 0.625rem 2.812rem;
+    background-color: rgba(94, 30, 229, 0.01);
+    flex: 1;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .signIn:hover {
+    background-color: rgba(133, 69, 255, 0.01);
+    border: 1.5px solid #4f5459;
+    box-sizing: border-box;
+  }
+  .singUp {
+    text-decoration: none;
+    position: relative;
+    font-size: 1.125rem;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-family: "Red Hat Display";
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    min-width: 4.313rem;
+  }
+  .signUp {
+    cursor: pointer;
+    border: 0;
+    padding: 0.75rem 2.437rem;
+    background-color: #1c2027;
+    border-radius: 44px;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .signUp:hover {
+    background-color: #4f5459;
+  }
+  .authButtons,
+  .headerFinal,
+  .signUp {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .authButtons {
+    width: 19.75rem;
+    justify-content: flex-start;
+    gap: 1.25rem;
+  }
+  .headerFinal {
+    align-self: stretch;
+    backdrop-filter: blur(36px);
+    background-color: rgba(255, 255, 255, 0.76);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: center;
+    padding: 1.625rem 1.25rem 1.375rem;
+    gap: 34.062rem;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+  }
+  .heroIllustrationIcon {
+    width: 113rem;
+    height: 18.625rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 67.625rem;
+    right: 3.125rem;
+  }
+  .secureYourFunds {
+    width: 53.75rem;
+    position: absolute;
+    margin: 0 !important;
+    right: -21.562rem;
+    bottom: 6.25rem;
+    letter-spacing: 0.01em;
+    line-height: 192%;
+    display: inline-block;
+    z-index: 1;
+  }
+  .deposits,
+  .pickAPlan {
+    position: relative;
+    letter-spacing: 0.02em;
+  }
+  .deposits {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .pickAPlan {
+    font-size: 1.25rem;
+    display: inline-block;
+    font-family: "Red Hat Display";
+    color: #fff;
+    text-align: left;
+    min-width: 7.438rem;
+  }
+  .component1 {
+    cursor: pointer;
+    border: 0;
+    padding: 1.125rem 2.5rem;
+    background-color: #5e1ee5;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .component1:hover {
+    background-color: #8545ff;
+  }
+  .depositsParent {
+    flex-direction: column;
+    gap: 9.125rem;
+    flex-shrink: 0;
+    font-size: 6rem;
+    color: #1c2027;
+  }
+  .depositsParent,
+  .heroTitle,
+  .secureYourFundsAndWatchThParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .secureYourFundsAndWatchThParent {
+    flex-direction: row;
+    position: relative;
+  }
+  .heroTitle {
+    flex-direction: column;
+    padding: 1.062rem 0 0;
+    box-sizing: border-box;
+    min-width: 32.188rem;
+  }
+  .depositsIcon {
+    margin-left: -0.25rem;
+    align-self: stretch;
+    height: 23.5rem;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .depositsHeader,
+  .heroTitleParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .depositsHeader {
+    flex: 1;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 44.063rem;
+  }
+  .heroTitleParent {
+    align-self: stretch;
+    flex-direction: row;
+    row-gap: 20px;
+  }
+  .deposits1 {
+    color: #1c2027;
+  }
+  .shortTermDeposits {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .shortDepositsType {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1.25rem 0 1.312rem;
+  }
+  .needQuickAccess {
+    align-self: stretch;
+    position: relative;
+    font-size: 1.125rem;
+    letter-spacing: 0.01em;
+    line-height: 192%;
+    color: #000;
+    text-align: center;
+  }
+  .shortDepositsTypeParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.25rem;
+  }
+  .faq,
+  .pickAPlan1 {
+    position: relative;
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+    font-family: "Red Hat Display";
+    color: #fff;
+    text-align: left;
+  }
+  .faq {
+    display: inline-block;
+    min-width: 2.625rem;
+  }
+  .shortDepositsFaq {
+    cursor: pointer;
+    border: 0;
+    padding: 1.125rem 2.5rem;
+    background-color: #1c2027;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .shortDepositsFaq:hover {
+    background-color: #4f5459;
+  }
+  .pickPlanButton,
+  .pickPlanButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .pickPlanButton {
+    justify-content: flex-start;
+    gap: 1.25rem;
+  }
+  .pickPlanButtonWrapper {
+    width: 76.25rem;
+    justify-content: center;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+  }
+  .groupIcon,
+  .groupIcon1 {
+    position: absolute;
+    top: 6.694rem;
+    width: 2.213rem;
+    height: 1.3rem;
+  }
+  .groupIcon {
+    left: 8.488rem;
+  }
+  .groupIcon1 {
+    left: 0;
+  }
+  .cancellationIcon {
+    position: absolute;
+    top: 0;
+    left: 1.238rem;
+    width: 8.225rem;
+    height: 11.519rem;
+    z-index: 1;
+  }
+  .cancellationIcon1 {
+    position: absolute;
+    top: 0.856rem;
+    left: 1.781rem;
+    width: 7.088rem;
+    height: 3.819rem;
+    z-index: 2;
+  }
+  .groupIcon2,
+  .groupIcon3,
+  .groupIcon4 {
+    position: absolute;
+    top: 5.313rem;
+    left: 2.863rem;
+    width: 4.138rem;
+    height: 0.4rem;
+    z-index: 2;
+  }
+  .groupIcon3,
+  .groupIcon4 {
+    top: 6.294rem;
+    width: 5.244rem;
+  }
+  .groupIcon4 {
+    top: 7.281rem;
+    width: 4.138rem;
+  }
+  .cancellationIcon2 {
+    position: absolute;
+    top: 0;
+    left: 1.225rem;
+    width: 8.238rem;
+    height: 9.956rem;
+    z-index: 3;
+  }
+  .cancellationIcon3 {
+    position: absolute;
+    top: 7.994rem;
+    left: 0;
+    width: 10.7rem;
+    height: 5.119rem;
+    z-index: 4;
+  }
+  .cancellationIcon4,
+  .groupIcon5 {
+    position: absolute;
+    top: 7.994rem;
+    left: 1.694rem;
+    width: 9.006rem;
+    height: 5.119rem;
+    z-index: 5;
+  }
+  .groupIcon5 {
+    top: 1.413rem;
+    left: 4.575rem;
+    width: 1.531rem;
+    height: 2.719rem;
+    z-index: 4;
+  }
+  .cancellationIcons {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .group,
+  .shortDepositOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .group {
+    height: 13.113rem;
+    width: 10.7rem;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .shortDepositOptions {
+    align-self: stretch;
+    justify-content: center;
+  }
+  .savingsAccounts {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .earnInterestWith {
+    margin: 0;
+  }
+  .earnInterestWithContainer {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .accountAccess {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.375rem 0 0;
+    box-sizing: border-box;
+    min-width: 13.875rem;
+    max-width: 100%;
+  }
+  .savingsYieldIcon {
+    position: absolute;
+    top: 2.625rem;
+    left: 1.875rem;
+    border-radius: 1px;
+    width: 5.625rem;
+    height: 6.313rem;
+  }
+  .marketYieldIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 1px;
+    width: 3.75rem;
+    height: 4.125rem;
+    z-index: 1;
+  }
+  .accountYield {
+    height: 8.938rem;
+    width: 7.5rem;
+    position: relative;
+    min-width: 7.5rem;
+  }
+  .accountDescriptions,
+  .accountOptions,
+  .shortDepositsFeatures {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .accountDescriptions {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 2.812rem;
+    max-width: 100%;
+    margin-top: -0.688rem;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+  }
+  .accountOptions,
+  .shortDepositsFeatures {
+    width: 31.688rem;
+    flex-direction: column;
+    max-width: 112%;
+    flex-shrink: 0;
+  }
+  .shortDepositsFeatures {
+    height: 26.688rem;
+    width: 32.5rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: 36px;
+    background-color: #fff;
+    overflow-y: auto;
+    padding: 2.006rem 2rem 11.568rem;
+    box-sizing: border-box;
+    gap: 2.131rem;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .shortDepositsDetails,
+  .shortDepositsPlanButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12rem;
+    max-width: 100%;
+  }
+  .shortDepositsPlanButton {
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  .shortDepositsPlan {
+    flex-direction: row;
+    padding: 0 2.687rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: #000;
+    font-family: "Red Hat Display";
+  }
+  .shortDepositsPlan,
+  .shortDepositsTitle,
+  .shortDepositsTitleWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .shortDepositsTitle {
+    flex: 1;
+    flex-direction: column;
+    gap: 2.062rem;
+  }
+  .shortDepositsTitleWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 2rem 0.375rem;
+    box-sizing: border-box;
+  }
+  .longTermDeposits {
+    margin: 0;
+    height: 4.938rem;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .longTermDepositsWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1.25rem;
+  }
+  .longDepositsContentParent,
+  .longDepositsPlan {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .longDepositsPlan {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+  }
+  .longDepositsContentParent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.062rem;
+  }
+  .documentIcon {
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .certificatesIcon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 0.5rem;
+  }
+  .certificatesCds,
+  .fixedInterestRates {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+  }
+  .certificatesCds {
+    margin: 0;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-family: inherit;
+  }
+  .fixedInterestRates {
+    align-self: stretch;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+  }
+  .certificateTerms {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    min-width: 13.875rem;
+    max-width: 100%;
+  }
+  .retirementAccounts {
+    align-self: stretch;
+    height: 8.938rem;
+    position: relative;
+  }
+  .retirementOptions {
+    width: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2rem 0 0;
+    box-sizing: border-box;
+    min-width: 7.5rem;
+  }
+  .certificateDetails,
+  .certificateTypes {
+    width: 31.688rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2.812rem;
+    flex-shrink: 0;
+    max-width: 112%;
+  }
+  .certificateTypes {
+    height: 26.688rem;
+    width: 32.5rem;
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: 36px;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.437rem 2rem 10.25rem;
+    box-sizing: border-box;
+    gap: 0.812rem;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .certificateTypesChild {
+    height: 18.625rem;
+    width: 113rem;
+    position: absolute;
+    margin: 0 !important;
+    top: 2.563rem;
+    left: -62.5rem;
+  }
+  .pensionWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0.625rem 0 0;
+  }
+  .taxAdvantagedSavingsForContainer {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .taxRatingParent {
+    height: 8.938rem;
+    width: 7.5rem;
+    position: absolute;
+    margin: 0 !important;
+    right: -2.687rem;
+    bottom: -4.312rem;
+  }
+  .retirementDescription {
+    align-self: stretch;
+    flex-direction: row;
+    position: relative;
+    font-size: 1.25rem;
+    color: #5b5b5b;
+  }
+  .certificateTypes1,
+  .frameParent,
+  .retirementAccIrasParent,
+  .retirementDescription {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .retirementAccIrasParent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .certificateTypes1,
+  .frameParent {
+    flex: 1;
+  }
+  .frameParent {
+    box-shadow: 0 0 28px #d4c4f6;
+    border-radius: 36px;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 1rem 1.5rem 2.812rem 2rem;
+    box-sizing: border-box;
+    gap: 1.25rem;
+    z-index: 1;
+  }
+  .certificateTypes1 {
+    flex-direction: row;
+    position: relative;
+    min-width: 21.125rem;
+  }
+  .certificateOptions {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12rem;
+  }
+  .certificateOptions,
+  .certificateOptionsWrapper,
+  .shortDepositsContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .certificateOptionsWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 3.437rem 0 3.062rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    color: #000;
+    font-family: "Red Hat Display";
+  }
+  .shortDepositsContent {
+    width: 83.5rem;
+    flex-direction: column;
+    gap: 4.375rem;
+  }
+  .shortDepositsContentWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1.25rem 0 1.625rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 4rem;
+    color: #5e1ee5;
+  }
+  .heroContent {
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 7.375rem;
+    max-width: 100%;
+    text-align: left;
+    font-size: 1.125rem;
+    color: #000;
+    font-family: "Schibsted Grotesk";
+  }
+  .heroContentWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 1.25rem 2.312rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .depositesUpdate {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5.187rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1325px) {
+    .headerFinal {
+      gap: 17rem;
+    }
+    .heroTitle {
+      flex: 1;
+    }
+    .heroTitleParent {
+      flex-wrap: wrap;
+    }
+    .shortDepositsDetails {
+      flex-wrap: wrap;
+      gap: 6rem;
+    }
+    .shortDepositsPlan {
+      padding-left: 1.313rem;
+      padding-right: 1.313rem;
+      box-sizing: border-box;
+    }
+    .certificateOptions {
+      gap: 6rem;
+    }
+    .certificateOptionsWrapper {
+      padding-left: 1.5rem;
+      padding-right: 1.688rem;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .component4Parent {
+      display: none;
+    }
+    .logoContainerParent {
+      width: 16.063rem;
+    }
+    .depositesUpdate {
+      gap: 2.563rem;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .component4Parent {
+      gap: 2.125rem;
+    }
+    .authButtons {
+      display: none;
+    }
+    .headerFinal {
+      gap: 8.5rem;
+    }
+    .deposits {
+      font-size: 3rem;
+    }
+    .depositsParent {
+      gap: 4.563rem;
+    }
+    .depositsHeader,
+    .heroTitle {
+      min-width: 100%;
+    }
+    .shortTermDeposits {
+      font-size: 3.188rem;
+    }
+    .pickPlanButton {
+      flex-wrap: wrap;
+    }
+    .savingsAccounts {
+      font-size: 1.625rem;
+    }
+    .accountYield {
+      flex: 1;
+    }
+    .accountDescriptions {
+      flex-wrap: wrap;
+      gap: 1.375rem;
+    }
+    .shortDepositsFeatures {
+      height: auto;
+      gap: 1.063rem;
+      padding-top: 1.313rem;
+      padding-bottom: 7.5rem;
+      box-sizing: border-box;
+    }
+    .shortDepositsDetails {
+      gap: 3rem;
+    }
+    .shortDepositsPlanButton {
+      gap: 1.5rem;
+    }
+    .shortDepositsTitle {
+      gap: 1rem;
+    }
+    .longTermDeposits {
+      font-size: 3.188rem;
+    }
+    .longDepositsContentParent {
+      gap: 1rem;
+    }
+    .certificatesCds {
+      font-size: 1.625rem;
+    }
+    .retirementOptions {
+      flex: 1;
+    }
+    .certificateDetails {
+      flex-wrap: wrap;
+      gap: 1.375rem;
+    }
+    .certificateTypes {
+      height: auto;
+      padding-top: 1.25rem;
+      padding-bottom: 6.688rem;
+      box-sizing: border-box;
+    }
+    .certificateTypes1 {
+      min-width: 100%;
+    }
+    .certificateOptions {
+      gap: 3rem;
+    }
+    .shortDepositsContent {
+      gap: 2.188rem;
+    }
+    .heroContent {
+      gap: 3.688rem;
+    }
+    .depositesUpdate {
+      gap: 1.313rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .headerFinal {
+      gap: 4.25rem;
+    }
+    .deposits {
+      font-size: 1.813rem;
+    }
+    .depositsParent {
+      gap: 2.25rem;
+    }
+    .shortTermDeposits {
+      font-size: 2.375rem;
+    }
+    .faq {
+      font-size: 1rem;
+    }
+    .savingsAccounts {
+      font-size: 1.188rem;
+    }
+    .earnInterestWithContainer {
+      font-size: 1rem;
+    }
+    .shortDepositsDetails {
+      gap: 1.5rem;
+    }
+    .longTermDeposits {
+      font-size: 2.375rem;
+    }
+    .certificatesCds {
+      font-size: 1.188rem;
+    }
+    .fixedInterestRates,
+    .taxAdvantagedSavingsForContainer {
+      font-size: 1rem;
+    }
+    .frameParent {
+      padding-top: 1.25rem;
+      padding-bottom: 1.813rem;
+      box-sizing: border-box;
+    }
+    .certificateOptions {
+      gap: 1.5rem;
+    }
+    .shortDepositsContent {
+      gap: 1.063rem;
+    }
+    .heroContent {
+      gap: 1.813rem;
+    }
+  }
+  

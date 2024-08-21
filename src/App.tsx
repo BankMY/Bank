@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import { useEffect } from 'react';
 import './App.css';
 import './global.css';
 
@@ -16,6 +16,11 @@ import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
 import ForBusiness from './pages/ForBusiness';
 import LoansUpdate from './pages/LoansUpdate';
+
+
+import Deposits from './pages/Deposits';
+import Investments from './pages/Investments';
+
 import InsuranceUpdate from './pages/InsuranceUpdate';
 import Page404 from './pages/Page404';
 import Header from './components/CRM/Header';
@@ -23,60 +28,69 @@ import Dashbord from './pages/CRM/Dashbord';
 
 import avatarcrm from "./assets/png/CRM/Header/ellipse-79@2x.png";
 
+
+function PageWithTitle({ title, children }: { title: string, children: React.ReactNode }) {
+  useEffect(() => {
+    document.title = title;
+  }, [title]);
+
+  return <>{children}</>;
+}
+
+
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={
-            <>
-              <HeaderFinal/>
-              <Homepage />
-              <Footer />
-            </>
-          } />
-          <Route path="/Cards" element={
-            <>
-              <HeaderFinal active='cards'/>
-              <Cards />
-              <Footer />
-            </>
-          } />
-          <Route path="/faq" element={
-            <>
-              <HeaderFinal/>
-              <FAQ />
-              <Footer />
-            </>
-          } />
-          <Route path="/privacy" element={
-            <>
-              <HeaderFinal/>
-              <PrivacyPolicy />
-              <Footer />
-            </>
-          } />
-          <Route path="/about-us" element={
-            <>
-              <HeaderFinal active='about-us'/>
-              <AboutUs />
-              <Footer />
-            </>
-          } />
-          <Route path="/services" element={
-            <>
-              <HeaderFinal active='services'/>
-              <Services />
-              <Footer />
-            </>
-          } />
-          <Route path="/loans" element={
-            <>
-              <HeaderFinal active='services'/>
-              <LoansUpdate/>
-              <Footer />
-            </>
-          } />
-          <Route path="/insurance" element={
+    <Routes>
+      <Route path="/" element={
+        <PageWithTitle title="Veridion">
+          <HeaderFinal/>
+          <Homepage />
+          <Footer />
+        </PageWithTitle>
+      } />
+      <Route path="/Cards" element={
+        <PageWithTitle title="Cards">
+          <HeaderFinal active='cards'/>
+          <Cards />
+          <Footer />
+        </PageWithTitle>
+      } />
+      <Route path="/faq" element={
+        <PageWithTitle title="FAQ">
+          <HeaderFinal/>
+          <FAQ />
+          <Footer />
+        </PageWithTitle>
+      } />
+      <Route path="/privacy" element={
+        <PageWithTitle title="Privacy Policy">
+          <HeaderFinal/>
+          <PrivacyPolicy />
+          <Footer />
+        </PageWithTitle>
+      } />
+      <Route path="/about-us" element={
+        <PageWithTitle title="About Us">
+          <HeaderFinal active='about-us'/>
+          <AboutUs />
+          <Footer />
+        </PageWithTitle>
+      } />
+      <Route path="/services" element={
+        <PageWithTitle title="Services">
+          <HeaderFinal active='services'/>
+          <Services />
+          <Footer />
+        </PageWithTitle>
+      } />
+      <Route path="/loans" element={
+        <PageWithTitle title="Loans">
+          <HeaderFinal active='services'/>
+          <LoansUpdate />
+          <Footer />
+        </PageWithTitle>
+      } />
+       <Route path="/insurance" element={
             <>
               <HeaderFinal active='services'/>
               <InsuranceUpdate/>
@@ -84,13 +98,8 @@ function App() {
             </>
           } />
 
-          <Route path="/for-business" element={
-            <>
-              <HeaderFinal active='for-business'/>
-              <ForBusiness />
-              <Footer />
-            </>
-          } />
+
+        
 
           <Route path="/dashbord" element={
             <>
@@ -99,21 +108,53 @@ function App() {
             </>
           } />
 
-          <Route path="/sign-in" element={<SignIn />}/>
-          <Route path="/sign-up" element={<SignUp />}/>
-
-          <Route path="*" element={
-            <>
-              <HeaderFinal/>
+      <Route path="/Deposits" element={
+        <PageWithTitle title="Deposits">
+          <HeaderFinal active='services'/>
+          <Deposits />
+          <Footer />
+        </PageWithTitle>
+      } />
+       <Route path="/Investments" element={
+        <PageWithTitle title="Investments">
+          <HeaderFinal active='services'/>
+          <Investments />
+          <Footer />
+        </PageWithTitle>
+      } />
+      <Route path="/for-business" element={
+        <PageWithTitle title="For Business">
+          <HeaderFinal active='for-business'/>
+          <ForBusiness />
+          <Footer />
+        </PageWithTitle>
+      } />
+      <Route path="/sign-in" element={
+        <PageWithTitle title="Sign-in">
+          <SignIn />
+        </PageWithTitle>
+      } />
+      <Route path="/sign-up" element={
+        <PageWithTitle title="Sign-up">
+          <SignUp />
+        </PageWithTitle>
+      } />
+      <Route path="*" element={
+        <PageWithTitle title="4o4 Monkey">
+         <HeaderFinal/>
               <Page404 />
               <Footer />
-            </>
-          } />
-      </Routes>
-    </Router>
+        </PageWithTitle>
+      } />
+    </Routes>
+
   );
 }
 
-
-
-export default App;
+export default function RootApp() {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+}
