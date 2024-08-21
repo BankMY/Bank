@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    
+}
+.mainContent{
+    display: flex;
+    padding: 26px;
+    padding-top: 86px;
+    width: 100%;
+    background-color: gray;
+}

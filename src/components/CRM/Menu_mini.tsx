@@ -33,36 +33,38 @@ const Menu_mini: FunctionComponent<Menu_miniType> = ({ active = '' }) => {
 
   return (
     <nav className={styles.main}>
-      <Link to="/">
-        <img src={active === '1' ? item1_blue : item1} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '2' ? item2_blue : item2} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '3' ? item3_blue : item3} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '4' ? item4_blue : item4} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '5' ? item5_blue : item5} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '6' ? item6_blue : item6} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '7' ? item7_blue : item7} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '8' ? item8_blue : item8} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '9' ? item9_blue : item9} alt=""/>
-      </Link>
-      <Link to="/">
-        <img src={active === '10' ? item10_blue : item10} alt=""/>
-      </Link>
+        <div className={styles.wrapper}>
+        <Link to="/dashbord">
+            <img src={active === '1' ? item1_blue : item1} alt=""/>
+        </Link>
+        <Link to="*">
+            <img src={active === '2' ? item2_blue : item2} alt=""/>
+        </Link>
+        <Link to="/">
+            <img src={active === '3' ? item3_blue : item3} alt=""/>
+        </Link>
+        <Link to="/">
+            <img src={active === '4' ? item4_blue : item4} alt=""/>
+        </Link>
+        <Link to="/">
+            <img src={active === '5' ? item5_blue : item5} alt=""/>
+        </Link>
+        <Link to="/">
+            <img src={active === '6' ? item6_blue : item6} alt=""/>
+        </Link>
+        <Link to="/">
+            <img src={active === '7' ? item7_blue : item7} alt=""/>
+        </Link>
+        <Link to="/">
+            <img src={active === '8' ? item8_blue : item8} alt=""/>
+        </Link>
+        <Link to="/">
+            <img src={active === '9' ? item9_blue : item9} alt=""/>
+        </Link>
+        <Link to="/">
+            <img src={active === '10' ? item10_blue : item10} alt=""/>
+        </Link>
+      </div>
     </nav>
   );
 };
