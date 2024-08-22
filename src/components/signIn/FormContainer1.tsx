@@ -30,7 +30,6 @@ const FormContainer1: FunctionComponent<FormContainer1Type> = ({
         />
          <div className={styles.passwordToggle}>
           <input
-            className={styles.toggle}
             type="checkbox"
             checked={showPassword}
             onChange={handleToggle}
