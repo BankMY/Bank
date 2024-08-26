@@ -5,7 +5,7 @@ import styles from "./SignIn.module.css";
 
 const SignIn: FunctionComponent = () => {
   return (
-    <div className={styles.signIn}>
+    <div className={styles.signIn} >
       <div className={styles.formSignIn}>
         <LeftSide1 />
         <div className={styles.formRight}>
