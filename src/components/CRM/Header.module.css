@@ -142,7 +142,7 @@
     gap: 18.7px;
   }
   .header {
-    width: 1868px;
+    width: 96.5vw;
     box-shadow: var(--ccrm);
     border-radius: var(--br-5xl);
     background-color: var(--color-gray-100);

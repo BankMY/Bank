@@ -1,5 +1,5 @@
 import { FunctionComponent, useState, ChangeEvent, FormEvent } from "react";
-/* import axios from "axios"; */
+import { postData } from '../../api';
 import FieldLabels from "../FieldLabels";
 import SubmitButton from "../SubmitButton";
 import styles from "./FormContainer1.module.css";
@@ -8,6 +8,7 @@ const FormContainer1: FunctionComponent = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
 
   const handleToggle = () => {
     setShowPassword(prevState => !prevState);
@@ -24,16 +25,17 @@ const FormContainer1: FunctionComponent = () => {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(email + " , " + password);
-  /*   try {
-      const response = await axios.post('/your-endpoint', {
+    try {
+      const response = await postData('/auth/login', {       
         email,
         password,
       });
-
-      console.log('Server response:', response.data);
+  
+      console.log('Server response:', response);
     } catch (error) {
       console.error('Error sending data:', error);
-    } */
+      setError('An error occurred while sending data. Please try again.');
+    }
   };
 
   return (
@@ -62,6 +64,7 @@ const FormContainer1: FunctionComponent = () => {
           <div className={styles.showPassword}>Show password</div>
         </div>
       </div>
+      {error && <div className={styles.errorMessage}>{error}</div>}
       <SubmitButton singUp="Sing In" propGap="9px" />
     </form>
   );

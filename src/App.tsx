@@ -91,21 +91,21 @@ function App() {
         </PageWithTitle>
       } />
        <Route path="/insurance" element={
-            <>
-              <HeaderFinal active='services'/>
-              <InsuranceUpdate/>
-              <Footer />
-            </>
+         <PageWithTitle title="Insurance">
+            <HeaderFinal active='services'/>
+            <InsuranceUpdate/>
+            <Footer />
+        </PageWithTitle>
           } />
 
 
         
 
           <Route path="/dashbord" element={
-            <>
+            <PageWithTitle title="CRM - Dashboard">
               <Header avatar={avatarcrm}/>
               <Dashbord/>
-            </>
+            </PageWithTitle>
           } />
 
       <Route path="/Deposits" element={
