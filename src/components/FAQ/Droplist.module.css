@@ -31,7 +31,8 @@
     width: 81rem;
     line-height: 1.375rem;
     font-weight: 600;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    font-family: "RedHat";
   }
   
   .veridionIsA {
@@ -44,6 +45,7 @@
     height: 0;
     overflow: hidden;
     font-size: 1.4rem;
+    font-family: "RedHat";
   }
   .veridionIsA.visible {
     opacity: 1;

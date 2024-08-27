@@ -45,6 +45,17 @@
   margin: 0;
   gap: var(--gap-33xl-5);
 }
+.errorMessage{
+  position: absolute;
+  color: red;
+  bottom: 15%;
+}
+@media screen and (max-width: 1150px) {
+  .errorMessage{
+    position: relative;
+    bottom: 0;
+  }
+}
 @media screen and (max-width: 1050px) {
   .signUp {
     font-size: var(--font-size-16xl);

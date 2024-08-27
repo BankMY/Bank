@@ -4,8 +4,42 @@
 }
 .mainContent{
     display: flex;
+    flex-direction: column;
     padding: 26px;
-    padding-top: 86px;
+    padding-top: 48px;
     width: 100%;
-    background-color: gray;
+    /* background-color: gray; */
+}
+.titlemain{
+    font-family: "RedHat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22.5px;
+    margin-left: 26px;
+    padding: 0;
+}
+.welcome_wrapper{
+    padding: 0;
+    padding-top: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome_img{
+    width: 100%;
+}
+.hellomsg{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "RedHat";
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 63.5px;
+    text-align: left;   
+}
+.welcome_name{
+    color: #5E1EE5;
 }
