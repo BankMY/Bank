@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './SliderMy.module.css';
-import ThumbIcon from '../../assets/svg/CRM/Slider/sliderbackground.svg';
-import TrackIcon from '../../assets/svg/CRM/Slider/sliderbtn.svg';
 
 interface SliderMyProps {
   min: number;
@@ -22,7 +20,7 @@ const SliderMy: React.FC<SliderMyProps> = ({ min, max, step = 1, value, onChange
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
         className={styles.customslider}
-        style={{ '--min': 0, '--max': 100, '--value': value } as React.CSSProperties}
+        style={{ '--min': min, '--max': max, '--value': value } as React.CSSProperties}
       />
     </div>
   );

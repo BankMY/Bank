@@ -27,7 +27,7 @@
     padding-top: 26px; 
 }
 .titlemain, .totalbalance_text{
-    font-family: "RedHat";
+    font-family:  var(--font-red-hat-display);;
 }
 
 .welcome_wrapper{
@@ -59,10 +59,10 @@
 .item1{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     background-color: #fffeff;
     width: 372px;
-    height: 828px;
+    /* height: 828px; */
     box-shadow: 0px 0px 10px 0px rgba(141, 143, 147, 0.25);
     border-radius: 24px; 
     padding-left: 26px;
@@ -107,4 +107,40 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 25px;
+}
+.money_item1, .money_item1_span{
+    font-family: "RedHat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+.money_item1_span{
+    color: #8e8f93;
+}
+.money_item1_container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.spendingContainer{
+    font-family: var(--font-red-hat-display);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 36px;
+}
+.lessmoney_item1{
+    font-family: var(--font-red-hat-display);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #8e8f93;
+}
+
+.cardContainer{
+    margin-top: 20px;
 }

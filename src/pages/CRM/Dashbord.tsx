@@ -8,10 +8,14 @@ import btn1 from "../../assets/svg/CRM/crm_btn1.svg";
 
 import item1_menu from "../../assets/svg/CRM/Dashboard/Group 109.svg";
 import SliderMy from "../../components/CRM/SliderMy";
+import dollar from "../../assets/svg/CRM/Dashboard/Group 7073.svg"
+import euro from "../../assets/svg/CRM/Dashboard/Group 7074.svg"
+import DollarContainer from "../../components/CRM/Dashboard/DollarContainer";
+import card from "../../assets/svg/CRM/card_template.svg";
 
 const Dashbord: FunctionComponent = () => {
 
-  const [sliderValue, setSliderValue] = useState(30);
+  const [sliderValue, setSliderValue] = useState(20);
   return (
       <main className={styles.main}>
         <Menu_mini active="1"></Menu_mini>
@@ -41,15 +45,41 @@ const Dashbord: FunctionComponent = () => {
                 <div className={styles.item1_menu}>
                   <img src={item1_menu}></img>
                 </div>
-                <SliderMy 
-                  min={0}
-                  max={100}
-                  value={sliderValue}
-                  onChange={setSliderValue}></SliderMy>
+
+                <div className={styles.spendingContainer}>Spending in May
+                  <SliderMy 
+                    min={0}
+                    max={100}
+                    step={20}
+                    value={sliderValue}
+                    onChange={setSliderValue}/>
+                  <div className={styles.money_item1_container}>
+                    <div className={styles.money_item1}>
+                      $260<span className={styles.money_item1_span}>.00</span>
+                    </div>
+                    <span className={styles.lessmoney_item1}>This is $100.00 less then last month</span>
+                  </div>
+                </div>
+                
+                <DollarContainer
+                  dollarImage={dollar}
+                  value="5.260"
+                  spanValue=".00"
+                  percentage="1.9%"
+                />
+                <DollarContainer
+                  dollarImage={euro}
+                  value="1.260"
+                  spanValue=".00"
+                  percentage="0.9%"
+                />
+                
+                <div className={styles.cardContainer}>
+                  <img src={card}></img>
+                </div>
             </div>
 
-          </div>
-          
+          </div>          
         </div>
       </main>
   );

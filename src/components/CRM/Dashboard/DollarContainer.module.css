@@ -1,0 +1,49 @@
+.dollarContainer{
+    display: flex;
+    background-color: #a892eb;
+    border-radius: 22px;
+    /* cursor: pointer; */
+    max-width: 100%;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    padding-right: 19px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+.dollarWrapper{
+    display: flex;
+    align-items: center;
+}
+.moneyDollar_item1{
+    color: #fffeff;
+    padding-left: 35px;
+}
+.moneyDollar_item1_span{
+    color: #e9e3fd;
+}
+.moneyDollar_item1, .moneyDollar_item1_span{
+    font-family: var(--font-red-hat-display);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.arrow_item1{
+    width: 11.52px;
+    height: 13.82px;
+    top: 405.63px;
+    left: 345.53px;
+    gap: 0px;
+    opacity: 0px;
+    /* angle: -45 deg; */
+    transform: rotateX('-45 deg');
+    padding-right: 3px;
+}
+.arrow_item1_span{
+    color: #dcd7ef;
+    
+}
