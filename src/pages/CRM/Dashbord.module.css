@@ -1,8 +1,8 @@
 .main{
     display: flex;
-    
+    background-color: #f4f4f8;
 }
-.mainContent{
+.welcomeContent{
     display: flex;
     flex-direction: column;
     padding: 26px;
@@ -11,23 +11,36 @@
     /* background-color: gray; */
 }
 .titlemain{
-    font-family: "RedHat";
     font-size: 20px;
     font-weight: 500;
     line-height: 22.5px;
     margin-left: 26px;
     padding: 0;
 }
+.totalbalance_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 26px; 
+}
+.titlemain, .totalbalance_text{
+    font-family: "RedHat";
+}
+
 .welcome_wrapper{
     padding: 0;
     padding-top: 15px;
     margin: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .welcome_img{
-    width: 100%;
+    width: 100%;   
 }
 .hellomsg{
     position: absolute;
@@ -42,4 +55,56 @@
 }
 .welcome_name{
     color: #5E1EE5;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #fffeff;
+    width: 372px;
+    height: 828px;
+    box-shadow: 0px 0px 10px 0px rgba(141, 143, 147, 0.25);
+    border-radius: 24px; 
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.btn_1{
+    margin-top: -6px;
+}
+.totalbalance_t{   
+    font-size: 31px;   
+    line-height: 30px;
+}
+.totalbalance_value{
+    font-size: 41px;
+    line-height: 30px;
+}
+.totalbalance_value2{
+    font-family: "RedHat";
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #8e8f93;
+}
+.totalbalance_value, .totalbalance_t{
+    font-family: "RedHat";
+    text-align: left;
+    font-weight: 600;
+}
+.totalbalance_value,
+.totalbalance_value2,
+.totalbalance_t{
+    padding-top: 20px;
+}
+
+.mainContent{
+    padding-left: 5px;
+    padding-top: 26px;
+}
+.item1_menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
 }

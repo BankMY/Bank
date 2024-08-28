@@ -15,7 +15,7 @@ const Header: FunctionComponent<HeaderType> = ({ avatar }) => {
 
   return (
     <header className={styles.header}>
-      <div className={styles.headerChild} />
+      <div className={styles.headerwrapper}>
       <div className={styles.frameParent}>
         <div className={styles.frameWrapper}>
           <div className={styles.logoParent}>
@@ -73,6 +73,7 @@ const Header: FunctionComponent<HeaderType> = ({ avatar }) => {
             src={avatar}
           />
         </div>
+      </div>
       </div>
     </header>
   );

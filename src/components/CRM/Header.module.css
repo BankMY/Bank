@@ -1,9 +1,15 @@
+.header{
+  background-color: #f4f4f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
 .headerChild {
     height: 70px;
     width: 1868px;
     position: relative;
     border-radius: var(--br-5xl);
-    background-color: var(--color-gray-100);
+    background-color: red;
     display: none;
     max-width: 100%;
   }
@@ -134,17 +140,15 @@
     z-index: 1;
   }
   .frameGroup,
-  .header {
+  .headerwrapper {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 18.7px;
   }
-  .header {
+  .headerwrapper {
     width: 96.5vw;
-    box-shadow: var(--ccrm);
-    border-radius: var(--br-5xl);
     background-color: var(--color-gray-100);
     max-width: 100%;
     justify-content: space-between;
@@ -158,12 +162,10 @@
     color: #5e1ee5;
     font-family: var(--font-red-hat-display);
     box-shadow: 0px 0px 10px 0px rgba(141, 143, 147, 0.25);
-    border-radius: 24px;
-    margin-left: 26px;
-    margin-top: 10px;
+    border-radius: 24px;  
   }
   @media screen and (max-width: 925px) {
-    .header {
+    .headerwrapper {
       flex-wrap: wrap;
     }
   }
