@@ -1,5 +1,4 @@
 import { FunctionComponent, useState } from "react";
-import { Link } from "react-router-dom";
 
 import styles from "./Dashbord.module.css";
 import Menu_mini from "../../components/CRM/Menu_mini";
@@ -14,6 +13,11 @@ import DollarContainer from "../../components/CRM/Dashboard/DollarContainer";
 import card from "../../assets/svg/CRM/card_template.svg";
 import card_full from "../../assets/svg/CRM/card_full.svg";
 import Title_with_btn from "../../components/CRM/Title_with_btn";
+
+import card_usd_black from "../../assets/svg/CRM/Dashboard/Frame 101.svg";
+import card_euro_blue from "../../assets/svg/CRM/Dashboard/Frame 102.svg";
+import card_pound_green from "../../assets/svg/CRM/Dashboard/Frame 103.svg";
+import card_cd_white from "../../assets/svg/CRM/Dashboard/Frame 104.svg";
 
 const Dashbord: FunctionComponent = () => {
 
@@ -78,6 +82,21 @@ const Dashbord: FunctionComponent = () => {
                 </div>
             </div>
 
+            <div className={styles.middleBlock}>
+              <div className={styles.item2}>
+                <Title_with_btn text="Exchange currency" imgbtn={btn1}
+                  href="/exchange"/>
+
+                <div className={styles.cards_item2}>
+                  <img src={card_usd_black}></img>
+                  <img src={card_euro_blue}></img>
+                  <img src={card_pound_green}></img>
+                  <img src={card_cd_white}></img>
+                  
+                </div>
+              </div>
+            </div>
+            
           </div>          
         </div>
       </main>
