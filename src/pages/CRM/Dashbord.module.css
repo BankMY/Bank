@@ -17,16 +17,8 @@
     margin-left: 26px;
     padding: 0;
 }
-.totalbalance_text{
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left;
-    padding-top: 26px; 
-}
-.titlemain, .totalbalance_text{
+
+.titlemain{
     font-family:  var(--font-red-hat-display);;
 }
 
@@ -68,9 +60,7 @@
     padding-left: 26px;
     padding-right: 26px;
 }
-.btn_1{
-    margin-top: -6px;
-}
+
 .totalbalance_t{   
     font-size: 31px;   
     line-height: 30px;
@@ -142,5 +132,15 @@
 }
 
 .cardContainer{
+    position: relative;
     margin-top: 20px;
+    padding-bottom: 10px;
+    font-family: var(--font-red-hat-display);
+}
+.cardContainer p{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: #FFFEFF;
+    
 }

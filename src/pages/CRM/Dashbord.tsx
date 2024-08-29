@@ -12,6 +12,8 @@ import dollar from "../../assets/svg/CRM/Dashboard/Group 7073.svg"
 import euro from "../../assets/svg/CRM/Dashboard/Group 7074.svg"
 import DollarContainer from "../../components/CRM/Dashboard/DollarContainer";
 import card from "../../assets/svg/CRM/card_template.svg";
+import card_full from "../../assets/svg/CRM/card_full.svg";
+import Title_with_btn from "../../components/CRM/Title_with_btn";
 
 const Dashbord: FunctionComponent = () => {
 
@@ -29,13 +31,8 @@ const Dashbord: FunctionComponent = () => {
           </div>
           <div className={styles.mainContent}>
             <div className={styles.item1}>
-                <div className={styles.totalbalance_text}>Total balance
-                  <nav>
-                    <Link to="/totalbalance">
-                      <img className={styles.btn_1} src={btn1} alt=''/>
-                    </Link>
-                  </nav>             
-                </div>
+                <Title_with_btn text="Total balance" imgbtn={btn1}
+                href="/totalbalance"/>
 
                 <div className={styles.totalbalance_t}>$
                   <span className={styles.totalbalance_value}>4.360
@@ -75,7 +72,9 @@ const Dashbord: FunctionComponent = () => {
                 />
                 
                 <div className={styles.cardContainer}>
-                  <img src={card}></img>
+                  {/* <img src={card}></img>
+                  <p>4312 9578 4206 XXXX</p> */}
+                  <img src={card_full}></img>
                 </div>
             </div>
 
