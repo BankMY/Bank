@@ -1,0 +1,13 @@
+.totalbalance_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 26px; 
+    font-family:  var(--font-red-hat-display);
+}
+.btn_1{
+    margin-top: -6px;
+}
