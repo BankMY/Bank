@@ -1,0 +1,182 @@
+.header{
+  background-color: #f4f4f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.headerChild {
+    height: 70px;
+    width: 1868px;
+    position: relative;
+    border-radius: var(--br-5xl);
+    background-color: red;
+    display: none;
+    max-width: 100%;
+  }
+  .frameChild,
+  .logoIcon {
+    position: relative;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .logoIcon {
+    height: 35px;
+    width: 137px;
+    overflow: hidden;
+  }
+  .frameChild {
+    width: 22.2px;
+    height: 19px;
+    cursor: pointer;
+  }
+  .frameContainer {
+    flex-direction: column;
+    padding: 8px 0 0;
+  }
+  .frameContainer,
+  .frameWrapper,
+  .logoParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logoParent {
+    flex-direction: row;
+    gap: 18px;
+  }
+  .frameWrapper {
+    flex-direction: column;
+    padding: 5px 0 0;
+  }
+  .fullTimeIcon,
+  .searchHere {
+    height: 19.1px;
+    width: 19.1px;
+    position: relative;
+  }
+  .searchHere {
+    width: 103px;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--font-red-hat-display);
+    font-size: 16px;
+    background-color: transparent;
+    height: 21px;
+    letter-spacing: 0.02em;
+    color: var(--color-gray-200);
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+  }
+  .frameParent,
+  .fullTimeParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .fullTimeParent {
+    flex: 1;
+    border-radius: 36px;
+    border: 1.5px solid var(--color-gray-200);
+    box-sizing: border-box;
+    padding: 10px 28px;
+    gap: 10px;
+    min-width: 122px;
+    z-index: 1;
+  }
+  .frameParent {
+    width: 527px;
+    gap: 60.8px;
+    max-width: 100%;
+  }
+  .frameInner,
+  .frameItem {
+    height: 42px;
+    width: 42px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  }
+ 
+  .admin,
+  .jaxonRedmone {
+    text-decoration: none;
+    position: relative;
+    line-height: 20px;
+    font-weight: 600;
+    color: inherit;
+    z-index: 1;
+  }
+  .admin {
+    font-size: 14px;
+    font-weight: 500;
+    color: #55585d;
+    display: inline-block;
+    min-width: 68px;
+  }
+  .nameRole,
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .nameRole {
+    align-items: flex-end;
+    gap: 1px;
+  }
+  .userInfo {
+    align-items: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .projectCoordinatorIcon {
+    width: 42px;
+    height: 42px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .frameGroup,
+  .headerwrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18.7px;
+  }
+  .headerwrapper {
+    width: 96.5vw;
+    background-color: var(--color-gray-100);
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 13px 26px 12px 25px;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+    gap: 20px;
+    text-align: right;
+    font-size: 18px;
+    color: #5e1ee5;
+    font-family: var(--font-red-hat-display);
+    box-shadow: 0px 0px 10px 0px rgba(141, 143, 147, 0.25);
+    border-radius: 24px;  
+  }
+  @media screen and (max-width: 925px) {
+    .headerwrapper {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .frameParent {
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .frameParent {
+      gap: 15px;
+    }
+  }
+  

@@ -23,6 +23,11 @@ import Investments from './pages/Investments';
 
 import InsuranceUpdate from './pages/InsuranceUpdate';
 import Page404 from './pages/Page404';
+import Header from './components/CRM/Header';
+import Dashbord from './pages/CRM/Dashbord';
+
+import avatarcrm from "./assets/png/CRM/Header/ellipse-79@2x.png";
+import Settings from './pages/CRM/Settings';
 
 
 function PageWithTitle({ title, children }: { title: string, children: React.ReactNode }) {
@@ -32,6 +37,7 @@ function PageWithTitle({ title, children }: { title: string, children: React.Rea
 
   return <>{children}</>;
 }
+
 
 function App() {
   return (
@@ -86,12 +92,23 @@ function App() {
         </PageWithTitle>
       } />
        <Route path="/insurance" element={
-            <>
-              <HeaderFinal active='services'/>
-              <InsuranceUpdate/>
-              <Footer />
-            </>
+         <PageWithTitle title="Insurance">
+            <HeaderFinal active='services'/>
+            <InsuranceUpdate/>
+            <Footer />
+        </PageWithTitle>
           } />
+
+
+        
+
+          <Route path="/dashbord" element={
+            <PageWithTitle title="CRM - Dashboard">
+              <Header avatar={avatarcrm}/>
+              <Dashbord/>
+            </PageWithTitle>
+          } />
+
       <Route path="/Deposits" element={
         <PageWithTitle title="Deposits">
           <HeaderFinal active='services'/>
@@ -130,6 +147,13 @@ function App() {
               <Footer />
         </PageWithTitle>
       } />
+
+      <Route path="/settings" element={
+            <PageWithTitle title="CRM - Settings">
+              <Header avatar={avatarcrm}/>
+              <Settings/>
+            </PageWithTitle>
+          } />
     </Routes>
 
   );

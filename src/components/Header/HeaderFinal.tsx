@@ -27,6 +27,7 @@ const HeaderFinal: FunctionComponent<HeaderFinalProps> = ({ active }) => {
   return (
     <header className={styles.headerFinal}>
       <div className={styles.main}>
+        <nav>
         <Link className={styles.logoWrapper} to={"/"}>
           <img
             onMouseEnter={handleMouseEnter}
@@ -45,6 +46,7 @@ const HeaderFinal: FunctionComponent<HeaderFinalProps> = ({ active }) => {
             src={isHovered ? logo_dark_small : logo_light_small}
           />
         </Link>
+        </nav>
         <div className={styles.component4Parent}>
           <MenuItem title="Cards" href="/cards" active={active === "cards"} />
           <MenuItem title="Services" href="/services" active={active === "services"} />
@@ -68,9 +70,9 @@ interface MenuItemProps {
 
 const MenuItem: React.FC<MenuItemProps> = ({ title, href, active }) => {
   return (
-    <div className={`${styles.menuitem} ${active ? styles.active : ""}`}>
-      <Link to={href} className={styles.title}>{title}</Link>
-    </div>
+    <nav className={`${styles.menuitem} ${active ? styles.active : ""}`}>
+        <Link to={href} className={styles.title}>{title}</Link>
+    </nav>
   );
 };
 

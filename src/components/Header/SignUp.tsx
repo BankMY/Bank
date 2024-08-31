@@ -10,7 +10,9 @@ interface SignUpProps {
 const SignUp: FunctionComponent<SignUpProps> = ({title, href}) => {
   return (
     <button className={styles.signUp}>
-      <Link to={href} className={styles.singUp}>{title}</Link>
+      <nav>
+        <Link to={href} className={styles.singUp}>{title}</Link>
+      </nav>
     </button>
   );
 };

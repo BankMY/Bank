@@ -10,7 +10,9 @@ interface SignInProps {
 const SignIn: FunctionComponent<SignInProps> = ({title, href}) => {
   return (
     <button className={styles.signIn}>
-      <Link to={href} className={styles.signIn1}>{title}</Link>
+      <nav>
+        <Link to={href} className={styles.signIn1}>{title}</Link>
+      </nav>
     </button>
   );
 };

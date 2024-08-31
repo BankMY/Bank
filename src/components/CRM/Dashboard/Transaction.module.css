@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.textBlock p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.text1, .text3{   
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #1C2027;
+}
+.text2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.52px;
+    text-align: left;
+    color: #8D8F93;
+}
+.text4{
+    font-family: var(--font-red-hat-display);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.52px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #8D8F93;
+}
+.text1,.text2,.text3,.text4{
+    font-family: var(--font-red-hat-display);
+}

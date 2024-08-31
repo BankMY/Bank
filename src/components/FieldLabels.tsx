@@ -1,21 +1,23 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, ChangeEvent } from "react";
 import styles from "./FieldLabels.module.css";
 
 export interface FieldLabelsType {
-  className?: string;
   fullName?: string;
   enterYourFullNamePlacehol?: string;
   inputType?: string;
+  value?: string;
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 };
 
 const FieldLabels: FunctionComponent<FieldLabelsType> = ({
-  className = "",
   fullName,
   enterYourFullNamePlacehol,
   inputType = "text",
+  value,
+  onChange,
 }) => {
   return (
-    <div className={[styles.fieldLabels, className].join(" ")}>
+    <div className={styles.fieldLabels}>
       <div className={styles.fullNameWrapper}>
         <div className={styles.fullName}>{fullName}</div>
       </div>
@@ -24,6 +26,8 @@ const FieldLabels: FunctionComponent<FieldLabelsType> = ({
           className={styles.enterYourFull}
           placeholder={enterYourFullNamePlacehol}
           type={inputType}
+          value={value}
+          onChange={onChange}
         />
       </div>
     </div>

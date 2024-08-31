@@ -9,13 +9,11 @@ import result2 from "../../assets/png/auth/result-12@2x.png";
 import result3 from "../../assets/png/auth/result-13@2x.png";
 import { Link } from "react-router-dom";
 
-export interface LeftSide1Type {
-  className?: string;
-};
 
-const LeftSide1: FunctionComponent<LeftSide1Type> = ({ className = "" }) => {
+
+const LeftSide1: FunctionComponent = () => {
   return (
-    <div className={[styles.leftSide, className].join(" ")}>
+    <div className={styles.leftSide}>
       <div className={styles.result11} />
       <img className={styles.image3Icon} alt="" src={image3} />
       <div className={styles.leftContent}>
