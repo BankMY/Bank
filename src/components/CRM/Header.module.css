@@ -97,10 +97,9 @@
     width: 42px;
     position: relative;
     z-index: 1;
-  }
-  .frameInner {
     cursor: pointer;
   }
+ 
   .admin,
   .jaxonRedmone {
     text-decoration: none;
