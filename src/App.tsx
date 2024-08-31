@@ -27,6 +27,7 @@ import Header from './components/CRM/Header';
 import Dashbord from './pages/CRM/Dashbord';
 
 import avatarcrm from "./assets/png/CRM/Header/ellipse-79@2x.png";
+import Settings from './pages/CRM/Settings';
 
 
 function PageWithTitle({ title, children }: { title: string, children: React.ReactNode }) {
@@ -146,6 +147,13 @@ function App() {
               <Footer />
         </PageWithTitle>
       } />
+
+      <Route path="/settings" element={
+            <PageWithTitle title="CRM - Settings">
+              <Header avatar={avatarcrm}/>
+              <Settings/>
+            </PageWithTitle>
+          } />
     </Routes>
 
   );

@@ -5,6 +5,7 @@ import grp5 from "../../assets/svg/CRM/Header/group-5.svg";
 import fulltime from "../../assets/svg/CRM/Header/full-time.svg";
 import grp100 from "../../assets/svg/CRM/Header/group-100.svg";
 import grp99 from "../../assets/svg/CRM/Header/group-99.svg";
+import { Link } from "react-router-dom";
 
 export type HeaderType = {
   avatar?: string;
@@ -46,19 +47,22 @@ const Header: FunctionComponent<HeaderType> = ({ avatar }) => {
         </div>
       </div>
       <div className={styles.frameGroup}>
-        <img
-          className={styles.frameItem}
-          loading="lazy"
-          alt=""
-          src={grp100}
-        />
-        <img
-          className={styles.frameInner}
-          loading="lazy"
-          alt=""
-          src={grp99}
-          
-        />
+        <Link to="*">
+          <img
+            className={styles.frameItem}
+            loading="lazy"
+            alt=""
+            src={grp100}
+          />
+        </Link>
+        <Link to="/settings">
+          <img
+            className={styles.frameInner}
+            loading="lazy"
+            alt=""
+            src={grp99}         
+          />
+        </Link>
         <div className={styles.userInfo}>
           <div className={styles.nameRole}>
             <a className={styles.jaxonRedmone}>Jaxon Redmone</a>
