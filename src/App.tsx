@@ -24,7 +24,7 @@ import Investments from './pages/Investments';
 import InsuranceUpdate from './pages/InsuranceUpdate';
 import Page404 from './pages/Page404';
 import Header from './components/CRM/Header';
-import Dashbord from './pages/CRM/Dashbord';
+import Dashbord from './pages/CRM/Dashbord2';
 
 import avatarcrm from "./assets/png/CRM/Header/ellipse-79@2x.png";
 import Settings from './pages/CRM/Settings';

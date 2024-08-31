@@ -66,7 +66,7 @@ const Settings: FunctionComponent = () => {
             <div className={styles.item1}>
                 <div className={styles.header}>
                     <div className={styles.buttons}>
-                        {['Edit Profile', 'Preferences  ', 'Security'].map((text, index) => (
+                        {['Edit Profile', 'Preferences', 'Security'].map((text, index) => (
                             <button
                                 key={index}
                                 className={`${styles.button} ${activeIndex === index ? styles.active : ''}`}
