@@ -8,6 +8,9 @@ import { Link } from "react-router-dom";
 import avatar from "../../assets/svg/CRM/Settings/avatar.svg";
 import FieldLabels from "../../components/FieldLabels";
 import { postData } from "../../api";
+import background from "../../assets/svg/CRM/Dashboard/Ellipse 121.svg";
+import el122 from "../../assets/svg/CRM/Settings/Ellipse 122.svg"
+import ToggleSwitch from "./ToggleSwitch";
 
 
 const Settings: FunctionComponent = () => {
@@ -15,9 +18,15 @@ const Settings: FunctionComponent = () => {
     const [Name, setName] = useState("");
     const [UserName, setUserName] = useState("");
     const [password, setPassword] = useState("");
+    const [passwordRepeat, setPasswordRepeat] = useState("");
     const [showPassword, setShowPassword] = useState(false);
     const [email, setEmail] = useState("");
     const [error, setError] = useState<string | null>(null);
+    const [isChecked, setIsChecked] = useState(true);
+
+    const [isChecked1, setIsChecked1] = useState(true);
+    const [isChecked2, setIsChecked2] = useState(false);
+    const [isChecked3, setIsChecked3] = useState(true);
 
     const handleButtonClick = (index: number): void => {
         setActiveIndex(index);
@@ -30,6 +39,9 @@ const Settings: FunctionComponent = () => {
       };
       const handlePasswordChange = (e: ChangeEvent<HTMLInputElement>) => {
         setPassword(e.target.value);
+      };
+      const handleRepeatPasswordChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setPasswordRepeat(e.target.value);
       };
       const handleToggle = () => {
         setShowPassword(prevState => !prevState);
@@ -63,6 +75,7 @@ const Settings: FunctionComponent = () => {
           <div className={styles.titlemain}>Settings</div>
 
           <div className={styles.mainContent}>
+            <img className={styles.background_small} src={background} alt=''></img>
             <div className={styles.item1}>
                 <div className={styles.header}>
                     <div className={styles.buttons}>
@@ -157,7 +170,117 @@ const Settings: FunctionComponent = () => {
                     <button className={styles.btn_save}>Save Updates</button>
                 </nav>
                 </>)}
-                
+                {activeIndex === 1 && (<>                 
+                  <div className={styles.item1_mainContent}>
+                  <img className={styles.ell122} src={el122} alt=""/>
+                  <div className={styles.item1_main_wrapper}>Two-Factor Authentication
+                    <div className={styles.checkbox_wrapper}>
+                      {/* <input type="checkbox"></input> */}
+                      <ToggleSwitch
+                        checked={isChecked}
+                        onChange={() => setIsChecked(!isChecked)}
+                        width={60}
+                        height={30}
+                        onColor="#5E1EE5"
+                        offColor="#ddd"
+                        thumbColor="#fff"
+                      />
+                      <span className={styles.checkbox_text}>Enable or disable two-factor authentication</span>
+                    </div>
+                    Change Password
+                  <div className={styles.inputWrapper}>     
+                        <FieldLabels
+                        fullName="Repeat Password"
+                        enterYourFullNamePlacehol="* * * * * * * *"
+                        inputType={showPassword ? "text" : "password"}
+                        value={passwordRepeat}
+                        onChange={handleRepeatPasswordChange}
+                        />
+                        <FieldLabels
+                        fullName="Password"
+                        enterYourFullNamePlacehol="* * * * * * * *"
+                        inputType={showPassword ? "text" : "password"}
+                        value={password}
+                        onChange={handlePasswordChange}
+                        />
+                    </div>
+                      
+                  </div>
+                  <nav className={styles.item1_btns_wrapper}>
+                        <button className={styles.btn_cancel}>Cancel Updates</button>
+                        <button className={styles.btn_save}>Save Updates</button>
+                    </nav>
+                  </div>
+            </>)}
+            {activeIndex === 2 && (<>                 
+                  <div className={styles.item1_mainContent}>
+                  <img className={styles.ell122} src={el122} alt=""/>
+                  <div className={styles.item1_main_wrapper2}>
+                    <div className={styles.inputWrapper2}>     
+                        <FieldLabels
+                        fullName="Currency"
+                        enterYourFullNamePlacehol="USD"
+                        inputType={showPassword ? "text" : "password"}
+                        value={passwordRepeat}
+                        onChange={handleRepeatPasswordChange}
+                        />
+                        <FieldLabels
+                        fullName="Time Zone"
+                        enterYourFullNamePlacehol="UTC-5 during Eastern Standard Time (EST)"
+                        inputType={showPassword ? "text" : "password"}
+                        value={password}
+                        onChange={handlePasswordChange}
+                        />
+                    </div>
+                    <div className={styles.checkbox_wrapperColumn}>Notifications
+                      <div className={styles.checkbox_wrapperRow}>
+                        <ToggleSwitch
+                          checked={isChecked1}
+                          onChange={() => setIsChecked1(!isChecked1)}
+                          width={60}
+                          height={30}
+                          onColor="#5E1EE5"
+                          offColor="#ddd"
+                          thumbColor="#fff"
+                        />
+                        <span className={styles.checkbox_text}>I send or recieve digital currency</span>
+                      </div>
+                      
+                      <div className={styles.checkbox_wrapperRow}>
+                        <ToggleSwitch
+                          checked={isChecked2}
+                          onChange={() => setIsChecked2(!isChecked2)}
+                          width={60}
+                          height={30}
+                          onColor="#5E1EE5"
+                          offColor="#ddd"
+                          thumbColor="#fff"
+                        />
+                        <span className={styles.checkbox_text}>I recieve news and updates</span>
+                      </div>
+                      
+                      <div className={styles.checkbox_wrapperRow}>
+                        <ToggleSwitch
+                          checked={isChecked3}
+                          onChange={() => setIsChecked3(!isChecked3)}
+                          width={60}
+                          height={30}
+                          onColor="#5E1EE5"
+                          offColor="#ddd"
+                          thumbColor="#fff"
+                        />
+                        <span className={styles.checkbox_text}>There are recommendations for my accounts</span>
+                      </div>
+                      
+                    </div> 
+                      
+                  </div>
+                  <nav className={styles.item1_btns_wrapper}>
+                        <button className={styles.btn_cancel}>Cancel Updates</button>
+                        <button className={styles.btn_save}>Save Updates</button>
+                    </nav>
+                  </div>
+            </>)}
             </div>
             {/* ITEM2 */}
             <div className={styles.item2}>

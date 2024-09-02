@@ -106,7 +106,7 @@ const Dashbord: FunctionComponent = () => {
                   {/* <img src={card}></img>
                   <p>4312 9578 4206 XXXX</p> */}
                   <Link to="/CRMcards">
-                    <img src={card_full}></img>
+                    <img className={styles.card_full} src={card_full}></img>
                   </Link>
                   
                 </nav>
@@ -166,21 +166,21 @@ const Dashbord: FunctionComponent = () => {
                   <Transaction
                     imageSrc={playstation}
                     text1="PlayStation"
-                    text2="Second text, left block"
+                    text2="Purchase"
                     text3="-$67.90"
                     text4="10.20 AM"
                   />
                   <Transaction
                     imageSrc={apple}
                     text1="Apple Store"
-                    text2="Second text, left block"
+                    text2="Purchase"
                     text3="-$127.90"
                     text4="11.20 AM"
                   />
                   <Transaction
                     imageSrc={nike}
                     text1="Nike Store"
-                    text2="Second text, left block"
+                    text2="vPurchase"
                     text3="-$47.90"
                     text4="11.50 AM"
                   />

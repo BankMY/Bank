@@ -1,0 +1,15 @@
+.toggleSwitch {
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+  }
+  
+  .toggleThumb {
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    transition: transform 0.3s ease;
+  }
+  

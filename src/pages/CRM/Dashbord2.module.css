@@ -66,7 +66,7 @@
 .item2{
     grid-row: 1 / 3;
     grid-column: 2 / 3;
-}
+} 
 .item3{
     
 }
@@ -120,17 +120,25 @@
 }
 
 .mainContent{
+    width: 98%;
     display: grid;
     /* border: 1px solid red; */
     padding: 10px;
-    grid-template-columns: 27rem 22rem 27rem 29rem;
-    grid-gap: 26px;
+    /* grid-template-columns: 26rem 19rem 24rem 29rem; */
+    grid-gap: 1rem;
+    grid-auto-columns: minmax(23rem,1fr) minmax(18rem,1fr) minmax(23rem,1fr) minmax(24rem,1fr);
+    grid-template-rows: minmax(14rem,0.5fr) minmax(13rem,0.5fr) minmax(18rem,1fr);
 }
 .item1_menu{
-    width: 100%;
     display: flex;
     justify-content: flex-start;
     padding-top: 25px;
+}
+.item1_menu img{
+    height: 45px;
+}
+.card_full{
+    width: 100%;
 }
 .money_item1, .money_item1_span{
     font-family: "RedHat";
@@ -184,6 +192,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 .cards_item2::before {
     content: "";
@@ -200,6 +210,7 @@
     margin-top: -60px;
     transition: margin 0.3s ease;
     z-index: 2;
+    max-width: 15.1rem;
 }
 .cards_item2 img:hover{
     margin-top: -80px;
@@ -256,7 +267,9 @@
   }
 
   .img_item3{
-    height: 18.2rem;
+    /* height: 18.2rem; */
+    /* height: 100%; */
+    width: 100%;
     transform: scale(1.02);
     grid-row: 3 / 4;
     grid-column: 2 / 4;
