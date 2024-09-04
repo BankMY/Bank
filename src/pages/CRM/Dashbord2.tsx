@@ -83,7 +83,7 @@ const Dashbord: FunctionComponent = () => {
                     onChange={setSliderValue}/>
                   <div className={styles.money_item1_container}>
                     <div className={styles.money_item1}>
-                      $260<span className={styles.money_item1_span}>.00</span>
+                      ${130 * (sliderValue/10)}<span className={styles.money_item1_span}>.00</span>
                     </div>
                     <span className={styles.lessmoney_item1}>This is $100.00 less then last month</span>
                   </div>
@@ -115,7 +115,7 @@ const Dashbord: FunctionComponent = () => {
                   <Title_with_btn text="Exchange currency" imgbtn={btn1}
                     href="/exchange"/>                 
                   <div className={styles.cards_item2}>
-                    <img src={card_usd_black}></img>
+                    <img src={card_usd_black} alt=""></img>
                     <img src={card_euro_blue}></img>
                     <img src={card_pound_green}></img>
                     <img src={card_cd_white}></img>                 
