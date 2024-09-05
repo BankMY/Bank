@@ -28,6 +28,8 @@ import Dashbord from './pages/CRM/Dashbord';
 import avatarcrm from "./assets/png/CRM/Header/ellipse-79@2x.png";
 import Settings from './pages/CRM/Settings';
 import CardsCRM from './pages/CRM/CardsCRM';
+import AccountsCRM from './pages/CRM/AccountsCRM';
+import SubscriptionsCRM from './pages/CRM/SubscriptionsCRM';
 
 
 
@@ -114,6 +116,18 @@ function App() {
             <PageWithTitle title="CRM - Cards">
               <Header avatar={avatarcrm}/>
               <CardsCRM/>
+            </PageWithTitle>
+          } />
+          <Route path="/AccountsCRM" element={
+            <PageWithTitle title="CRM - Accounts">
+              <Header avatar={avatarcrm}/>
+              <AccountsCRM/>
+            </PageWithTitle>
+          } />
+          <Route path="/SubscriptionsCRM" element={
+            <PageWithTitle title="CRM - Subscriptions">
+              <Header avatar={avatarcrm}/>
+              <SubscriptionsCRM/>
             </PageWithTitle>
           } />
 

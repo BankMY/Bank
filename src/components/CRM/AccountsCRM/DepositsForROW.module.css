@@ -1,0 +1,47 @@
+.Container{
+    width: 405px;
+height: 184px;
+
+position: relative;
+display: flex;
+border-radius: 24px;
+margin-left: 26px;
+background-color: #FFFEFF;
+overflow: hidden;
+margin-top: 14px;
+}
+.stIMG{
+    width: 195px;
+height: 195px;
+margin-top: 15px;
+left: -34px;
+gap: 0px;
+/* background-color: red; */
+
+
+
+}
+.Column{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.stTXT{
+    font-family: "RedHat";
+font-size: 20px;
+font-weight: 600;
+line-height: 26.46px;
+letter-spacing: 0.02em;
+text-align: left;
+margin-top: 25px;
+
+}
+.stBalance{
+    font-family: "RedHat";
+font-size: 48px;
+font-weight: 1000;
+line-height: 63.5px;
+letter-spacing: 0.02em;
+text-align: left;
+margin-top: 12px;
+}
