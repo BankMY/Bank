@@ -37,7 +37,7 @@ const Menu_mini: FunctionComponent<Menu_miniType> = ({ active = '' }) => {
         <Link to="/dashbord">
             <img src={active === '1' ? item1_blue : item1} alt=""/>
         </Link>
-        <Link to="*">
+        <Link to="/AccountsCRM">
             <img src={active === '2' ? item2_blue : item2} alt=""/>
         </Link>
         <Link to="/CardsCRM">
@@ -58,7 +58,7 @@ const Menu_mini: FunctionComponent<Menu_miniType> = ({ active = '' }) => {
         <Link to="/">
             <img src={active === '8' ? item8_blue : item8} alt=""/>
         </Link>
-        <Link to="/">
+        <Link to="/SubscriptionsCRM">
             <img src={active === '9' ? item9_blue : item9} alt=""/>
         </Link>
         <Link to="/">

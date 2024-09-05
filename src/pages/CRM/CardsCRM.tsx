@@ -10,6 +10,8 @@ import DigitalCards from "../../components/CRM/CardsCRM/DigitalCard"
 import FreeButton from "../../assets/svg/CRM/CardsCRM/Component 9.svg"
 import CardsGirl from "../../components/CRM/CardsCRM/CardsGirl";
 import WhatsNews from "../../components/CRM/CardsCRM/WhatsNews";
+import WhatsNews2 from "../../components/CRM/CardsCRM/WhatsNews2";
+import CashBack from "../../components/CRM/CardsCRM/CashBack";
 
 
 const CardsCRM: FunctionComponent = () => {
@@ -28,7 +30,11 @@ const CardsCRM: FunctionComponent = () => {
         <div className={styles.styleROWs}>
             <CardsGirl></CardsGirl>
             <WhatsNews></WhatsNews>
-            <WhatsNews></WhatsNews>
+            <div className={styles.styleColumn2}>
+                <WhatsNews2></WhatsNews2>
+                <CashBack></CashBack>
+            </div>
+            
         </div>
         
         </div>
