@@ -31,14 +31,19 @@ const WhatsNews: React.FC = ({
                 <p className={styles.WhatsTXT}>What's new</p>
                 <p className={styles.WhatsTXT2}>last updates in banking </p>
             </div>
-
-            <img  className={styles.marginIMG} src={etc}></img>
-            <Link to="*" className={styles.btnLine}
+          <div style={{display:'flex', gap:'10px', paddingRight:'26px'}}>
+            <Link to="*" >
+            <img   src={etc}></img>
+            </Link>
+            
+            <Link to="*" 
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
             >
-          <img src={currentImage} alt="Line" />
-        </Link>
+            <img src={currentImage} alt="Line" />
+          </Link>
+          </div>
+           
             </div>
            
             <div className={styles.cards_item2}>
