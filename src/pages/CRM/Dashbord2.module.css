@@ -294,7 +294,7 @@
 
 @media screen and (min-width: 1500px) {
     .cards_item2 img{
-        max-width: 80%;
+        max-width: 100%;
     }
     .mainContent{
         grid-template-rows: 16.1rem 16.1rem 18.5rem;
