@@ -22,7 +22,7 @@ const AccountsCRM: FunctionComponent = () => {
     return(
         <main className={styles.main}>
             
-        <Menu_mini active="3"></Menu_mini>
+        <Menu_mini active="2"></Menu_mini>
         <div className={styles.styleColumn}>
             <div className={styles.styleCardWord}>Accounts</div>
             <div className={styles.styleROWs}>
