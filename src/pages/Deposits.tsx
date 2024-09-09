@@ -138,9 +138,9 @@ const Deposits: FunctionComponent = () => {
                           >
                             <p
                               className={styles.earnInterestWith}
-                            >{`Tax-advantaged savings for `}</p>
+                            >Higher yield with limited chech-writing</p>
                             <p className={styles.earnInterestWith}>
-                              your retirement.
+                              privileges.
                             </p>
                           </div>
                           <div className={styles.taxRatingParent}>
@@ -225,7 +225,7 @@ const Deposits: FunctionComponent = () => {
                     <img
                       className={styles.certificateTypesChild}
                       alt=""
-                      src={vector11}
+                      src={vector12}
                     />
                     <div className={styles.frameParent}>
                       <div className={styles.pensionWrapper}>

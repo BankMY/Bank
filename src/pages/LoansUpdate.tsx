@@ -17,6 +17,7 @@ import speed from "../assets/svg/Loans/speed.svg";
 import prot1 from "../assets/svg/Loans/protection1.svg";
 import idea1 from "../assets/svg/Loans/idea1.svg";
 import expert from "../assets/svg/Loans/expert.svg";
+import vectorMiddle from "../assets/svg/Loans/VectorLoansMiddle.svg"
 
 import { Link } from "react-router-dom";
 
@@ -96,7 +97,11 @@ const LoansUpdate: FunctionComponent = () => {
                 
               </div>
             </div>
-            <HeroColumns
+            
+            
+            <div className={styles.autoLoanContentWrapper}>
+              <div className={styles.autoLoanContent}>
+              <HeroColumns
               investment="Personal"
               products=" Loans"
               exploreOurRangeOfInvestme="Need funds for an important expense? Our personalized personal loans offer flexible terms and competitive rates to fit your financial needs. Enjoy a quick and easy application process with support from our experienced advisors. Whether for debt consolidation, home improvement, or unexpected expenses, we’re here to help. Contact us today to explore your options and get started!"
@@ -104,25 +109,28 @@ const LoansUpdate: FunctionComponent = () => {
               propAlignSelf="unset"
               propWidth="99.375rem"
             />
+
+              </div>
+            </div>
+
             <div className={styles.unsecuredLoan}>
               <div className={styles.unsecuredLoanContent}>
-                
-                <FeatureRows
-                  house={speed}
-                  retirementAcc="Unsecured Loans:"
-                  planForASecureFutureWithO="No collateral required for quick 
+            <FundContent
+                  fundIllustration={vectorMiddle}
+                  plan={speed}
+                  mutualFunds="Unsecured Loans:"
+                  diversifiedPortfoliosMana="No collateral required for quick 
                   and easy funding."
-                  propPadding="25px 31px 45px 32px"
-                  propGap="11.5px"
+                  propAlignSelf="unset"
                   propWidth="25.313rem"
-                  propFlex="unset"
+
                 />
                 <FeatureRows
                   house={prot1}
                   retirementAcc="Fixed Rates:"
                   planForASecureFutureWithO="Enjoy predictable monthly payments. Live with best rates."
-                  propPadding="25px 31px 45px 32px"
-                  propGap="11.5px"
+                  propPadding="1.475rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl)"
+                  propGap="0.731rem"
                   propWidth="25.313rem"
                   propFlex="unset"
                 />
@@ -130,13 +138,14 @@ const LoansUpdate: FunctionComponent = () => {
                   house={idea1}
                   retirementAcc="Fast Approval:"
                   planForASecureFutureWithO="Receive your funds quickly to cover immediate needs."
-                  propPadding="24px 31px 45px 32px"
-                  propGap="11.5px"
+                  propPadding="1.475rem var(--padding-12xl) var(--padding-26xl) var(--padding-13xl)"
+                  propGap="0.731rem"
                   propWidth="25.313rem"
                   propFlex="unset"
                 />
               </div>
             </div>
+            
             <div className={styles.autoLoanContentWrapper}>
               <div className={styles.autoLoanContent}>
               <HeroColumns
@@ -181,6 +190,7 @@ const LoansUpdate: FunctionComponent = () => {
                 />
               </div>
             </div>
+
 
           </div>
         </section>

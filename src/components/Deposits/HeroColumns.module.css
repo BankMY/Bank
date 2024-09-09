@@ -8,7 +8,7 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: inherit;
+  font-family: 'Grotesk';
   
 }
 .featureNames {
@@ -28,7 +28,7 @@
   line-height: 192%;
   color: var(--color-black);
   text-align: center;
-  
+  font-family: 'Grotesk';
 }
 .heroHighlights {
   align-self: stretch;
@@ -46,6 +46,7 @@
   font-family: var(--font-red-hat-display);
   color: var(--color-white);
   text-align: left;
+  font-family: 'RedHat';
   
 }
 .component2 {

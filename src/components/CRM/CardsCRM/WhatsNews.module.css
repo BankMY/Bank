@@ -1,0 +1,92 @@
+.WhatsNewsBoard{
+    background: #FFFEFF;
+    width: 458px;
+    
+    border-radius: 24px;
+    margin-top: 26px;
+    margin-left: 16px;
+
+    box-shadow: 0px 0px 10px 0px #8D8F9340;
+    width: 30%;
+    /* background-color: red; */
+    
+}
+
+.WhatsTXT{
+    width: 93px;
+    height: 24px;
+top: 21px;
+left: 20px;
+gap: 0px;
+opacity: 0px;
+
+font-family: "RedHat";
+font-size: 18px;
+font-weight: 600;
+line-height: 23.81px;
+text-align: left;
+margin-left: 30px;
+
+}
+.WhatsTXT2{
+    width: 140px;
+height: 19px;
+top: 52px;
+left: 20px;
+gap: 0px;
+opacity: 0px;
+font-family: "RedHat";
+font-size: 14px;
+font-weight: 400;
+line-height: 18.52px;
+text-align: left;
+margin-left: 30px;
+color: #8D8F93;
+margin-top: -10px;
+
+}
+
+.styleROW{
+    /* background-color: rebeccapurple; */
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+}
+.styleColumn{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    
+}
+.marginIMG{
+    margin-left: 13.5rem;
+
+}
+.btnLine{
+    background-color: transparent;
+    border-color: transparent;
+    padding-left: 16px;
+}
+.smallSpacing{
+    padding-bottom: 40px;
+}
+.cards_item2{
+    padding-top: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards_item2 img{
+    margin-top: -75px;
+    transition: margin 0.3s ease;
+    z-index: 2;
+}
+.cards_item2 img:hover{
+    margin-top: -90px;
+    margin-bottom: 20px;
+}

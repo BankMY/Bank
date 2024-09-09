@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useEffect } from 'react';
 import './App.css';
 import './global.css';
-
 import HeaderFinal from './components/Header/HeaderFinal';
 import Footer from './components/Footer/Footer';
 
@@ -28,6 +27,11 @@ import Dashbord from './pages/CRM/Dashbord2';
 
 import avatarcrm from "./assets/png/CRM/Header/ellipse-79@2x.png";
 import Settings from './pages/CRM/Settings';
+import CardsCRM from './pages/CRM/CardsCRM';
+import AccountsCRM from './pages/CRM/AccountsCRM';
+import SubscriptionsCRM from './pages/CRM/SubscriptionsCRM';
+
+
 
 
 function PageWithTitle({ title, children }: { title: string, children: React.ReactNode }) {
@@ -108,6 +112,24 @@ function App() {
               <Dashbord/>
             </PageWithTitle>
           } />
+          <Route path="/CardsCRM" element={
+            <PageWithTitle title="CRM - Cards">
+              <Header avatar={avatarcrm}/>
+              <CardsCRM/>
+            </PageWithTitle>
+          } />
+          <Route path="/AccountsCRM" element={
+            <PageWithTitle title="CRM - Accounts">
+              <Header avatar={avatarcrm}/>
+              <AccountsCRM/>
+            </PageWithTitle>
+          } />
+          <Route path="/SubscriptionsCRM" element={
+            <PageWithTitle title="CRM - Subscriptions">
+              <Header avatar={avatarcrm}/>
+              <SubscriptionsCRM/>
+            </PageWithTitle>
+          } />
 
       <Route path="/Deposits" element={
         <PageWithTitle title="Deposits">
@@ -154,7 +176,10 @@ function App() {
               <Settings/>
             </PageWithTitle>
           } />
+
+      
     </Routes>
+    
 
   );
 }

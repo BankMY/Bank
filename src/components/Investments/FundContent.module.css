@@ -35,13 +35,14 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-33xl) 0 var(--padding-31xl);
+  font-family: "RedHat";
   
 }
 .diversifiedPortfoliosManaged,
 .mutualFunds {
   position: relative;
   letter-spacing: 0.02em;
-  font-weight: 400;
+  font-weight: 600;
   
   
 }
@@ -49,7 +50,7 @@
   margin: 0;
   font-size: inherit;
   text-transform: uppercase;
-  font-family: inherit;
+  font-family: "RedHat";
   
 }
 .diversifiedPortfoliosManaged {
@@ -64,7 +65,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  
+  font-family: "RedHat";
 }
 .fundDetails {
   align-self: stretch;
@@ -75,7 +76,7 @@
 .fundContent,
 .fundDescription {
   max-width: 110%;
-  
+  font-family: "RedHat";
 }
 .fundDescription {
   flex: 1;
@@ -99,7 +100,7 @@
   text-align: left;
   font-size: var(--font-size-13xl);
   color: var(--color-black);
-  font-family: var(--font-red-hat-display);
+  font-family: "RedHat";
 }
 .starParent {
   height: 8.938rem;

@@ -51,7 +51,7 @@ const HeroColumns: FunctionComponent<HeroColumnsType> = ({
           <div className={styles.featureNames}>
             <h1 className={styles.investmentProducts}>
               <span className={styles.products}>{investment}</span>
-              <span >{products}</span>
+              <span className={styles.col} >{products}</span>
             </h1>
           </div>
           <div className={styles.exploreOurRange}>

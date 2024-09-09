@@ -1,0 +1,66 @@
+.Container{
+    width: 400px;
+height: 368px;
+
+position: relative;
+display: flex;
+border-radius: 24px;
+margin-left: 26px;
+background-color: #FFFEFF;
+overflow: hidden;
+margin-top: 14px;
+
+}
+.stIMG{
+    width: 300px;
+height: 160px;
+margin-left: 52px;
+margin-top: 21px;
+
+justify-content: center;
+
+}
+.stIMG img{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+.Btn{
+    width: 42px;
+    height: 42px;
+    border-radius: 24px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 330px;
+    margin-top: 12px;
+    /* background-color: red; */
+}
+.Column{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.stTXT{
+    font-family: "RedHat";
+    width: 360px;
+    height: 56px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #55585D;
+    margin-left: 22px;
+
+}
+.stBalance{
+    font-family: "RedHat";
+    
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.81px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    margin-top: 28px;
+
+}

@@ -1,0 +1,103 @@
+.DigitalCardContainer{
+    background-size:100vmax;
+    background-position-y: 80%;
+    background-position-x: -10px;
+    height: 250px;
+    width: 91vw;
+    margin-left: 26px;
+    margin-top: 1px;
+    background-color: #FFFEFF;
+    border-radius: 24px;
+    box-shadow: 0px 0px 10px 0px #8D8F9340;
+    margin-top: 20px;
+    
+}
+.btn1Card{
+    width: 43px;
+    height: 43px;
+    background-color: transparent;
+    border: transparent;
+    z-index: 999;
+    position: absolute;
+    margin-left: -45px;
+    border-radius: 50px;
+    
+}
+.rasmerImg{
+    width: 300px;
+    
+}
+.styleColumn{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    
+}
+.styleROW{
+    /* background-color: rebeccapurple; */
+    height: 104%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+.btnFree{
+    height: 39px;
+    width: 83px;
+    border-radius: 26px;
+    background-color: #1C2027;
+    color: white;
+    font-family:  "RedHat";
+    font-size: 18px;
+    margin-left: 26px;
+    margin-top: 8px;
+    font-weight: 500;
+    
+}
+.absRect1{
+    position: absolute;
+    height: 182.5px;
+}
+.absRect2{
+    position: absolute;
+    
+}
+.rectStar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 240px;
+
+    padding-right: 40px;
+}
+.styleCard11{
+    margin-top: 100px;
+}
+.DigitalText{
+    display: flex;
+    height: 56px;
+    
+    font-size: 42px;
+    font-family:  "RedHat";
+    margin-top: 31px;
+    margin-left: 31px;
+    color: #333448;
+
+    font-weight: 600;
+}
+.descText{
+
+    font-size: 20px;
+    font-family:  "RedHat";
+    line-height: 30px;
+    height: 90px;
+    width: 310px;
+    margin-left: 31px;
+    margin-top: 27px;
+    color: #333448;
+    
+    font-weight: 400;
+}
