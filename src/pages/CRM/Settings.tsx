@@ -21,6 +21,8 @@ const Settings: FunctionComponent = () => {
     const [passwordRepeat, setPasswordRepeat] = useState("");
     const [showPassword, setShowPassword] = useState(false);
     const [email, setEmail] = useState("");
+    const [city, setCity] = useState("");
+    const [country, setCountry] = useState("");
     const [error, setError] = useState<string | null>(null);
     const [isChecked, setIsChecked] = useState(true);
 
@@ -42,6 +44,12 @@ const Settings: FunctionComponent = () => {
       };
       const handleRepeatPasswordChange = (e: ChangeEvent<HTMLInputElement>) => {
         setPasswordRepeat(e.target.value);
+      };
+      const handleCityChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setCity(e.target.value);
+      };
+      const handleCountryChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setCountry(e.target.value);
       };
       const handleToggle = () => {
         setShowPassword(prevState => !prevState);
@@ -152,14 +160,14 @@ const Settings: FunctionComponent = () => {
                         <FieldLabels
                         fullName="City"
                         enterYourFullNamePlacehol="New York"
-                        value={password}
-                        onChange={handlePasswordChange}
+                        value={city}
+                        onChange={handleCityChange}
                         />
                         <FieldLabels
                         fullName="Country"
                         enterYourFullNamePlacehol="USA"
-                        value={password}
-                        onChange={handlePasswordChange}
+                        value={country}
+                        onChange={handleCountryChange}
                         />
                         {error && <div className={styles.errorMessage}>{error}</div>}
                         
