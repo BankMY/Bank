@@ -1,3 +1,1 @@
-npm i   >
-npm install axios   >
-npm install -D typescript   >
+npm i > npm install axios > npm install -D typescript >

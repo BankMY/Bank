@@ -3,6 +3,7 @@ import { postData } from '../../api';
 import FieldLabels from "../FieldLabels";
 import SubmitButton from "../SubmitButton";
 import styles from "./FormContainer1.module.css";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const FormContainer1: FunctionComponent = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -22,9 +23,11 @@ const FormContainer1: FunctionComponent = () => {
     setPassword(e.target.value);
   };
 
+  const navigate = useNavigate();
+
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(email + " , " + password);
+    
     try {
       const response = await postData('/auth/login', {       
         email,
@@ -36,6 +39,9 @@ const FormContainer1: FunctionComponent = () => {
       console.error('Error sending data:', error);
       setError('An error occurred while sending data. Please try again.');
     }
+
+    
+    navigate('/dashbord');
   };
 
   return (
